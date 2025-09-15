@@ -120,7 +120,7 @@
 
 <div class="rss-section">
     <h2>📰 Novedades</h2>
-    <div id="rss-container"></div>
+    <div id="rss-section"></div>
 </div>
 
 <script>
@@ -136,9 +136,9 @@ async function loadRSS() {
             </div>
         `).join('');
         
-        document.getElementById('rss-container').innerHTML = rssHTML;
+        document.getElementById('rss-section').innerHTML = rssHTML;
     } catch (error) {
-        document.getElementById('rss-container').innerHTML = '<p>Error Cargando Novedades</p>';
+        document.getElementById('rss-section').innerHTML = '<p>Error Cargando Novedades</p>';
     }
 }
 loadRSS();
