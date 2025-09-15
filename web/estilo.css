@@ -131,6 +131,13 @@ code {
     backdrop-filter: blur(7px);
 }
 
+
+.content div div {
+    background: none !important;
+    backdrop-filter: none !important;
+    box-shadow: none !important;
+}
+
 /* carrusel */
 .contenedor-imagenes-animado {
     display: flex;
@@ -216,25 +223,7 @@ code {
 }
 
 
-.content {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
-    border-radius: 30px;
-    max-width: 800px;
-    margin: 50px auto;
-    margin-bottom: -40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 9);
-    position: relative;
-    z-index: 1;
-    backdrop-filter: blur(7px);
-}
 
-
-.content div div {
-    background: none !important;
-    backdrop-filter: none !important;
-    box-shadow: none !important;
-}
 
 .grid-gallery {
     display: grid;
