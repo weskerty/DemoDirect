@@ -48,79 +48,21 @@ blockquote.red {
     }
 }
 
-.wavy-blockquote {
-    position: relative;
-    margin: 40px 0;
-    display: inline-block;
-    width: 100%;
+blockquote.gold {
+    background-color: rgba(0, 0, 0, 0.336);
+    animation: backgroundColorChangeGold 5s infinite;
 }
 
-
-.wavy-effect,
-.wavy-effect-2 {
-    position: absolute;
-    top: -10px;
-    left: -10px;
-    right: -10px;
-    bottom: -10px;
-    filter: url(#wavy) blur(1px);
-    pointer-events: none;
-}
-
-.wavy-effect:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 3px solid #0F0;
-    border-radius: 15px;
-    box-shadow: 0 0 30px #0F0, inset 0 0 30px #0F0;
-    animation: wavy-animate 5s linear infinite;
-}
-
-.wavy-effect-2:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 3px solid #0F0;
-    border-radius: 15px;
-    box-shadow: 0 0 30px #0F0, inset 0 0 30px #0F0;
-    animation: wavy-animate 5s linear infinite;
-    animation-delay: -2.5s;
-}
-
-@keyframes wavy-animate {
+@keyframes backgroundColorChangeGold {
     0% {
-        box-shadow: 0 0 30px #0F0, inset 0 0 30px #0F0;
-        filter: hue-rotate(0deg);
+        background-color: rgba(0, 0, 0, 0.336);
+    }
+    50% {
+        background-color: rgba(255, 251, 0, 0.055);
     }
     100% {
-        box-shadow: 0 0 30px #0F0, inset 0 0 30px #0F0;
-        filter: hue-rotate(360deg);
+        background-color: rgba(0, 0, 0, 0.336);
     }
-}
-
-.wavy-blockquote:nth-child(2n) .wavy-effect:before,
-.wavy-blockquote:nth-child(2n) .wavy-effect-2:before {
-    border-color: #00F;
-    box-shadow: 0 0 30px #00F, inset 0 0 30px #00F;
-}
-
-.wavy-blockquote:nth-child(3n) .wavy-effect:before,
-.wavy-blockquote:nth-child(3n) .wavy-effect-2:before {
-    border-color: #F00;
-    box-shadow: 0 0 30px #F00, inset 0 0 30px #F00;
-}
-
-.wavy-blockquote:nth-child(4n) .wavy-effect:before,
-.wavy-blockquote:nth-child(4n) .wavy-effect-2:before {
-    border-color: #FF0;
-    box-shadow: 0 0 30px #FF0, inset 0 0 30px #FF0;
 }
 
 .loading-screen {
@@ -339,7 +281,7 @@ code {
 .rss-section {
     margin: 30px 0;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.3); 
+    background-color: rgba(0, 0, 0, 0.1); 
     backdrop-filter: blur(7px);
     border-radius: 15px;
 }
@@ -416,3 +358,141 @@ code {
     backdrop-filter: blur(7px);
 }
 
+
+
+
+        .mariposas-section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(7px);
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .mariposas-section h2 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .mariposas-section p {
+            position: relative;
+            z-index: 2;
+        }
+
+        .butterfly {
+            position: absolute;
+            width: 40px;
+            height: 30px;
+            pointer-events: none;
+            animation: flyPath 6s infinite linear;
+        }
+
+        .butterfly::before,
+        .butterfly::after {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 15px;
+            border-radius: 50% 10% 50% 10%;
+            animation: flutterBig 0.5s infinite ease-in-out;
+        }
+
+        .butterfly::before {
+            top: 0;
+            left: 2px;
+            background: linear-gradient(45deg, #ff0080, #ff8000);
+            transform-origin: bottom;
+            box-shadow: 0 0 15px #ff0080;
+        }
+
+        .butterfly::after {
+            top: 0;
+            right: 2px;
+            background: linear-gradient(45deg, #00ff80, #0080ff);
+            transform-origin: bottom;
+            animation-delay: 0.1s;
+            box-shadow: 0 0 15px #00ff80;
+        }
+
+        .butterfly:nth-child(1) {
+            top: 20%;
+            animation-delay: 0s;
+        }
+
+        .butterfly:nth-child(2) {
+            top: 60%;
+            animation-delay: 2s;
+        }
+
+        .butterfly:nth-child(3) {
+            top: 40%;
+            animation-delay: 4s;
+        }
+
+        @keyframes flutterBig {
+            0%, 100% { transform: rotateX(0deg) rotateY(0deg); }
+            50% { transform: rotateX(-80deg) rotateY(-20deg); }
+        }
+
+        @keyframes flyPath {
+            0% {
+                left: -50px;
+                transform: translateY(0px);
+            }
+            25% {
+                transform: translateY(-40px);
+            }
+            50% {
+                transform: translateY(20px);
+            }
+            75% {
+                transform: translateY(-30px);
+            }
+            100% {
+                left: calc(100% + 50px);
+                transform: translateY(0px);
+            }
+        }
+
+
+        .pulsos-section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(7px);
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+            animation: pulse-glow 3s infinite ease-in-out;
+        }
+
+        .pulsos-section h2 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .pulsos-section p {
+            position: relative;
+            z-index: 2;
+        }
+
+        @keyframes pulse-glow {
+            0%, 100% {
+                box-shadow: 0 0 20px rgba(0, 255, 255, 0.322);
+                border: 2px solid rgba(0, 255, 255, 0.158);
+            }
+            50% {
+                box-shadow: 0 0 60px rgba(0, 255, 255, 0.589), 0 0 100px rgba(0, 255, 255, 0.8);
+                border: 2px solid rgba(0, 255, 255, 0.486);
+            }
+        }
