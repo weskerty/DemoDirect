@@ -124,8 +124,10 @@
 </br>
 
   
- <h2>📰 Novedades </h2>
-<div id="rss-container"></div>
+<div class="rss-section">
+    <h2>📰 Novedades</h2>
+    <div id="rss-container"></div>
+</div>
 
 <script>
 async function loadRSS() {
@@ -134,7 +136,7 @@ async function loadRSS() {
         const data = await response.json();
         
         const rssHTML = data.items.slice(0, 3).map(item => `
-            <div style="margin: 15px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px;">
+            <div class="rss-item">
                 <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
                 <p>${item.description}</p>
             </div>
@@ -146,7 +148,7 @@ async function loadRSS() {
     }
 }
 loadRSS();
-</script>  
+</script>
 
 <!-- <h2>💡 Guias </h2>
 <a href="web/otros/guias/juegoseguro/">JuegosPC</a> · <a href="https://weskerty.github.io/LinuxOneClick/">InstalarLinux</a> · <a href="web/otros/guias/bot/"> Agrega tu Grupo </a> · <a href="https://weskerty.github.io/test/minecraft/"> Server Miencraft </a> · <a href="web/otros/guias/SinPublicidad/"> OFF Publicidad </a>   -->
