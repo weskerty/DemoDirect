@@ -309,12 +309,15 @@ code {
 }
 
 .rss-item {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: rgba(0, 0, 0, 0.514); 
-    border-radius: 10px;
-    transition: transform 0.3s ease;
-    overflow: hidden; 
+    margin: 20px 0;
+    padding: 15px; 
+    background-color: rgba(0, 0, 0, 0.5);  
+    border-left: none; 
+    border-radius: 10px; 
+    color: white;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .rss-item:hover {
