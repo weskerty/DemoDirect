@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HISPANIC GALAXYꕥ</title>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="web/favicon.ico">
     <link rel="stylesheet" href="web/estilo.css">
     <meta name="description" content="La Comunidad Hispana Mas Grande de SA">
@@ -24,8 +23,6 @@
     <div class="content" id="content">
         <p>⌛Cargando⏳</p>
     </div>
-
-    <div id="disqus-container"></div>
     
     <script>
         const monthlyVideos = {
@@ -84,24 +81,22 @@
             });
         }
 
-        // Ejecutar Scripts
-function executeScripts(container) {
-    const scripts = container.querySelectorAll('script');
+        function executeScripts(container) {
+            const scripts = container.querySelectorAll('script');
 
-    scripts.forEach(oldScript => {
-        const newScript = document.createElement('script');
-        for (const attr of oldScript.attributes) {
-            newScript.setAttribute(attr.name, attr.value);
+            scripts.forEach(oldScript => {
+                const newScript = document.createElement('script');
+                for (const attr of oldScript.attributes) {
+                    newScript.setAttribute(attr.name, attr.value);
+                }
+                if (oldScript.src) {
+                    newScript.src = oldScript.src;
+                } else {
+                    newScript.textContent = oldScript.textContent;
+                }
+                oldScript.parentNode.replaceChild(newScript, oldScript);
+            });
         }
-        if (oldScript.src) {
-            newScript.src = oldScript.src;
-        } else {
-            newScript.textContent = oldScript.textContent;
-        }
-        oldScript.parentNode.replaceChild(newScript, oldScript);
-    });
-}
-
 
         async function loadContent(url, updateHistory = true) {
             try {
@@ -112,7 +107,6 @@ function executeScripts(container) {
                 const contentDiv = document.getElementById('content');
                 contentDiv.innerHTML = content;
 
-                // Ejecutar Scripts
                 executeScripts(contentDiv);
 
                 if (updateHistory) {
@@ -123,24 +117,6 @@ function executeScripts(container) {
             }
         }
 
-        function loadDisqus() {
-            if (document.getElementById('disqus_thread')) return;
-
-            const disqusDiv = document.createElement('div');
-            disqusDiv.id = 'disqus_thread';
-            document.getElementById('disqus-container').appendChild(disqusDiv);
-
-            window.disqus_config = function () {
-                this.page.url = window.location.href;
-                this.page.identifier = document.title;
-            };
-
-            const s = document.createElement('script');
-            s.src = 'https://amigos-steam.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            document.body.appendChild(s);
-        }
-
         let currentPage = null;
         let isFirstLoad = true;
 
@@ -148,7 +124,6 @@ function executeScripts(container) {
             initializeVideo();
             currentPage = window.location.href;
             loadContent('web/es.html', false);
-            loadDisqus();
             isFirstLoad = false;
 
             window.addEventListener('popstate', (event) => {
@@ -177,12 +152,6 @@ function executeScripts(container) {
         });
     </script>
 
-    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-        new Crate({
-            server: '1295581997967868005',
-            channel: '1295818306871230645'
-        })
-    </script>
     <noscript>JavaScript OFF. Se requiere JS activado</noscript>
 </body>
 </html>
