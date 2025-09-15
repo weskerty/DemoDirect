@@ -130,7 +130,7 @@
 <script>
 async function loadRSS() {
     try {
-        const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://silpy.congreso.gov.py/web/FeedRss?opcionRSS=2');
+        const response = await fetch('https://api.rss2json.com/v1/api.json?rss_url=https://silpy.congreso.gov.py/web/FeedRss?opcionRSS=1');
         const data = await response.json();
         
         const rssHTML = data.items.slice(0, 3).map(item => `
@@ -153,9 +153,10 @@ loadRSS();
 
 	</br>
 
-<h2>Agradecimientos</h2>
+<!-- <h2>Agradecimientos</h2>
 <a href="https://www.pexels.com/video/bridge-above-bay-10042245/">Video</a> · <a href="https://github.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis">Emojis</a> · <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md">Badges</a>
-<blockquote>
+<blockquote> -->
+    
         Cuando los políticos se creen dueños del país, es porque el pueblo ha olvidado que son sus empleados, no sus amos
     </blockquote>
 
@@ -168,7 +169,7 @@ loadRSS();
     </blockquote>
 </br>
     <blockquote class="red">
-        "Toda la información que se ve aquí ha sido recopilada de diversas fuentes, como paginas noticias y articulos en Wikipedia. Cada Entrada tiene su Fuente de Referencia.
+        Toda la información que se ve aquí ha sido recopilada de diversas fuentes, como paginas noticias y articulos en Wikipedia. Cada Entrada tiene su Fuente de Referencia.
     </blockquote>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
