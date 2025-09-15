@@ -230,7 +230,7 @@ code {
 }
 
 
-.content > div:not([class]) {
+.content div div {
     background: none !important;
     backdrop-filter: none !important;
     box-shadow: none !important;
