@@ -132,11 +132,11 @@ code {
 }
 
 
-.content div div {
+/* .content div div {
     background: none !important;
     backdrop-filter: none !important;
     box-shadow: none !important;
-}
+} */
 
 /* carrusel */
 .contenedor-imagenes-animado {
