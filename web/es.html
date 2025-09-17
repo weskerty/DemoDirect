@@ -153,7 +153,9 @@ loadRSS();
 <a href="https://www.pexels.com/video/bridge-above-bay-10042245/">Video</a> · <a href="https://github.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis">Emojis</a> · <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md">Badges</a>
 <blockquote> -->
     
-    </br>
+
+</br>
+<div class="quote-rotator">
 <div class="mariposas-section">
             <div class="butterfly"></div>
             <div class="butterfly"></div>
@@ -174,7 +176,7 @@ loadRSS();
       El futuro pertenece a aquellos que creen en la belleza de sus sueños.
       </blockquote>
 </div>
-
+</div>
 
 </br>
     <blockquote class="red">
@@ -182,6 +184,15 @@ loadRSS();
     </blockquote>
     </div>
 
+
+
+
+
+
+
+
+
+    <!-- Galerias ########### -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
 <script>
@@ -256,3 +267,18 @@ function waitForSwiper() {
 waitForSwiper();
 </script>
 
+<script>
+const quotes = document.querySelectorAll('.quote-rotator blockquote');
+let index = 0;
+
+function showQuote(i) {
+  quotes.forEach((q, j) => q.style.display = j === i ? 'block' : 'none');
+}
+
+setInterval(() => {
+  index = (index + 1) % quotes.length;
+  showQuote(index);
+}, 4000);
+
+showQuote(0);
+</script>
