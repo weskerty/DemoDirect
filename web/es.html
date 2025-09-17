@@ -185,7 +185,22 @@ loadRSS();
     </div>
 
 
+<!-- Rotacion Quote  -->
+<script>
+const quotes = document.querySelectorAll('.quote-rotator blockquote');
+let index = 0;
 
+function showQuote(i) {
+  quotes.forEach((q, j) => q.style.display = j === i ? 'block' : 'none');
+}
+
+setInterval(() => {
+  index = (index + 1) % quotes.length;
+  showQuote(index);
+}, 9000);
+
+showQuote(0);
+</script>
 
 
 
@@ -268,19 +283,3 @@ waitForSwiper();
 </script>
 
 
-<!-- Rotacion Quote  -->
-<script>
-const quotes = document.querySelectorAll('.quote-rotator blockquote');
-let index = 0;
-
-function showQuote(i) {
-  quotes.forEach((q, j) => q.style.display = j === i ? 'block' : 'none');
-}
-
-setInterval(() => {
-  index = (index + 1) % quotes.length;
-  showQuote(index);
-}, 9000);
-
-showQuote(0);
-</script>
