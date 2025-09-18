@@ -41,7 +41,7 @@
 <div id="compartir-bloque" class="pulsos-section">
   <div class="glowing-bg"></div>
   <a href="web/otros/Markdowns/DemocraciaDirecta.md">
-    <h2>👉Clic Aqui para Saber Mas👈</h2>
+    <h3>👉Clic Aqui para Saber Mas👈</h3>
   </a>
 </div>
 
@@ -59,7 +59,7 @@
 	<a href="web/otros/discordbot.html"><img src="https://github.com/user-attachments/assets/ad78bfde-436e-49f5-86a6-873fbb2a28b3" height="128" alt="Discord"  /></a>
 	<a href="https://matrix.to/#/#Politica:matrix.org"><img src="https://github.com/user-attachments/assets/7a1d0dbb-1284-45ad-a434-3bc054effe9a" height="128" alt="Matrix"  /></a>
 	<p>Los mensajes de [Discord - Matrix - Telegram] se sincronizan entre si. Los de WhatsApp NO por fallas con el bot. </p>
-    <p>No se recomienda usar WhatsApp por Privacidad, todos los numeros en un grupo son Publicos Actualmente.</p>
+    <p>No se recomienda usar WhatsApp por Privacidad.</p>
   </div>
 
 <br>
@@ -67,20 +67,23 @@
 
 </br>
 
-<div id="compartir-bloque" class="pulsos-section">
-  <div class="glowing-bg"></div>
-  <a href="https://wa.me/?text=😻%20Comparte%20para%20ser%20más%20Amigos%20cada%20Día%20😻"
-     id="compartir-enlace"
-     class="relative block">
-    Comparte el Cambio 🇵🇾💪
-  </a>
-</div>
+<blockquote id="compartir-bloque">
+  <h3>
+    <a href="https://wa.me/?text=😻%20Comparte%20para%20ser%20más%20Amigos%20cada%20Día%20😻" 
+       id="compartir-enlace"
+       style="text-decoration: none; color: inherit;">
+      Comparte el Cambio 🇵🇾💪
+    </a>
+  </h3>
+</blockquote>
 
 <script>
   if (navigator.share) {
     const enlace = document.getElementById('compartir-enlace');
+
     enlace.removeAttribute('href');
     enlace.style.cursor = 'pointer';
+
     enlace.addEventListener('click', (e) => {
       e.preventDefault(); 
       navigator.share({
@@ -93,6 +96,7 @@
     });
   }
 </script>
+
 
 </br>
 
