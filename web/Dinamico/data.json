@@ -3,9 +3,28 @@
     "Corrupcion": {
       "images": [
         {
+          "image": "web/Dinamico/Corrupcion/Nenecho.png",
+          "link": "web/Dinamico/Corrupcion/Nenecho.html",
+          "name": "Nenecho"
+        },
+        {
           "image": "web/Dinamico/Corrupcion/SantiPeña1.jpg",
-          "link": "web/Dinamico/Corrupcion/SantiPeña1.html",
-          "name": "imagen1"
+          "link": "web/Dinamico/Corrupcion/SantiPeña1.md",
+          "name": "SantiPeña1"
+        }
+      ]
+    },
+    "EjemploCorru": {
+      "images": [
+        {
+          "image": "web/Dinamico/EjemploCorru/Nenecho.png",
+          "link": "web/Dinamico/EjemploCorru/Nenecho.html",
+          "name": "Nenecho"
+        },
+        {
+          "image": "web/Dinamico/EjemploCorru/SantiPeña1.jpg",
+          "link": "web/Dinamico/EjemploCorru/SantiPeña1.md",
+          "name": "SantiPeña1"
         }
       ]
     }
