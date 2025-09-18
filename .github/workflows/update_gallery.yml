@@ -6,10 +6,12 @@ on:
       - 'web/Dinamico/**'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update-json:
     runs-on: ubuntu-latest
-    
     steps:
       - uses: actions/checkout@v2
         with:
