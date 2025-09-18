@@ -1,14 +1,5 @@
 
-    <!-- RESUMEN RAPIDO DE FUNCIONES
-    ESTOS SON COMENTARIOS, NO SE VEN EN LA WEB
-    <H1> <H2> <H3> SON TITULOS, H1 EL MAS GRANDE <P> SON PARRAFOS <BR> ES SALTO DE LINEA. CADA INICIO DEBE TERMINAR, EJEMPLO <h1>AQUI TU TITULO GRANDE</h1> 
-    <li></li> SON LISTAS
-    CUALQUIER PREGUNTA PUEDES HACERLA EN LA SECCION ISSUES O LOS GRUPOS.
-    -->
-    
-    <div style="text-align:center;">
-
-    <h1>Santi Peña - ANR</h1> <!-- titulo  -->
+    <h1>Santi Peña - ANR</h1>
         <h2>Historial de Acciones</h2> 
         <h3>Aqui se vera una lista Resumida de sus acciones, leyes aprobadas y demas...</h3> 
         
@@ -17,9 +8,7 @@
 <p>En epoca de elecciones Santi Peña dijo </p>
 <code>Los que llegan a los cargos, llegan gracias al Partido Colorado</code>
 
-    <!-- Video de ejemplo, adjuntar un video de YouTube, solo cambia el link -->
-    <h3>Video</h3>
-    <iframe 
+<iframe 
     src="https://www.facebook.com/plugins/video.php?href=https://www.facebook.com/watch/?v=1371305453497475&show_text=0" 
     width="250" height="250" 
     allowfullscreen="false">
