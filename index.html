@@ -10,6 +10,8 @@
     <meta property="og:image" content="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20with%20Face.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
 </head>
 <body>
     <div class="loading-screen" id="loading-screen">
@@ -40,6 +42,14 @@
             11: 'https://github.com/user-attachments/assets/b746d91d-55ae-4679-add6-fcf71e05dcd4'
         };
 
+        marked.setOptions({
+            breaks: true,
+            gfm: true,
+            headerIds: true,
+            mangle: false,
+            sanitize: false
+        });
+
         function isMobile() {
             return window.matchMedia("(max-width: 768px)").matches;
         }
@@ -58,12 +68,11 @@
 
         function initializeVideo() {
            if (isMobile()) {
-    document.getElementById('bg-video').remove(); 
-    hideLoadingScreen();
-    return;
-}
+                document.getElementById('bg-video').remove(); 
+                hideLoadingScreen();
+                return;
+            }
 
-            
             const bgVideo = document.getElementById('bg-video');
             bgVideo.querySelector('source').src = getCurrentMonthVideo();
             bgVideo.load();
@@ -102,11 +111,15 @@
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error(`Error fetching ${url}: ${response.statusText}`);
+                
                 let content = await response.text();
-
                 const contentDiv = document.getElementById('content');
-                contentDiv.innerHTML = content;
 
+                if (url.endsWith('.md')) {
+                    content = `<div class="markdown-content">${marked.parse(content)}</div>`;
+                }
+                
+                contentDiv.innerHTML = content;
                 executeScripts(contentDiv);
 
                 if (updateHistory) {
@@ -143,7 +156,7 @@
 
             event.preventDefault();
             const href = anchor.href;
-            const isSpecificFile = href.endsWith('.html');
+            const isSpecificFile = href.endsWith('.html') || href.endsWith('.md');
             const baseUrl = href.substring(0, href.lastIndexOf('/') + 1);
             const targetUrl = isSpecificFile ? href : baseUrl + 'es.html';
 

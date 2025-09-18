@@ -1,0 +1,13 @@
+{
+  "galleries": {
+    "Corrupcion": {
+      "images": [
+        {
+          "image": "web/Dinamico/Corrupcion/SantiPeña1.jpg",
+          "link": "web/Dinamico/Corrupcion/SantiPeña1.html",
+          "name": "imagen1"
+        }
+      ]
+    }
+  }
+}
