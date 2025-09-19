@@ -455,7 +455,15 @@ Esta línea está separada solo por una nueva línea, así que es una línea sep
 ## Videos de YouTube, Tiktok, Insta y demas
 
 Se pueden agregar scripts, al compartir de tiktok o tu plataforma preferida selecciona "Insertar"
+<img width="525" height="309" alt="image" src="https://github.com/user-attachments/assets/cb52f88b-fe8b-4ba6-a890-fc40214fbb31" />
+
+Se copiara algo asi:
+```
+<blockquote class="tiktok-embed" data-video-id="7465734272712740102" style="max-width: 605px;min-width: 325px;" > <section> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+```
 y simplemente pegalo en tu articulo y se debera cargar.
+
+<blockquote class="tiktok-embed" data-video-id="7465734272712740102" style="max-width: 605px;min-width: 325px;" > <section> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 Traducido de https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 El 19 Sep 2025
