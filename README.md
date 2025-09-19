@@ -56,7 +56,7 @@ El estilo es Similar a WhatsApp, Telegram, Discord o cualquiera que tambien use 
 
 <a name="headers"/>
 
-## Encabezados
+## Titulos / Encabezados
 
 ```no-highlight
 # H1
@@ -463,7 +463,6 @@ Se copiara algo asi:
 ```
 y simplemente pegalo en tu articulo y se debera cargar.
 
-<blockquote class="tiktok-embed" data-video-id="7465734272712740102" style="max-width: 605px;min-width: 325px;" > <section> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 Traducido de https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 El 19 Sep 2025
