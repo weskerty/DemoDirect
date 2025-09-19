@@ -8,9 +8,14 @@
           "name": "SantiPeña"
         },
         {
-          "image": "web/Dinamico/Corrupcion/capibara.jpg",
-          "link": "web/Dinamico/Corrupcion/capibara.md",
-          "name": "capibara"
+          "image": "web/Dinamico/Corrupcion/capibara_1.jpg",
+          "link": "web/Dinamico/Corrupcion/capibara_1.md",
+          "name": "capibara_1"
+        },
+        {
+          "image": "web/Dinamico/Corrupcion/paz.jpg",
+          "link": "web/Dinamico/Corrupcion/paz.md",
+          "name": "paz"
         }
       ]
     },
