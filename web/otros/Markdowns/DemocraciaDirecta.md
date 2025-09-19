@@ -259,3 +259,50 @@ Estonia logró digitalizar el **100% de sus servicios públicos** y mantiene **v
 **No buscamos un nuevo partido político; buscamos un nuevo contrato social, basado en la razón, la justicia y la participación real de todos.**
 
 > ### "La soberanía pertenece a todos, pero el conocimiento debe guiar el rumbo."
+
+</br>
+<div class="quote-rotator">
+<div class="mariposas-section">
+            <div class="butterfly"></div>
+            <div class="butterfly"></div>
+            <div class="butterfly"></div>
+  
+    <blockquote>
+        Cuando los políticos se creen dueños del país, es porque el pueblo ha olvidado que son sus empleados, no sus amos
+    </blockquote>
+
+    <blockquote>
+        Los ciudadanos no deben temer a su gobierno; el gobierno debe temer no cumplir con su pueblo.
+    </blockquote>
+
+    <blockquote>
+        La democracia desaparece cuando los políticos dejan de rendir cuentas y el pueblo deja de exigirlas.
+    </blockquote>
+    <blockquote>
+      El futuro pertenece a aquellos que creen en la belleza de sus sueños.
+      </blockquote>
+</div>
+</div>
+
+</br>
+    <blockquote class="red">
+        Toda la información que se ve aquí ha sido recopilada de diversas fuentes, como paginas noticias y articulos en Wikipedia. Cada Entrada tiene su Fuente de Referencia.
+    </blockquote>
+    </div>
+
+<!-- frases -->
+<script>
+const quotes = document.querySelectorAll('.quote-rotator blockquote');
+let index = 0;
+
+function showQuote(i) {
+  quotes.forEach((q, j) => q.style.display = j === i ? 'block' : 'none');
+}
+
+setInterval(() => {
+  index = (index + 1) % quotes.length;
+  showQuote(index);
+}, 9000);
+
+showQuote(0);
+</script>
