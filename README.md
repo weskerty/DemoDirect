@@ -452,25 +452,11 @@ Esta línea está separada solo por una nueva línea, así que es una línea sep
 
 <a name="videos"/>
 
-## Videos de YouTube
+## Videos de YouTube, Tiktok, Insta y demas
 
-No se pueden agregar directamente pero puedes agregar una imagen con un enlace al video así:
+Se pueden agregar scripts, al compartir de tiktok o tu plataforma preferida selecciona "Insertar"
+y simplemente pegalo en tu articulo y se debera cargar.
 
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ
-" target="_blank"><img src="http://img.youtube.com/vi/ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ/0.jpg" 
-alt="TEXTO ALTERNATIVO DE LA IMAGEN AQUÍ" width="240" height="180" border="10" /></a>
-```
-
-O, en Markdown puro, pero perdiendo el dimensionamiento de imagen y el borde:
-
-```no-highlight
-[![TEXTO ALTERNATIVO DE LA IMAGEN AQUÍ](http://img.youtube.com/vi/ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ/0.jpg)](http://www.youtube.com/watch?v=ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ)
-```
-
-Referenciar un bug por #bugID en tu commit de git lo enlaza al slip. Por ejemplo #1. 
-
----
 Traducido de https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 El 19 Sep 2025
 Licencia: [CC-BY](https://creativecommons.org/licenses/by/3.0/)

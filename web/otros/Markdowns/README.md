@@ -39,24 +39,8 @@ Prohibido lenguaje insultante o difamatorio directo.
 ## Uso de Estilos de Texto <img src="https://camo.githubusercontent.com/3a8ad9ccf5943af0308849d863a023674873fcb34ded679325bc5e7207357cdc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d61726b646f776e2d6666666666663f7374796c653d666c6174266c6f676f3d6d61726b646f776e266c6f676f436f6c6f723d626c61636b" alt="Markdown" data-canonical-src="https://img.shields.io/badge/Markdown-ffffff?style=flat&amp;logo=markdown&amp;logoColor=black" style="max-width: 100%;">
 El estilo es Similar a WhatsApp, Telegram, Discord o cualquiera que tambien use MarkDown
 
-##### Indice
-[Encabezados](#headers)  
-[Énfasis](#emphasis)  
-[Listas](#lists)  
-[Enlaces](#links)  
-[Imágenes](#images)  
-[Código y Resaltado de Sintaxis](#code)  
-[Notas al pie](#footnotes)  
-[Tablas](#tables)  
-[Citas en bloque](#blockquotes)  
-[HTML en línea](#html)  
-[Línea horizontal](#hr)  
-[Saltos de línea](#lines)  
-[Videos de YouTube](#videos)  
 
-<a name="headers"/>
-
-## Encabezados
+## Encabezados Titulos
 
 ```no-highlight
 # H1
@@ -452,25 +436,11 @@ Esta línea está separada solo por una nueva línea, así que es una línea sep
 
 <a name="videos"/>
 
-## Videos de YouTube
+## Videos de YouTube, Tiktok, Insta y demas
 
-No se pueden agregar directamente pero puedes agregar una imagen con un enlace al video así:
+Se pueden agregar scripts, al compartir de tiktok o tu plataforma preferida selecciona "Insertar"
+y simplemente pegalo en tu articulo y se debera cargar.
 
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ
-" target="_blank"><img src="http://img.youtube.com/vi/ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ/0.jpg" 
-alt="TEXTO ALTERNATIVO DE LA IMAGEN AQUÍ" width="240" height="180" border="10" /></a>
-```
-
-O, en Markdown puro, pero perdiendo el dimensionamiento de imagen y el borde:
-
-```no-highlight
-[![TEXTO ALTERNATIVO DE LA IMAGEN AQUÍ](http://img.youtube.com/vi/ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ/0.jpg)](http://www.youtube.com/watch?v=ID_DEL_VIDEO_DE_YOUTUBE_AQUÍ)
-```
-
-Referenciar un bug por #bugID en tu commit de git lo enlaza al slip. Por ejemplo #1. 
-
----
 Traducido de https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 El 19 Sep 2025
 Licencia: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
