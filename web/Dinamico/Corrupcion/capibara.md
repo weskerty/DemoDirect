@@ -2,12 +2,8 @@
 
 ![Capibara](capibara.jpg)
 
-Capibara
+Capibara 20mil d 
 ### El capibara es un animal
-#muy  sssssssssssssus
-Extremadamente rar
-realmente jijijij
-
-> Comentario 
-*Negrita*
-_Cursiva_
+#muy raro sssssssssssss
+Extremadamentew
+realmente jijijij
