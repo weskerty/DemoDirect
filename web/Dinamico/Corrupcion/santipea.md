@@ -41,7 +41,7 @@ Los legisladores van a autoadjudicarse un mayor ingreso salarial mensual, pasand
 ademas admitio que hay múltiples falencias en materia de salud pública, seguridad y educación. Sin embargo, tambien dijo que estan inversiones en eso...
 <a href="https://www.ultimahora.com/aumentazos-el-regalo-de-fin-de-ano-de-santiago-pena-a-parlamentarios">Fuente</a>
 
-Y mas adelante dijo que No hay plata por el tema de pedido de docentes
+Y mas adelante dijo que No hay plata para educacion...
 <a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
 
 > Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
