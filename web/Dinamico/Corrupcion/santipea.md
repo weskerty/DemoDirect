@@ -1,6 +1,5 @@
-# SantiPeña
+<!-- participant: weskerty -->
 
-SantiPeña
 ### Santi Peña - ANR
         
 <h1> Corrupcion </h1>
@@ -51,3 +50,4 @@ https://www.abc.com.py/resizer/v2/QVGOCL6WX5G67BGKYLDB3ALV5U.jpeg
 
 > Un pueblo educado es un pueblo libre, por que educación es el arma más poderosa para cambiar el Pais. 
 > Por que gracias a la educacion de calidad podemos cambiar el pais es que estan en contra de mejorarla.
+
