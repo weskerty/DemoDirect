@@ -57,38 +57,25 @@ El estilo es Similar a WhatsApp, Telegram, Discord o cualquiera que tambien use 
 <a name="headers"/>
 
 ## Titulos / Encabezados
+Un solo # Titulo Grande, Mas ### Texto Pequeño. 
 
 ```no-highlight
-# H1
+# H1 Texto mas Grande
 ## H2
 ### H3
 #### H4
 ##### H5
-###### H6
+###### H6 Texto mas Pequeño
 
-Alternativamente, para H1 y H2, un estilo con subrayado:
-
-Alt-H1
-======
-
-Alt-H2
 ------
 ```
 
-# H1
+# H1 Texto mas Grande
 ## H2
 ### H3
 #### H4
 ##### H5
-###### H6
-
-Alternativamente, para H1 y H2, un estilo con subrayado:
-
-Alt-H1
-======
-
-Alt-H2
-------
+###### H6 Texto mas Pequeño
 
 <a name="emphasis"/>
 
@@ -103,6 +90,7 @@ Alt-H2
 
 El tachado usa dos tildes. ~~Tacha esto.~~
 ```
+# Ejemplo:
 
 Énfasis, también conocido como cursiva, con *asteriscos* o _guiones bajos_.
 
