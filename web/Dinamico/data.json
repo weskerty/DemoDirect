@@ -3,19 +3,9 @@
     "Corrupcion": {
       "images": [
         {
-          "image": "web/Dinamico/Corrupcion/Nenecho.png",
-          "link": "web/Dinamico/Corrupcion/Nenecho.html",
-          "name": "Nenecho"
-        },
-        {
-          "image": "web/Dinamico/Corrupcion/SantiPeña1.jpg",
-          "link": "web/Dinamico/Corrupcion/SantiPeña1.md",
-          "name": "SantiPeña1"
-        },
-        {
-          "image": "web/Dinamico/Corrupcion/capibara.jpg",
-          "link": "web/Dinamico/Corrupcion/capibara.md",
-          "name": "capibara"
+          "image": "web/Dinamico/Corrupcion/SantiPeña.jpg",
+          "link": "web/Dinamico/Corrupcion/SantiPeña.md",
+          "name": "SantiPeña"
         }
       ]
     },
