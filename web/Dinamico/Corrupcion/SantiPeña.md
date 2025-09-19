@@ -25,45 +25,8 @@ Peña minimizó el impacto de la dictadura, argumentando que solo hubo un «déf
 
 # Sospecha de Robo de Sobres por parte de Santi Peña, Video de ABC;
 <iframe src="https://cdn.jwplayer.com/players/4EhsiCyP-2HCUXjZN.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Los sobres del poder PARTE-1" style="position:absolute;" allowfullscreen=""></iframe>
+Fuente; https://www.abc.com.py/politica/2025/09/16/despidos-destapan-escandalo-de-sobres-con-miles-de-us-en-mburuvicha-roga/
 
 # Leyes Aprobadas:
-
-
-
-    <details>
-        <summary>Propiedades</summary>
-        <div class="gallery-container">
-            <div class="contenedor-imagenes-animado">
-                {"image": "https://www.abc.com.py/resizer/v2/LGQ66FN5WZFDZBT6GWA2BMO66Y.PNG?auth=5584da543e8f3a4c8541d1a15974db05cc037409e3ce2e8d0491e4602ce86df5&width=770&smart=true", "link": "https://www.abc.com.py/nacionales/2025/01/29/mansion-de-santi-pena-en-google-maps-conoce-las-resenas-y-la-puntuacion-de-local-guides/", "name": "Mansión SP"},
-                {"image": "web/images/img2.jpg", "link": "https://ejemplo.com/imagen2", "name": "Imagen 2"}
-            </div>
-        </div>
-        
-
-
-    </details>
-
-
-    <details>
-        <summary>Fuentes</summary>
-        <ul>
-            <li><a href="https://www.facebook.com/AM1080" target="_blank">AM 1080 🔗</a></li>
-            <li><a href="https://es.wikipedia.org/wiki/Santiago_Pe%C3%B1a" target="_blank">Santiago Peña en Wikipedia 🔗</a></li>
-            <li><a href="https://www.masencarnacion.com/articulo/santi-pena-ocupa-terreno-municipal-y-presiona-para-blanquear-afirma-guachire" target="_blank">
-                Santi Peña ocupa terreno municipal y presiona para blanquear 🔗</a></li>
-            <li><a href="https://www.ultimahora.com/santiago-pena-se-abraza-el-hijo-ogd-condenado-lavado-n2960367" target="_blank">
-                Santiago Peña se abraza con el hijo de OGD condenado por lavado 🔗</a></li>
-            <li><a href="https://web.archive.org/web/20230301032055/https://www.ultimahora.com/santiago-pena-elogio-los-50-anos-dictadura-stroessner-n3050837.html" target="_blank">
-                Santiago Peña elogió los 50 años de la dictadura de Stroessner 🔗</a></li>
-                <li><a href="https://www.rdn.com.py/2024/11/25/pena-se-reune-con-director-de-empresa-denunciada-por-deforestacion/" target="_blank">
-                    Deforestador da Suma de Dinero a Peña 🔗</a></li>
-        </ul>
-        
-
-
-    </details>
-
-
-
 
 
