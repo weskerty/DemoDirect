@@ -16,10 +16,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '18'
 
-      - name: Install dependencies
+      - name: Create temporary directory and install dependencies
         run: |
+          mkdir -p /tmp/issue-processor
+          cd /tmp/issue-processor
           npm init -y
           npm install node-fetch form-data
 
@@ -31,7 +33,9 @@ jobs:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_USER: ${{ github.event.issue.user.login }}
+          GITHUB_WORKSPACE: ${{ github.workspace }}
         run: |
+          cd /tmp/issue-processor
           cat > process_issue.js << 'EOF'
           const fs = require('fs').promises;
           const path = require('path');
@@ -41,18 +45,18 @@ jobs:
           const execAsync = promisify(exec);
 
           const CONFIG = {
-            targetDir: 'web/Dinamico/Corrupcion',
+            targetDir: path.join(process.env.GITHUB_WORKSPACE, 'web/Dinamico/Corrupcion'),
             groqApiKey: process.env.GROQ_API_KEY,
             githubToken: process.env.GITHUB_TOKEN,
             
-            // prompts
+            // prompts 
             imagePrompt: `Analiza esta imagen y responde ÚNICAMENTE con "APTA" o "NO_APTA".
             
             Una imagen es APTA si:
-            - Es apropiada para todo publico
-            - No contiene contenido sexual, pornografico o desnudos
+            - Es apropiada para todo público
+            - No contiene contenido sexual, pornográfico o desnudos
             - No contiene violencia extrema o gore
-            - Es relevante para contenido informativo/periodistico
+            - Es relevante para contenido informativo/periodístico
             
             Una imagen es NO_APTA si:
             - Contiene desnudos o contenido sexual
@@ -67,17 +71,16 @@ jobs:
             - Tiene coherencia y estructura lógica
             - Presenta información detallada y específica
             - Las fuentes son enlaces válidos y relevantes
-            - No es claramente spam, troll, discurso de odio o sin sentido
+            - No es claramente spam, troll o sin sentido
             - Tiene al menos 500 caracteres de contenido sustancial
             - Las fuentes proporcionan contexto o evidencia
             
             El texto es INVÁLIDO si:
             - Es muy corto o sin información útil
-            - Es claramente spam, troll, discurso de odio o sin sentido
+            - Es claramente spam o troll
             - Las fuentes no son relevantes o son falsas
             - Contiene solo texto sin sentido
-            - No aporta información valiosa
-			- Contiene Scripts Sospechosos no relacionado a reproduccion multimedia
+            - Contiene Scripts Sospechosos no relacionado a reproduccion multimedia
             
             Responde solo: VALIDO o INVALIDO`
           };
@@ -118,9 +121,9 @@ jobs:
                 },
                 body: JSON.stringify({
                   messages,
-                  model: imageUrl ? 'meta-llama/llama-4-maverick-17b-128e-instruct' : 'llama-3.3-70b-versatile', // Motores 1Imagen 2Texto
+                  model: imageUrl ? 'meta-llama/llama-4-maverick-17b-128e-instruct' : 'llama-3.3-70b-versatile',
                   temperature: 0.1,
-                  max_tokens: 5000
+                  max_tokens: 100
                 })
               });
 
@@ -139,19 +142,24 @@ jobs:
                 fuentes: []
               };
 
+
               const titleMatch = body.match(/### 📌 Título\s*\n\n(.*?)(?=\n### |$)/s);
               if (titleMatch) {
                 sections.title = titleMatch[1].trim();
               }
+
+
               const descMatch = body.match(/### 📝 Descripción\s*\r?\n+([\s\S]*?)(?=\n### |$)/);
 
               if (descMatch) {
                 sections.description = descMatch[1].trim();
               }
+
               const fuentesMatch = body.match(/### 🔗 Fuentes\s*\n\n(.*?)(?=\n### |$)/s);
               if (fuentesMatch) {
                 const fuentesText = fuentesMatch[1].trim();
                 
+                // Buscar todas las URLs e
                 const urlRegex = /https?:\/\/[^\s<>"{}|\\^`\[\]]+/g;
                 const urls = fuentesText.match(urlRegex) || [];
                 
@@ -165,6 +173,7 @@ jobs:
                   })
                   .filter(url => url !== null);
                 
+
                 const allUrls = [...new Set([...urls, ...lineUrls])];
                 sections.fuentes = allUrls;
               }
@@ -175,20 +184,20 @@ jobs:
             extractImages(body) {
               const images = [];
               
-              // Buscar imágenes ![alt](url)
+              // Buscar imágenes markdown: ![alt](url)
               const markdownRegex = /!\[.*?\]\((https?:\/\/[^\)]+)\)/g;
               let match;
               while ((match = markdownRegex.exec(body)) !== null) {
                 images.push(match[1]);
               }
               
-              // Buscar imágenes <img src="url">
+              //  imágenes HTML: <img src="url">
               const htmlRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/g;
               while ((match = htmlRegex.exec(body)) !== null) {
                 images.push(match[1]);
               }
               
-              // Buscar URLs de GitHub assets 
+              // Buscar URLs de GitHub assets directamente
               const githubAssetsRegex = /https:\/\/github\.com\/user-attachments\/assets\/[a-f0-9\-]+/g;
               while ((match = githubAssetsRegex.exec(body)) !== null) {
                 images.push(match[0]);
@@ -262,6 +271,7 @@ jobs:
               
               console.log(`📥 Descargando imagen desde: ${imageUrl}`);
               
+              
               let headers = {};
               if (imageUrl.includes('github.com/user-attachments/assets')) {
                 headers['Authorization'] = `token ${CONFIG.githubToken}`;
@@ -292,6 +302,7 @@ jobs:
                 console.log(`📸 Validando imagen: ${firstImage}`);
                 
                 try {
+                  // imágenes GitHub assets descargarla convertir a base64
                   let imageForValidation = firstImage;
                   
                   if (firstImage.includes('github.com/user-attachments/assets')) {
@@ -314,14 +325,15 @@ jobs:
                   console.log(`Resultado imagen: ${imageResult}`);
                   
                   if (imageResult.includes('NO_APTA')) {
-                    throw new Error('La imagen no es apropiada para todo público. Sigue las Reglas.');
+                    throw new Error('La imagen no es apropiada para todo público');
                   }
-                } } catch (imageError) {
-  throw new Error(`Error validando la imagen: ${imageError.message}`);
-}
-
+                } catch (imageError) {
+                  console.warn(`⚠️ No se pudo validar la imagen: ${imageError.message}`);
+                  console.log('📝 Continuando solo con validación de texto...');
+                }
               }
 
+              // Validar texto y fuentes
               console.log('📝 Validando texto y fuentes...');
               const textToValidate = `
               DESCRIPCIÓN:
@@ -335,7 +347,7 @@ jobs:
               console.log(`Resultado texto: ${textResult}`);
               
               if (textResult.includes('INVALIDO')) {
-                throw new Error('El contenido del texto o las fuentes no son válidos. Sigue las Reglas.');
+                throw new Error('El contenido del texto o las fuentes no son válidos');
               }
 
               console.log('✅ Validación exitosa');
@@ -397,9 +409,11 @@ jobs:
               try {
                 console.log(`🚀 Procesando issue #${this.issueNumber} de ${this.issueUser}`);
 
+
                 if (!CONFIG.groqApiKey) {
                   throw new Error('GROQ_API_KEY no está configurado');
                 }
+
 
                 const sections = this.parseIssueBody(this.issueBody);
                 const images = this.extractImages(this.issueBody);
@@ -413,6 +427,7 @@ jobs:
                   imagesCount: images.length,
                   firstImage: images[0] || 'ninguna'
                 });
+
 
                 const finalTitle = sections.title || this.issueTitle.replace(/^\[Info\]\s*/i, '').trim();
                 
@@ -434,7 +449,9 @@ jobs:
 
                 await this.validateContent(sections.description, sections.fuentes, images[0]);
 
+
                 await fs.mkdir(CONFIG.targetDir, { recursive: true });
+
 
                 const issueTitle = this.issueTitle.replace(/^\[Info\]\s*/i, '').trim();
                 const sanitizedTitle = this.sanitizeFilename(issueTitle);
@@ -455,14 +472,19 @@ jobs:
                   this.issueUser
                 );
 
+
+                process.chdir(process.env.GITHUB_WORKSPACE);
+
+
                 await execAsync('git config --global user.name "GitHub Action"');
                 await execAsync('git config --global user.email "action@github.com"');
 
-                // Commit push
+
                 console.log('📤 Realizando commit...');
                 await execAsync('git add .');
                 await execAsync(`git commit -m "Nueva entrada: ${finalTitle} (Issue #${this.issueNumber})"`);
                 await execAsync('git push');
+
 
                 let successMessage = `Entrada creada exitosamente: **${finalTitle}**\n\n`;
                 successMessage += `📁 Archivo: \`${finalFilename}.md\`\n`;
@@ -487,6 +509,7 @@ jobs:
             }
           }
 
+    
           const processor = new IssueProcessor();
           processor.process();
           EOF
