@@ -24,9 +24,10 @@ Peña además afirmó que Stroessner, quien accedió al poder luego de un golpe 
 Peña minimizó el impacto de la dictadura, argumentando que solo hubo un «déficit en derechos humanos» y defendiendo la gestión de Stroessner como un periodo que rompió con la inestabilidad política del país y evitó calificar el gobierno de Stroessner como una dictadura
 
 # Sospecha de Robo de Sobres por parte de Santi Peña, Video de ABC;
-<iframe src="https://cdn.jwplayer.com/players/4EhsiCyP-2HCUXjZN.html" width="100%" height="100%" frameborder="0" scrolling="auto" title="Los sobres del poder PARTE-1" style="position:absolute;" allowfullscreen=""></iframe>
-Fuente; https://www.abc.com.py/politica/2025/09/16/despidos-destapan-escandalo-de-sobres-con-miles-de-us-en-mburuvicha-roga/
+Empleada encuentra los sobres, se la despide y le dejan una deuda de 11 millones por que Santi no le pago lo que le debia.
+<iframe src="https://cdn.jwplayer.com/players/4EhsiCyP-2HCUXjZN.html" width="100%" height="450" ></iframe>
 
-# Leyes Aprobadas:
+<a href="https://www.abc.com.py/politica/2025/09/16/despidos-destapan-escandalo-de-sobres-con-miles-de-us-en-mburuvicha-roga/">Fuente</a>
+
 
 
