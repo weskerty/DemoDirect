@@ -427,7 +427,7 @@ Esta línea está separada solo por una nueva línea, así que es una línea sep
 ## Videos de YouTube, Tiktok, Insta y demas
 
 Se pueden agregar scripts, al compartir de tiktok o tu plataforma preferida selecciona "Insertar"
-<img height="309" alt="image" src="https://github.com/user-attachments/assets/cb52f88b-fe8b-4ba6-a890-fc40214fbb31" />
+<img width="525" height="309" alt="image" src="https://github.com/user-attachments/assets/cb52f88b-fe8b-4ba6-a890-fc40214fbb31" />
 
 Se copiara algo asi:
 ```

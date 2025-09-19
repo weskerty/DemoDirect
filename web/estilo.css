@@ -205,8 +205,10 @@ code {
 
 .contenedor-imagenes-animado a img {
     width: 100%;
-    height: auto;
+    height: 200px; 
+    object-fit: cover;
     display: block;
+    border-radius: 8px; 
 }
 
 .swiper {
@@ -218,7 +220,7 @@ code {
 
 .swiper-slide {
     width: 250px !important; 
-    height: 300px !important; /* Altura fija para todas las slides */
+    height: 300px !important; 
     position: relative;
     transition: all 0.3s ease; 
     overflow: hidden; 
@@ -229,7 +231,7 @@ code {
 .swiper-slide a {
     display: block;
     width: 100%;
-    height: 100%; /* Usar toda la altura disponible */
+    height: 100%; 
     border-radius: 16px;
     overflow: hidden;
     position: relative;
@@ -237,8 +239,8 @@ code {
 
 .swiper-slide img {
     width: 100%;
-    height: 100%; /* Usar toda la altura disponible */
-    object-fit: cover; /* Cambio clave: de contain a cover */
+    height: 100%; 
+    object-fit: cover; 
     border-radius: 16px;
     transition: all 0.3s ease;
 }
@@ -255,8 +257,8 @@ code {
 
 .swiper-slide-active img {
     width: 100%;
-    height: 100%; /* Mantener altura fija incluso cuando está activa */
-    object-fit: cover; /* Mantener object-fit: cover */
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .swiper-slide:not(.swiper-slide-active) {
@@ -277,9 +279,7 @@ code {
     object-fit: cover;
     border-radius: 16px;
     transition: all 0.3s ease;
-    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
     transform: scale(0.9);
-    opacity: 0.7;
     transform-origin: center center;
     position: relative;
     z-index: 1;
@@ -405,8 +405,16 @@ code {
     backdrop-filter: blur(7px);
 }
 
+.content img {
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
 
-
+.content * img {
+    max-width: 100% !important;
+    height: auto !important;
+}
 
 .mariposas-section {
   margin: 30px 0;
@@ -552,36 +560,3 @@ code {
     }
 }
 
-/* .markdown-content {
-    line-height: 1.6;
-    color: #333;
-}
-
-.markdown-content h1, .markdown-content h2, .markdown-content h3,
-.markdown-content h4, .markdown-content h5, .markdown-content h6 {
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
-    font-weight: bold;
-}
-
-.markdown-content h1 { font-size: 2em; border-bottom: 2px solid #eee; padding-bottom: 0.3em; }
-.markdown-content h2 { font-size: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
-.markdown-content h3 { font-size: 1.3em; }
-
-.markdown-content p { margin-bottom: 1em; }
-.markdown-content ul, .markdown-content ol { margin: 1em 0; padding-left: 2em; }
-.markdown-content li { margin-bottom: 0.5em; }
-
-.markdown-content code {
-    background-color: #f4f4f4;
-    padding: 2px 4px;
-    border-radius: 3px;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.markdown-content pre {
-    background-color: #f4f4f4;
-    padding: 1em;
-    border-radius: 5px;
-    overflow-x: auto;
-} */
