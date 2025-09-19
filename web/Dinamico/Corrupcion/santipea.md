@@ -45,9 +45,97 @@ Y mas adelante dijo que No hay plata para educacion...
 <a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
 
 > Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
-https://www.abc.com.py/resizer/v2/QVGOCL6WX5G67BGKYLDB3ALV5U.jpeg
+
+<img width="770" height="433" alt="image" src="https://github.com/user-attachments/assets/48783759-f306-45c2-ad02-59433d00de2d" />
+
+<div class="gallery-container">
+    <div class="contenedor-imagenes-animado" >
+        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/Ivn.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
+        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/amc.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
+        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/asao.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
+        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/hanami.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
+        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/rio.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"}
+    </div>
+</div>
+
 <a href="https://www.abc.com.py/nacionales/2023/07/25/horqueta-ya-no-queremos-estar-bajo-los-arboles-dijo-alumna-de-escuela-sin-techo//">Fuente</a>
 
 > Un pueblo educado es un pueblo libre, por que educación es el arma más poderosa para cambiar el Pais. 
 > Por que gracias a la educacion de calidad podemos cambiar el pais es que estan en contra de mejorarla.
 
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+<script>
+function createSwiper(container, images) {
+    container.innerHTML = `
+        <div class="swiper-wrapper">
+            ${images.map(item => `
+                <div class="swiper-slide">
+                    <a href="${item.link}">
+                        <img src="${item.image}" alt="${item.name}" loading="lazy" />
+                    </a>
+                </div>
+            `).join('')}
+        </div>
+    `;
+
+    return new Swiper(container, {
+        slidesPerView: 'auto',
+        spaceBetween: 20,
+        loop: true,
+        centeredSlides: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        }
+    });
+}
+
+function parseInlineGalleryData(element) {
+    try {
+        const content = element.textContent.trim();
+        if (!content) return null;
+        const jsonStr = `[${content}]`;
+        return { images: JSON.parse(jsonStr) };
+    } catch (error) {
+        console.error('Error parsing gallery data:', error);
+        return null;
+    }
+}
+
+function initializeGalleries() {
+    if (typeof Swiper === 'undefined') {
+        console.error('Swiper no disponible');
+        return;
+    }
+
+    const galleries = document.querySelectorAll('.contenedor-imagenes-animado');
+    console.log('Galerías encontradas:', galleries.length);
+    
+    galleries.forEach((container, index) => {
+        const inlineData = parseInlineGalleryData(container);
+        console.log(`Galería ${index}:`, inlineData);
+        
+        if (inlineData && inlineData.images) {
+            container.classList.add('swiper');
+            createSwiper(container, inlineData.images);
+            console.log(`Swiper inicializado para galería ${index}`);
+        }
+    });
+}
+
+function waitForSwiper() {
+    if (typeof Swiper !== 'undefined') {
+        console.log('Swiper cargado, inicializando galerías...');
+        initializeGalleries();
+    } else {
+        console.log('Esperando a que Swiper se cargue...');
+        setTimeout(waitForSwiper, 100);
+    }
+}
+
+waitForSwiper();
+</script>
