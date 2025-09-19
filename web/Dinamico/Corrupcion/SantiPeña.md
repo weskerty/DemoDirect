@@ -30,4 +30,23 @@ Empleada encuentra los sobres, se la despide y le dejan una deuda de 11 millones
 <a href="https://www.abc.com.py/politica/2025/09/16/despidos-destapan-escandalo-de-sobres-con-miles-de-us-en-mburuvicha-roga/">Fuente</a>
 
 
+# Peña aumenta el sueldo a el y politicos.
+No nego la propuesta de aumentarse mas de G. 15.000 millones extra
+Ademas tienen beneficios fuera del sueldo que son: pasaje aéreo en primera clase, seguro médico vip de G. 1.200.000 mensuales, vales de combustibles de G. 5.000.000 mensuales entre otras mas.
+> Por que los politicos deberian usar hospitales privados con la plata del pueblo mientras el pueblo debe ir bajo la lluvia a esperar desde la madrugada un turno?
+
+Los legisladores van a autoadjudicarse un mayor ingreso salarial mensual, pasando de ganar G 32.774.840 a G. 37.774.840.
+
+ademas admitio que hay múltiples falencias en materia de salud pública, seguridad y educación. Sin embargo, tambien dijo que estan inversiones en eso...
+<a href="https://www.ultimahora.com/aumentazos-el-regalo-de-fin-de-ano-de-santiago-pena-a-parlamentarios">Fuente</a>
+
+Y mas adelante dijo que No hay plata por el tema de pedido de docentes
+<a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
+
+> Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
+https://www.abc.com.py/resizer/v2/QVGOCL6WX5G67BGKYLDB3ALV5U.jpeg
+<a href="https://www.abc.com.py/nacionales/2023/07/25/horqueta-ya-no-queremos-estar-bajo-los-arboles-dijo-alumna-de-escuela-sin-techo//">Fuente</a>
+
+> Un pueblo educado es un pueblo libre, por que educación es el arma más poderosa para cambiar el Pais. 
+> Por que gracias a la educacion de calidad podemos cambiar el pais es que estan en contra de mejorarla.
 
