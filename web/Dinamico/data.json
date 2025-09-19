@@ -3,6 +3,11 @@
     "Corrupcion": {
       "images": [
         {
+          "image": "web/Dinamico/Corrupcion/SantiPeña.jpg",
+          "link": "web/Dinamico/Corrupcion/SantiPeña.md",
+          "name": "SantiPeña"
+        },
+        {
           "image": "web/Dinamico/Corrupcion/capibara.jpg",
           "link": "web/Dinamico/Corrupcion/capibara.md",
           "name": "capibara"
