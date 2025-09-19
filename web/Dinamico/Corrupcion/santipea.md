@@ -34,48 +34,96 @@ Empleada encuentra los sobres, se la despide y le dejan una deuda de 11 millones
 # Peña aumenta el sueldo a el y politicos.
 No nego la propuesta de aumentarse mas de G. 15.000 millones extra
 Ademas tienen beneficios fuera del sueldo que son: pasaje aéreo en primera clase, seguro médico vip de G. 1.200.000 mensuales, vales de combustibles de G. 5.000.000 mensuales entre otras mas.
-> Por que los politicos deberian usar hospitales privados con la plata del pueblo mientras el pueblo debe ir bajo la lluvia a esperar desde la madrugada un turno?
+> Imagina se te caiga el techo del hospital mientras te operan... 
+> Por que los politicos usan hospitales privados con la plata del pueblo pero el pueblo debe ir bajo la lluvia a esperar desde la madrugada un turno en un hospital que se cae a pedazos?
 
-Los legisladores van a autoadjudicarse un mayor ingreso salarial mensual, pasando de ganar G 32.774.840 a G. 37.774.840.
-
-ademas admitio que hay múltiples falencias en materia de salud pública, seguridad y educación. Sin embargo, tambien dijo que estan inversiones en eso...
-<a href="https://www.ultimahora.com/aumentazos-el-regalo-de-fin-de-ano-de-santiago-pena-a-parlamentarios">Fuente</a>
-
-Y mas adelante dijo que No hay plata para educacion...
-<a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
-
-> Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
-
-<img width="770" height="433" alt="image" src="https://github.com/user-attachments/assets/48783759-f306-45c2-ad02-59433d00de2d" />
 
 <div class="gallery-container">
     <div class="contenedor-imagenes-animado" >
-        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/Ivn.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
-        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/amc.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
-        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/asao.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
-        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/hanami.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"},
-        {"image": "https://raw.githubusercontent.com/weskerty/test/refs/heads/main/ArchivosSueltos/rio.jpg", "link": "https://photos.app.goo.gl/sd6iJ2MdgeFQLRs98"}
+        {"image": "https://i.ibb.co/20cdvmTR/image.png", "link": "https://www.abc.com.py/nacionales/2024/01/30/parte-del-techo-del-ineram-cae-sobre-una-paciente-en-terapia-intensiva/"},
+        {"image": "https://i.ibb.co/x83xQhDp/image.png", "link": "https://www.abc.com.py/nacionales/2023/01/27/denuncian-falta-de-insumos-basicos-como-jeringas-en-el-hospital-san-pablo/"},
+        {"image": "https://i.ytimg.com/vi/ns46ftaNKYs/maxresdefault.jpg", "link": "https://www.youtube-nocookie.com/embed/ns46ftaNKYs?si=g5GY-aoYmUHo7sWm&amp;controls=0&amp;start=34"}
+    </div>
+</div>
+
+Por mi parte yo fui a esperar de madrugada en un hospital, desde las 3AM sali y a las 11 me atendieron para al llegar decirme que no tenian el analisis que requeria... Reir para no llorar...
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ns46ftaNKYs?si=g5GY-aoYmUHo7sWm&amp;controls=0&amp;start=34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+No se cansa de Repetir que "No hay plata" pero...
+Los legisladores se subieron el sueldo mensual, pasando de ganar G 32.774.840 a G. 37.774.840.
+
+Ademas de eso se compraron nuevas sillas y computadoras de oro... Nisiquiera cuestan asi en el mercado y claramente parece una sobrefacturacion...
+Sillas a ~6 Millones cada Silla.
+<a href="https://www.abc.com.py/nacionales/2024/01/16/una-silla-de-oro-del-congreso-equivale-a-32-pupitres-escolares/">Fuente Sillas</a>
+PC Gamer para ver documentos Excel a 15 Millones cada una... Que ademas dicen que compraran cada 2 periodos con licencias Windows pagadas como si fuesen empresas... 
+<a href="https://www.abc.com.py/politica/2024/01/15/beto-ovelar-admite-que-no-entiende-un-huevo-de-tecnologia-pero-justifica-compra-de-computadoras-por-que-valen-g-15-millones/">Fuente PC</a>
+
+ademas peña admitio que hay múltiples fallas en materia de salud pública, seguridad y educación. Sin embargo, se subieron los sueldos...
+<a href="https://www.ultimahora.com/aumentazos-el-regalo-de-fin-de-ano-de-santiago-pena-a-parlamentarios">Fuente</a>
+y eso sin hablar de sus familiares nepotistas
+![alt text](https://i.ibb.co/FkBHV4yy/image.png)
+<a href="https://www.abc.com.py/politica/2024/01/15/como-garrapatas-parentela-politica-se-aferra-a-arcas-del-estado-y-las-desangra/">Fuente</a>
+
+
+
+Y para mas cara dura dijo que No hay plata para educacion... Pero desde Epoca de Cartes van reduciendo el presupuesto a educacion constantemente...
+![alt text](https://www.rdn.com.py/wp-content/uploads/2021/10/maestros.jpg)
+<a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
+
+Encima parece sobrefacturaron con los pupitres escolares
+Pidieron sillas a precio de oro a una empresa que hacia frazadas... 
+Encima el valor no supera los US$ 5 millones en el mercado, pero se pago US$ 32 millones
+<a href="https://www.abc.com.py/nacionales/2025/03/24/mec-ya-reparte-los-pupitres-de-oro-a-escuelas-de-tres-departamentos/">Fuente</a>
+
+Y para colmo, la empresa que solo fabricaba antes de el tema de los pupitres, tambien tenia aviones privados de lujo en donde peña y todos sus cercanos viajaban...
+<a href="https://www.abc.com.py/politica/2025/09/18/santi-se-suma-al-uso-del-avion-de-proveedor-de-pupitres-chinos-comprados-por-itaipu/">Fuente</a>
+
+> Vaya ejemplo de humildad la empresa /s
+
+> Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
+
+
+<div class="gallery-container">
+    <div class="contenedor-imagenes-animado" >
+        {"image": "https://i.ibb.co/4wDx4rJ2/image.png"},
+        {"image": "https://scontent.fasu11-2.fna.fbcdn.net/v/t39.30808-6/514410231_1115001350675191_2624946114983517918_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=znxKkQf9FVAQ7kNvwHEdpz9&_nc_oc=AdmJp2D7F7Zrwn0BpjXnKf2XUiRHd0IISfpdj4k-_X_ZaPMxniKjGiLP4TwjVH47gsY&_nc_zt=23&_nc_ht=scontent.fasu11-2.fna&_nc_gid=dh8LkJ_F1lTCCBeEzmBH0A&oh=00_AfY4YQQSlRQoSLbJMAF8o9f3SMHT_L3sH2gRu4UeZGXnjA&oe=68D39DA6", "link": "https://www.facebook.com/photo/?fbid=1115001290675197&set=pcb.1115001380675188"},
+        {"image": "https://scontent.fasu11-2.fna.fbcdn.net/v/t39.30808-6/514775657_1115001294008530_110649688472567850_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=FkFIWhkiR7IQ7kNvwGmFdea&_nc_oc=AdlLnt7Qzqnl9zlhiUQhbmO00_ftulgTCkhsAPucqc2K9BiS9mM1nFMvHshMNBP8fCQ&_nc_zt=23&_nc_ht=scontent.fasu11-2.fna&_nc_gid=xlVb48LbiBVh-_df5-engQ&oh=00_AfYn5UVwU7m62jPrQrH0mWQUV1azbYFVTkSWTXpcX97J8w&oe=68D378D9", "link": "https://www.facebook.com/photo/?fbid=1115001290675197&set=pcb.1115001380675188"}
     </div>
 </div>
 
 <a href="https://www.abc.com.py/nacionales/2023/07/25/horqueta-ya-no-queremos-estar-bajo-los-arboles-dijo-alumna-de-escuela-sin-techo//">Fuente</a>
 
-> Un pueblo educado es un pueblo libre, por que educación es el arma más poderosa para cambiar el Pais. 
-> Por que gracias a la educacion de calidad podemos cambiar el pais es que estan en contra de mejorarla.
+> Un pueblo educado es un pueblo libre, por que la educación es el arma más poderosa para cambiar el Pais. 
+> Y es por que con educacion podemos cambiar el pais es que estan en contra de mejorarla.
 
 
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+
 <script>
+
+async function loadGalleryData() {
+    try {
+        const response = await fetch('web/Dinamico/data.json');
+        const data = await response.json();
+        return data.galleries;
+    } catch (error) {
+        console.error('Error loading gallery data:', error);
+        return null;
+    }
+}
+
 function createSwiper(container, images) {
     container.innerHTML = `
         <div class="swiper-wrapper">
             ${images.map(item => `
                 <div class="swiper-slide">
                     <a href="${item.link}">
-                        <img src="${item.image}" alt="${item.name}" loading="lazy" />
+                        <img src="${item.image}" alt="${item.name || 'Imagen'}" loading="lazy" />
                     </a>
                 </div>
             `).join('')}
@@ -106,36 +154,44 @@ function parseInlineGalleryData(element) {
     }
 }
 
-function initializeGalleries() {
+async function initializeAllGalleries() {
     if (typeof Swiper === 'undefined') {
         console.error('Swiper no disponible');
         return;
     }
-
-    const galleries = document.querySelectorAll('.contenedor-imagenes-animado');
-    console.log('Galerías encontradas:', galleries.length);
+    const allGalleryData = await loadGalleryData();
     
-    galleries.forEach((container, index) => {
+    if (allGalleryData && allGalleryData.Corrupcion) {
+        const corrupcionContainer = document.getElementById('corrupcion-gallery');
+        if (corrupcionContainer && allGalleryData.Corrupcion.images?.length > 0) {
+            corrupcionContainer.classList.add('swiper');
+            createSwiper(corrupcionContainer, allGalleryData.Corrupcion.images);
+            console.log('Galería de Corrupción inicializada');
+        }
+    } else {
+        console.warn('falla galeria "Corrupcion" en data.json');
+    }
+
+    const inlineGalleries = document.querySelectorAll('.contenedor-imagenes-animado:not([id])');
+    
+    inlineGalleries.forEach(async (container) => {
         const inlineData = parseInlineGalleryData(container);
-        console.log(`Galería ${index}:`, inlineData);
-        
-        if (inlineData && inlineData.images) {
+        if (inlineData) {
             container.classList.add('swiper');
             createSwiper(container, inlineData.images);
-            console.log(`Swiper inicializado para galería ${index}`);
         }
     });
 }
 
-function waitForSwiper() {
+function waitForSwiperAndInit() {
     if (typeof Swiper !== 'undefined') {
-        console.log('Swiper cargado, inicializando galerías...');
-        initializeGalleries();
+        console.log('Swiper cargado, inicializando galeria...');
+        initializeAllGalleries();
     } else {
-        console.log('Esperando a que Swiper se cargue...');
-        setTimeout(waitForSwiper, 100);
+        console.log('Esperando Swiper...');
+        setTimeout(waitForSwiperAndInit, 100);
     }
 }
 
-waitForSwiper();
+waitForSwiperAndInit();
 </script>
