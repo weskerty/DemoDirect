@@ -6,6 +6,10 @@ Parte del contenido puede constituir opinión personal y no debe interpretarse c
 La información se publica con fines de investigación, divulgación y debate.
 
 Unete a los Grupos de Debate:
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HXdpk6CpmSRDqHUOTLXp20) · [![Matrix](https://img.shields.io/badge/Matrix-7EED39?style=for-the-badge&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org) · [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh) · [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
+
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HXdpk6CpmSRDqHUOTLXp20) · [![Matrix](https://img.shields.io/badge/Matrix-00FF41?style=flat&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org) · [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh) · [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
+
 
 
 ## La Web
