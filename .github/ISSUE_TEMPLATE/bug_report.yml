@@ -7,13 +7,13 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "## 📝 Llena los detalles. Titulo con Nombre der Archivo Corto, ejemplo: ANR Santi Peña."
+      value: "## 📝 Llena los detalles. Titulo con Nombre de Archivo Corto, ejemplo: ANR Santi Peña."
 
   - type: textarea
     id: description
     attributes:
       label: "📝 Descripción"
-      description: "Explica los detalles que serán mostrados en el artículo. Puede Incluir Imagenes y Scripts JS. Ejemplo: "
+      description: "Explica los detalles que serán mostrados en el artículo. Puede Incluir Imagenes y Scripts JS. Ejemplo: https://github.com/weskerty/DemoDirect/issues/2"
       placeholder: "Escribe aquí la información..."
     validations:
       required: true
