@@ -7,7 +7,6 @@
 <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20with%20Face.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
 
 <h1>Por un Paraguay Mejor</h1>
- <!-- <a href="web/readme.md">ReadmeTest</a> ·  <a href="web/readme.md">ReadmeTest</a> · </a>   -->
         <h3>No mas Politicos Corruptos</h3>
 
 
@@ -15,7 +14,7 @@
 
 <p>Hoy en día tenemos una supuesta "Democracia" llamada "Democracia Representativa" en donde se vota por alguien que represente tus ideales. Pero este sistema tiene muchas fallas, Ejemplo;</p>
 
-<p>Un político en su campaña política dice que eliminará la corrupción, es afín a tu ideal y lo votas. Pero <strong>¿qué sucede cuando esos representantes (los políticos) ignoran lo que prometieron al subir al poder?</strong></p>
+<p>Un político en su campaña política dice que eliminará la corrupción, es afín a tu ideal y lo votas. Pero <strong>¿qué sucede cuando esos representantes por los que votaste, ahora políticos en el poder ignoran lo que prometieron hacer?</strong></p>
 <p><em>Ejemplo:</em> Santi Peña Dicendo que solo los corruptos se les sube al poder</p>
 <p><em>Ejemplo 2:</em> Aprobar hacer un Obelisco con dinero prestado en vez de hacer cosas de mayor necesidad como lo es un hospital FUNCIONAL con recursos para funcionar correctamente.</p>
 <div class="section">
@@ -28,15 +27,24 @@
     </div>
 </div>
 
-<p>Esto desconecta totalmente con la realidad de la población y muchos ya no se sienten representados con esas acciones.</p>
+<p>Esto desconecta totalmente con la realidad de la población y muchos ya no se sienten representados con esas acciones, algunos hasta se arrepienten de votarlos. Pero lamentablemente ya no hay vuelta atras...</p>
 
-<h2>La Nueva Propuesta;</h2>
+</br>
+<h2>La Propuesta;</h2>
 
-<p>Un <strong>modelo de democracia directa similar a paises como <a href="https://es.wikipedia.org/wiki/Suiza">Suiza</a> que combina la participación ciudadana.</strong>. En este sistema los políticos no son necesarios, la responsabilidad recae en cada ciudadano.</p>
+<p>Es por eso que hoy proponemos un <strong>modelo de democracia directa, similar a paises como <a href="https://es.wikipedia.org/wiki/Suiza">Suiza</a> que combina la participación ciudadana.</strong>. En este sistema los políticos no son necesarios, la responsabilidad recae en cada ciudadano.</p>
 
-<p><em>Ejemplo:</em> Se requiere un hospital o una ley, entonces un ciudadano presenta en una reunión su idea ya documentada y bien planificada para que el resto de los ciudadanos la aprueben o no. De esta manera se elimina la corrupcion politica.</p>
+<p><em>Ejemplo:</em> Si se requiere un hospital o una reforma, entonces un ciudadano presenta en una reunión su idea ya documentada y bien planificada para que el resto de los ciudadanos la aprueben o no. De esta manera se elimina la corrupcion politica.</p>
 
-
+<div class="section">
+    <h2>Propuestas</h2>
+    <div class="gallery-container">
+        <div id="propuestas-gallery" class="contenedor-imagenes-animado">
+           
+        </div>
+        <a href="web/Dinamico/Propuestas/" class="view-all-button">Ver Lista Completa</a>
+    </div>
+</div>
 
 <div id="compartir-bloque" class="pulsos-section">
   <div class="glowing-bg"></div>
@@ -58,7 +66,7 @@
 	<a href="https://t.me/+CJQH_tIxev0xNjRh"><img src="https://front.com/assets/integrations/telegram/telegram_logo.png" alt="Telegram"  height="128" width="128" /></a>
 	<a href="web/otros/discordbot.html"><img src="https://github.com/user-attachments/assets/ad78bfde-436e-49f5-86a6-873fbb2a28b3" height="128" width="128" alt="Discord"  /></a>
 	<a href="https://matrix.to/#/#Politica:matrix.org"><img src="https://github.com/user-attachments/assets/7a1d0dbb-1284-45ad-a434-3bc054effe9a" height="128" width="128" alt="Matrix"  /></a>
-	<p>Los mensajes de [Discord - Matrix - Telegram] se sincronizan entre si. Los de WhatsApp NO por fallas con el bot. </p>
+	<p>Los mensajes se sincronizan entre si amenos de que el bot falle. </p>
     <p>No se recomienda usar WhatsApp por Privacidad.</p>
   </div>
 
@@ -126,7 +134,6 @@ async function loadRSS() {
 loadRSS();
 </script>
 
-</br>
 <div class="quote-rotator">
 <div class="mariposas-section">
             <div class="butterfly"></div>
@@ -161,7 +168,7 @@ No se garantiza exactitud ni veracidad del material que aportan, y cada contribu
 
 
 <h2>Agradecimientos</h2>
-<a href="https://codepen.io/sheikh_ishaan/pen/zYVgXvQ">Fondo</a> · <a href="https://github.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis">Emojis</a> · <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md">Badges</a>
+<a href="https://codepen.io/sheikh_ishaan/pen/zYVgXvQ">Fondo</a> · <a href="https://github.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis">Emojis</a> · <a href="https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md">Badges</a> · <a href="https://github.com/markdown-it/markdown-it">MarkdownIt</a> · 
 
 
 <!-- frases -->
@@ -193,7 +200,6 @@ async function loadGalleryData() {
         const data = await response.json();
         return data.galleries;
     } catch (error) {
-        console.error('Error loading gallery data:', error);
         return null;
     }
 }
@@ -230,27 +236,34 @@ function parseInlineGalleryData(element) {
         const jsonStr = `[${content}]`;
         return { images: JSON.parse(jsonStr) };
     } catch (error) {
-        console.error('Error parsing gallery data:', error);
         return null;
     }
 }
 
 async function initializeAllGalleries() {
     if (typeof Swiper === 'undefined') {
-        console.error('Swiper no disponible');
         return;
     }
+    
     const allGalleryData = await loadGalleryData();
     
-    if (allGalleryData && allGalleryData.Corrupcion) {
-        const corrupcionContainer = document.getElementById('corrupcion-gallery');
-        if (corrupcionContainer && allGalleryData.Corrupcion.images?.length > 0) {
-            corrupcionContainer.classList.add('swiper');
-            createSwiper(corrupcionContainer, allGalleryData.Corrupcion.images);
-            console.log('Galería de Corrupción inicializada');
-        }
+    if (allGalleryData) {
+        const galleryElements = document.querySelectorAll('[id$="-gallery"]');
+        
+        galleryElements.forEach(container => {
+            const galleryId = container.id.replace('-gallery', '');
+            
+            const matchingKey = Object.keys(allGalleryData).find(key => 
+                key.toLowerCase() === galleryId.toLowerCase()
+            );
+            
+            if (matchingKey && allGalleryData[matchingKey].images?.length > 0) {
+                container.classList.add('swiper');
+                createSwiper(container, allGalleryData[matchingKey].images);
+            }
+        });
     } else {
-        console.warn('falla galeria "Corrupcion" en data.json');
+        return;
     }
 
     const inlineGalleries = document.querySelectorAll('.contenedor-imagenes-animado:not([id])');
@@ -266,10 +279,8 @@ async function initializeAllGalleries() {
 
 function waitForSwiperAndInit() {
     if (typeof Swiper !== 'undefined') {
-        console.log('Swiper cargado, inicializando galeria...');
         initializeAllGalleries();
     } else {
-        console.log('Esperando Swiper...');
         setTimeout(waitForSwiperAndInit, 100);
     }
 }

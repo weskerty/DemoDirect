@@ -48,7 +48,18 @@ Ademas tienen beneficios fuera del sueldo que son: pasaje aéreo en primera clas
 
 Por mi parte yo fui a esperar de madrugada en un hospital, desde las 3AM sali y a las 11 me atendieron para al llegar decirme que no tenian el analisis que requeria... Reir para no llorar...
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ns46ftaNKYs?si=g5GY-aoYmUHo7sWm&amp;controls=0&amp;start=34" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Imagina que pidas una ambulancia pero no llegue nunca... Esto pasa infinidad de veces, cada dia, hasta mientras lees este articulo...
+Morir por esperar un Turno...
+<div class="gallery-container">
+    <div class="contenedor-imagenes-animado" >
+        {"image": "https://i.ibb.co/SD9vGBkJ/image.png", "link": "https://www.facebook.com/watch/?v=595396765582618"},
+        {"image": "https://i.ibb.co/N2NMYDtL/image.png", "link": "https://www.facebook.com/watch/?v=2706601396203800"}
+    </div>
+</div>
+
+## Mientras que a ellos los llevan en HELICOPTERO por un golpe en LA MANO... Y si, con plata de la Ciudadania...
+![alt text](https://i.ibb.co/Kx7Xv2s3/image.png)
+<a href="https://www.abc.com.py/nacionales/2025/09/03/video-hijo-de-alliana-sufre-accidente-y-lo-trasladaron-en-helicoptero-hasta-asuncion//">Fuente</a>
 
 
 No se cansa de Repetir que "No hay plata" pero...
@@ -101,6 +112,33 @@ Y para colmo, la empresa que solo fabricaba antes de el tema de los pupitres, ta
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- > Scrips de Galeria </-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
 
@@ -112,7 +150,6 @@ async function loadGalleryData() {
         const data = await response.json();
         return data.galleries;
     } catch (error) {
-        console.error('Error loading gallery data:', error);
         return null;
     }
 }
@@ -149,27 +186,34 @@ function parseInlineGalleryData(element) {
         const jsonStr = `[${content}]`;
         return { images: JSON.parse(jsonStr) };
     } catch (error) {
-        console.error('Error parsing gallery data:', error);
         return null;
     }
 }
 
 async function initializeAllGalleries() {
     if (typeof Swiper === 'undefined') {
-        console.error('Swiper no disponible');
         return;
     }
+    
     const allGalleryData = await loadGalleryData();
     
-    if (allGalleryData && allGalleryData.Corrupcion) {
-        const corrupcionContainer = document.getElementById('corrupcion-gallery');
-        if (corrupcionContainer && allGalleryData.Corrupcion.images?.length > 0) {
-            corrupcionContainer.classList.add('swiper');
-            createSwiper(corrupcionContainer, allGalleryData.Corrupcion.images);
-            console.log('Galería de Corrupción inicializada');
-        }
+    if (allGalleryData) {
+        const galleryElements = document.querySelectorAll('[id$="-gallery"]');
+        
+        galleryElements.forEach(container => {
+            const galleryId = container.id.replace('-gallery', '');
+            
+            const matchingKey = Object.keys(allGalleryData).find(key => 
+                key.toLowerCase() === galleryId.toLowerCase()
+            );
+            
+            if (matchingKey && allGalleryData[matchingKey].images?.length > 0) {
+                container.classList.add('swiper');
+                createSwiper(container, allGalleryData[matchingKey].images);
+            }
+        });
     } else {
-        console.warn('falla galeria "Corrupcion" en data.json');
+        return;
     }
 
     const inlineGalleries = document.querySelectorAll('.contenedor-imagenes-animado:not([id])');
@@ -185,10 +229,8 @@ async function initializeAllGalleries() {
 
 function waitForSwiperAndInit() {
     if (typeof Swiper !== 'undefined') {
-        console.log('Swiper cargado, inicializando galeria...');
         initializeAllGalleries();
     } else {
-        console.log('Esperando Swiper...');
         setTimeout(waitForSwiperAndInit, 100);
     }
 }

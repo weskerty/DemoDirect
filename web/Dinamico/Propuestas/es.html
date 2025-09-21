@@ -1,6 +1,6 @@
 <div style="text-align:center;">
-    <h1>Lista Completa de Casos de Corrupción</h1>
-    <div class="grid-gallery" id="corrupcion-grid">
+    <h1>Lista de Propuestas</h1>
+    <div class="grid-gallery" id="propuestas-grid">
         <!-- imagenes dinamicas -->
     </div>
     
@@ -14,7 +14,6 @@ async function loadGalleryData() {
         const data = await response.json();
         return data.galleries;
     } catch (error) {
-        console.error('Error loading gallery data:', error);
         return null;
     }
 }
@@ -30,19 +29,24 @@ function createGridGallery(container, images) {
 async function initializeCompleteGallery() {
     const galleryData = await loadGalleryData();
     
-    if (galleryData && galleryData.Corrupcion) {
-        const container = document.getElementById('corrupcion-grid');
-        if (container && galleryData.Corrupcion.images?.length > 0) {
-            createGridGallery(container, galleryData.Corrupcion.images);
-        }
-    } else {
-        const container = document.getElementById('corrupcion-grid');
-        if (container) {
-            container.innerHTML = '<p>No se encontraron casos de corrupción xd</p>';
-        }
+    if (galleryData) {
+        const gridElements = document.querySelectorAll('[id$="-grid"]');
+        
+        gridElements.forEach(container => {
+            const gridId = container.id.replace('-grid', '');
+            
+            const matchingKey = Object.keys(galleryData).find(key => 
+                key.toLowerCase() === gridId.toLowerCase()
+            );
+            
+            if (matchingKey && galleryData[matchingKey].images?.length > 0) {
+                createGridGallery(container, galleryData[matchingKey].images);
+            } else {
+                container.innerHTML = '<p>Sin Elementos</p>';
+            }
+        });
     }
 }
-
 
 initializeCompleteGallery();
 </script>

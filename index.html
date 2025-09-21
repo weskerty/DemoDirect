@@ -11,7 +11,7 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/4.3.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
 </head>
 <body>
     <div class="loading-screen" id="loading-screen">
@@ -42,12 +42,11 @@
             11: 'https://github.com/user-attachments/assets/b746d91d-55ae-4679-add6-fcf71e05dcd4'
         };
 
-        marked.setOptions({
-            breaks: true,
-            gfm: true,
-            headerIds: true,
-            mangle: false,
-            sanitize: false
+        const md = window.markdownit({
+            html: true,        
+            breaks: true,     
+            linkify: true,     
+            typographer: true  
         });
 
         function isMobile() {
@@ -116,7 +115,7 @@
                 const contentDiv = document.getElementById('content');
 
                 if (url.endsWith('.md')) {
-                    content = `<div class="markdown-content">${marked.parse(content)}</div>`;
+                    content = `<div class="markdown-content">${md.render(content)}</div>`;
                 }
                 
                 contentDiv.innerHTML = content;

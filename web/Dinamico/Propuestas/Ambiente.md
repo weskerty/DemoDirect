@@ -1,0 +1,3 @@
+# Leyes Ambientales
+Actualmente no hay reciclador de reciduos ni separacion por tipo... 
+

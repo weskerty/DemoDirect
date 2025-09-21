@@ -1,4 +1,4 @@
-## Explicación Detallada del Sistema
+## Explicación Detallada del Sistema v1
 
 ### 🏗️ Estructura del Sistema
 

@@ -19,16 +19,16 @@
         }
       ]
     },
-    "EjemploCorru": {
+    "Propuestas": {
       "images": [
         {
-          "image": "web/Dinamico/EjemploCorru/Nenecho.png",
-          "link": "web/Dinamico/EjemploCorru/Nenecho.html",
+          "image": "web/Dinamico/Propuestas/Nenecho.png",
+          "link": "web/Dinamico/Propuestas/Nenecho.html",
           "name": "Nenecho"
         },
         {
-          "image": "web/Dinamico/EjemploCorru/SantiPeña1.jpg",
-          "link": "web/Dinamico/EjemploCorru/SantiPeña1.md",
+          "image": "web/Dinamico/Propuestas/SantiPeña1.jpg",
+          "link": "web/Dinamico/Propuestas/SantiPeña1.md",
           "name": "SantiPeña1"
         }
       ]
