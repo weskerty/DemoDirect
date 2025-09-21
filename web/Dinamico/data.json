@@ -3,6 +3,16 @@
     "Corrupcion": {
       "images": [
         {
+          "image": "web/Dinamico/Corrupcion/agregar_info_de_santi_peña.jpg",
+          "link": "web/Dinamico/Corrupcion/agregar_info_de_santi_peña.md",
+          "name": "agregar_info_de_santi_peña"
+        },
+        {
+          "image": "web/Dinamico/Corrupcion/anr_santi_peña.jpg",
+          "link": "web/Dinamico/Corrupcion/anr_santi_peña.md",
+          "name": "anr_santi_peña"
+        },
+        {
           "image": "web/Dinamico/Corrupcion/paz.jpg",
           "link": "web/Dinamico/Corrupcion/paz.md",
           "name": "paz"
