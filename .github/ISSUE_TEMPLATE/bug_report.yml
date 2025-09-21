@@ -1,5 +1,5 @@
 name: Agregar Información 📌
-description: Agrega mas perfiles a la Web.
+description: Agrega mas Info a la Web.
 title: "[Info] "
 labels: ["info"]
 assignees: []
@@ -12,9 +12,9 @@ body:
   - type: input
     id: title
     attributes:
-      label: "📌 Título"
-      description: "Escribe un título corto y descriptivo No repetido."
-      placeholder: "Ejemplo: Nombre de Empresa o Político"
+      label: "📌 Nombre de Archivo"
+      description: "Escribe un título corto, Nombre de Empresa o Politico"
+      placeholder: "Ejemplo: ANR Santi Peña"
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     id: description
     attributes:
       label: "📝 Descripción"
-      description: "Explica los detalles que serán mostrados en el artículo."
+      description: "Explica los detalles que serán mostrados en el artículo. Puede Incluir Imagenes y Scripts JS. Ejemplo: "
       placeholder: "Escribe aquí la información..."
     validations:
       required: true
