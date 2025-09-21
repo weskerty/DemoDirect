@@ -7,16 +7,7 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: "## 📝 Llena los detalles a continuación"
-
-  - type: input
-    id: title
-    attributes:
-      label: "📌 Nombre de Archivo"
-      description: "Escribe un título corto, Nombre de Empresa o Politico"
-      placeholder: "Ejemplo: ANR Santi Peña"
-    validations:
-      required: true
+      value: "## 📝 Llena los detalles. Titulo con Nombre der Archivo Corto, ejemplo: ANR Santi Peña."
 
   - type: textarea
     id: description
