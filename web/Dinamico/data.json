@@ -20,6 +20,11 @@
           "image": "web/Dinamico/Propuestas/Ambiente.jpg",
           "link": "web/Dinamico/Propuestas/Ambiente.md",
           "name": "Ambiente"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/Animal.jpg",
+          "link": "web/Dinamico/Propuestas/Animal.md",
+          "name": "Animal"
         }
       ]
     }
