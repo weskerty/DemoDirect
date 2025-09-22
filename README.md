@@ -10,7 +10,7 @@ Unete a los Grupos de Debate:
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HXdpk6CpmSRDqHUOTLXp20)  ·  [![Matrix](https://img.shields.io/badge/Matrix-00FF41?style=flat&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org)  ·  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh)  ·  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
 
 ## Clonando el Repositorio Mantienes la Protesta Digital.
-<img src="https://img.shields.io/github/forks/Weskerty/DemoDirect">
+[![Fork](https://img.shields.io/github/forks/Weskerty/DemoDirect)](https://github.com/weskerty/DemoDirect/fork)
 
 ## La Web
 Puedes Acceder a la Web en este Enlace;
@@ -41,12 +41,10 @@ Que se vera de esta manera en la web:
 Prohibido lenguaje insultante o difamatorio directo.
 
 
-## Uso de Estilos de Texto <img src="https://camo.githubusercontent.com/3a8ad9ccf5943af0308849d863a023674873fcb34ded679325bc5e7207357cdc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d61726b646f776e2d6666666666663f7374796c653d666c6174266c6f676f3d6d61726b646f776e266c6f676f436f6c6f723d626c61636b" alt="Markdown" data-canonical-src="https://img.shields.io/badge/Markdown-ffffff?style=flat&amp;logo=markdown&amp;logoColor=black" style="max-width: 100%;">
+## Uso de Estilos de Texto [![Markdown](https://img.shields.io/badge/Markdown-ffffff?style=flat&amp;logo=markdown&amp;logoColor=black)](https://es.wikipedia.org/wiki/Markdown)
 El estilo es Similar a WhatsApp, Telegram, Discord o cualquiera que tambien use MarkDown
 
-
-
-<a name="headers"/>
+Puedes usar el [Editor Web](https://markdownlivepreview.dev/) para Practicar.
 
 ## Titulos / Encabezados
 Un solo # Titulo Grande, Mas ### Texto Pequeño. 
