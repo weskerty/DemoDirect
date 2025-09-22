@@ -42,6 +42,8 @@
             11: 'https://github.com/user-attachments/assets/b746d91d-55ae-4679-add6-fcf71e05dcd4'
         };
 
+        const DEFAULT_PAGE = 'web/es.html';
+
         const md = window.markdownit({
             html: true,        
             breaks: true,     
@@ -106,7 +108,7 @@
             });
         }
 
-        async function loadContent(url, updateHistory = true) {
+        async function loadContent(url, updateHash = true) {
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error(`Error fetching ${url}: ${response.statusText}`);
@@ -121,30 +123,36 @@
                 contentDiv.innerHTML = content;
                 executeScripts(contentDiv);
 
-                if (updateHistory) {
-                    history.pushState({ url: url }, '', window.location.href);
+                if (updateHash) {
+                    window.location.hash = url;
                 }
             } catch (error) {
                 document.getElementById('content').innerHTML = `<p>Error Cargando: ${error.message}</p>`;
             }
         }
 
-        let currentPage = null;
-        let isFirstLoad = true;
+        function handleHashChange() {
+            const hash = window.location.hash;
+            if (!hash || hash === '#') {
+                window.location.hash = DEFAULT_PAGE;
+                return;
+            }
+            
+            const targetPath = hash.substring(1);
+            loadContent(targetPath, false);
+        }
 
         document.addEventListener("DOMContentLoaded", () => {
             initializeVideo();
-            currentPage = window.location.href;
-            loadContent('web/es.html', false);
-            isFirstLoad = false;
+            
+            const initialHash = window.location.hash;
+            if (!initialHash) {
+                window.location.hash = DEFAULT_PAGE;
+            } else {
+                handleHashChange();
+            }
 
-            window.addEventListener('popstate', (event) => {
-                if (event.state && event.state.url) {
-                    loadContent(event.state.url, false);
-                } else {
-                    loadContent('web/es.html', false);
-                }
-            });
+            window.addEventListener('hashchange', handleHashChange);
         });
 
         document.addEventListener('click', (event) => {
@@ -154,10 +162,10 @@
             if (!anchor.href.includes('web/')) return;
 
             event.preventDefault();
+            
             const href = anchor.href;
-            const isSpecificFile = href.endsWith('.html') || href.endsWith('.md');
-            const baseUrl = href.substring(0, href.lastIndexOf('/') + 1);
-            const targetUrl = isSpecificFile ? href : baseUrl + 'es.html';
+            const webIndex = href.indexOf('web/');
+            const targetUrl = href.substring(webIndex);
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
             loadContent(targetUrl);
