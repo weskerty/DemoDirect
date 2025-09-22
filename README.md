@@ -17,18 +17,36 @@ weskerty.github.io/DemoDirect/
 
 ## Como Añadir nuevas entradas a lista de Corrupcion;
 ###  Issues o PullRequest
-Genera o Edita un Issue o PullRequest y el bot lo Publicara.
+Genera o Edita un Issue o PullRequest y el bot lo Publicara. 
+
+Presiona Aqui para Empezar: [![Issue](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/weskerty/DemoDirect/issues/new?template=bug_report.yml)
+
+Ejemplo: 
+
+<img width="967" height="788" alt="image" src="https://github.com/user-attachments/assets/08fc4c6b-c0ab-4c9b-99b6-af538e0f666d" />
+
+
 
 ### Bots de Mensajeria
 Tambien se puede subir una entrada a traves de los bots de WhatsApp, Telegram, Matrix y Demas.
 
+Presiona Aqui para Empezar: [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HXdpk6CpmSRDqHUOTLXp20)
+
+Ejemplo: 
+
+<img width="414" height="907" alt="WhatsApp" src="https://github.com/user-attachments/assets/e6f34654-3bfe-4552-8ea9-56bab79d2c69" />
+
+> [!NOTE]
+> Este metodo dejara tu numero guardado en el articulo. No se recomienda usar WhatsApp por Privacidad. Para Mayor Privacidad utiliza: [![Issue](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/weskerty/DemoDirect/issues/new?template=bug_report.yml)   ·  [![Matrix](https://img.shields.io/badge/Matrix-00FF41?style=flat&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org)  ·  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh)  ·  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
+
+
 ## Requisitos
 ## Caratula
 La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien.
-Herramientas que se pueden usar gratuitamente: [PhotopeaWeb](https://www.photopea.com/) [PicsArtApp](https://picsart.com/es/) o cualquiera que tengas a disposicion 
+Herramientas que se pueden usar gratuitamente: [PhotopeaWeb](https://www.photopea.com/) o [PicsArtApp](https://picsart.com/es/) o cualquiera que tengas a disposicion 
 
 ### Fuente Obligatoria
-Todo aporte debe incluir fuenteS verificables como: artículos de prensa, documento oficial, registro público, Wikipedia con referencias, etc.
+Todo aporte debe incluir fuentes verificables como: artículos de prensa, documento oficial, registro público, Wikipedia con referencias, etc.
 No se aceptan rumores, mensajes de chat no verificables ni opiniones personales queriendose pasar como hechos.
 
 2. Opinión vs Hecho
