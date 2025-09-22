@@ -1,5 +1,5 @@
-# Democracia Directa
-Este Repositorio/Web es un manifiesto de un nuevo sistema politico basado en democracia directa que Tambien incluye una lista de Corrupcion colaborativa Anonima.
+# 🙋 Democracia Directa
+Este Repositorio/Web es [un manifiesto de un nuevo sistema politico basado en democracia directa](web/otros/Markdowns/DemocraciaDirecta.md) que Tambien incluye una lista de Corrupcion colaborativa Anonima.
 
 No se garantiza exactitud ni veracidad del material que aportan, y cada contribuyente es responsable de lo que publica.
 Parte del contenido puede constituir opinión personal y no debe interpretarse como hecho comprobado ni como consejo profesional.
@@ -9,13 +9,13 @@ Unete a los Grupos de Debate:
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/HXdpk6CpmSRDqHUOTLXp20)  ·  [![Matrix](https://img.shields.io/badge/Matrix-00FF41?style=flat&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org)  ·  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh)  ·  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
 
-## Clonando el Repositorio Mantienes la Protesta Digital [![Fork](https://img.shields.io/github/forks/Weskerty/DemoDirect)](https://github.com/weskerty/DemoDirect/fork)
+## 📄 Clonando el Repositorio Mantienes la Protesta Digital [![Fork](https://img.shields.io/github/forks/Weskerty/DemoDirect)](https://github.com/weskerty/DemoDirect/fork)
 
-## La Web
-Puedes Acceder a la Web en este Enlace;
-weskerty.github.io/DemoDirect/
+# 🌐 La Web
+Clic Aqui para Acceder; [![Web](https://img.shields.io/badge/website-000000?style=flat&logo=About.me&logoColor=white)](https://weskerty.github.io/DemoDirect/)
 
-## Como Añadir nuevas entradas a lista de Corrupcion;
+
+# ➕ Como Añadir nuevas entradas a lista de Corrupcion;
 ###  Issues o PullRequest
 Genera o Edita un Issue o PullRequest y el bot lo Publicara. 
 
@@ -40,7 +40,7 @@ Ejemplo:
 > Este metodo dejara tu numero guardado en el articulo. No se recomienda usar WhatsApp por Privacidad. Para Mayor Privacidad utiliza: [![Issue](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/weskerty/DemoDirect/issues/new?template=bug_report.yml)   ·  [![Matrix](https://img.shields.io/badge/Matrix-00FF41?style=flat&logo=matrix&logoColor=000000)](https://matrix.to/#/#Politica:matrix.org)  ·  [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/+CJQH_tIxev0xNjRh)  ·  [![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/etykNBPTH4)
 
 
-## Requisitos
+# 📝Requisitos
 ## Caratula
 La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien.
 Herramientas que se pueden usar gratuitamente: [PhotopeaWeb](https://www.photopea.com/) o [PicsArtApp](https://picsart.com/es/) o cualquiera que tengas a disposicion 
@@ -58,7 +58,7 @@ Que se vera de esta manera en la web:
 Prohibido lenguaje insultante o difamatorio directo.
 
 
-## Uso de Estilos de Texto [![Markdown](https://img.shields.io/badge/Markdown-ffffff?style=flat&amp;logo=markdown&amp;logoColor=black)](https://es.wikipedia.org/wiki/Markdown)
+# ✍ Uso de Estilos de Texto [![Markdown](https://img.shields.io/badge/Markdown-ffffff?style=flat&amp;logo=markdown&amp;logoColor=black)](https://es.wikipedia.org/wiki/Markdown)
 El estilo es Similar a WhatsApp, Telegram, Discord o cualquiera que tambien use MarkDown
 
 Puedes usar el [Editor Web](https://markdownlivepreview.dev/) para Practicar.
