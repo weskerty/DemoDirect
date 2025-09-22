@@ -3,14 +3,9 @@
     "Corrupcion": {
       "images": [
         {
-          "image": "web/Dinamico/Corrupcion/paz.jpg",
-          "link": "web/Dinamico/Corrupcion/paz.md",
-          "name": "paz"
-        },
-        {
-          "image": "web/Dinamico/Corrupcion/santipea.jpg",
-          "link": "web/Dinamico/Corrupcion/santipea.md",
-          "name": "santipea"
+          "image": "web/Dinamico/Corrupcion/ANR-SantiPeña.jpg",
+          "link": "web/Dinamico/Corrupcion/ANR-SantiPeña.md",
+          "name": "ANR-SantiPeña"
         }
       ]
     },
@@ -25,6 +20,11 @@
           "image": "web/Dinamico/Propuestas/Animal.jpg",
           "link": "web/Dinamico/Propuestas/Animal.md",
           "name": "Animal"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/Educacion.png",
+          "link": "web/Dinamico/Propuestas/Educacion.md",
+          "name": "Educacion"
         },
         {
           "image": "web/Dinamico/Propuestas/SaludGeneral.png",
