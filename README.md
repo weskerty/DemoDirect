@@ -25,6 +25,7 @@ Tambien se puede subir una entrada a traves de los bots de WhatsApp, Telegram, M
 ## Requisitos
 ## Caratula
 La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien.
+Herramientas que se pueden usar gratuitamente: [PhotopeaWeb](https://www.photopea.com/) [PicsArtApp](https://picsart.com/es/) o cualquiera que tengas a disposicion 
 
 ### Fuente Obligatoria
 Todo aporte debe incluir fuenteS verificables como: artículos de prensa, documento oficial, registro público, Wikipedia con referencias, etc.
