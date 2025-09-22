@@ -23,6 +23,9 @@ Genera o Edita un Issue o PullRequest y el bot lo Publicara.
 Tambien se puede subir una entrada a traves de los bots de WhatsApp, Telegram, Matrix y Demas.
 
 ## Requisitos
+## Caratula
+La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien.
+
 ### Fuente Obligatoria
 Todo aporte debe incluir fuenteS verificables como: artículos de prensa, documento oficial, registro público, Wikipedia con referencias, etc.
 No se aceptan rumores, mensajes de chat no verificables ni opiniones personales queriendose pasar como hechos.
