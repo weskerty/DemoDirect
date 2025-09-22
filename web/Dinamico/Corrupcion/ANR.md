@@ -1,8 +1,10 @@
 <!-- participant: weskerty -->
 
-### Santi Peña - ANR
+
         
-## Fomento de la Corrupcion
+## Fomento de la Corrupcion por parte de la ANR
+
+### Santi Peña - ANR
 En epoca de elecciones Santi Peña dijo
 Los que llegan a los cargos, llegan gracias al Partido Colorado
 
