@@ -95,7 +95,6 @@ Y para colmo, la empresa que solo fabricaba antes de el tema de los pupitres, ta
 
 > Mientras ellos llevan a sus hijos y demas familiares a escuelas y universidades privadas de otros paises con dinero de la gente, nosotros debemos estudiar bajo arboles, con frio. Asi no se aprende nada.
 
-https://www.rdn.com.py/wp-content/uploads/2018/01/ID-EDUCACI%C3%93N-jpg.jpg
 
 <div class="gallery-container">
     <div class="contenedor-imagenes-animado" >

@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Cloud%20with%20Lightning%20and%20Rain.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20Behind%20Rain%20Cloud.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
 </div>
 
  <!-- <div class="vocaroo-container">

@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Teacher%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/Man%20Mountain%20Biking%20Medium%20Skin%20Tone.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
 </div>
 
  <!-- <div class="vocaroo-container">
@@ -10,16 +10,15 @@
 ## Interiorizar
 Como seres vivientes nos enfermamos de estrés sin darnos cuenta: la falta de verde nos aísla, nos pone irritables y nos quita conexión con la naturaleza. Los parques y árboles no son lujo: regulan la temperatura, refrescan el aire y nos ayudan a mantener la cabeza clara. Por eso hacen falta leyes que obliguen a tenerlos, no solo para embellecer, sino para que nuestra salud mental y física sobreviva al calor y al concreto.
 
-Por mas Espacios Verdes
+# 🌳 Por mas Espacios Verdes
+
 <div class="gallery-container">
     <div class="contenedor-imagenes-animado" >
         {"image": "https://i.ibb.co/VY0KXm8g/image.png", "link": "https://www.instagram.com/fottograma/"},
         {"image": "https://i.ibb.co/tw4j19Bx/image.png", "link": "https://www.instagram.com/fottograma/"},
         {"image": "https://i.ibb.co/mrtX74GM/image.png", "link": "https://www.instagram.com/fottograma/"},
         {"image": "https://i.ibb.co/7JcLTJCz/image.png", "link": "https://www.instagram.com/fottograma/"},
-        {"image": "https://i.ibb.co/JWBT1Ych/image.png", "link": "https://www.instagram.com/fottograma/"},
-        {"image": "web\otros\Archivos\Videos\fottograma.mp4", "link": "https://www.instagram.com/fottograma/"}
-        
+        {"image": "https://i.ibb.co/JWBT1Ych/image.png", "link": "https://www.instagram.com/fottograma/"}
     </div>
 </div>
 
@@ -40,7 +39,8 @@ Por mas Espacios Verdes
 
 
 
-# Relacionado [Ley Ambiental](web\Dinamico\Propuestas\Ambiente.md)
+# Relacionado 
+[Ley Ambiental](web\Dinamico\Propuestas\Ambiente.md) · [Ley Salud Mental](web\Dinamico\Propuestas\SaludMental.md) 
 
 
 <!-- > Scrips de Galeria </-->

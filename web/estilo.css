@@ -250,10 +250,7 @@ code {
     transform-origin: center center; 
 }
 
-.swiper-slide-active a {
-    transform: scale(1.1);
-    /* box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); */
-}
+
 
 .swiper-slide-active img {
     width: 100%;
