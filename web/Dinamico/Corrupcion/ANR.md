@@ -112,7 +112,7 @@ Y para colmo, la empresa que solo fabricaba antes de el tema de los pupitres, ta
 
 Y como afecta todo esto al pais?
 Bueno, Ellos piden prestamos al FMI y demas instiruciones externas para financiar su propio robo mientras no mejoran el pais
-Al inicio del 2025 Peña pide al FMI US$ 400 millones... 
+Al inicio del 2025 Peña pide al FMI US$ 500 millones... 
 Cuando el pais ya Debe HOY AGOSTO 2025:
 Cierre del primer semestre de 2025, la deuda pública total del sector público de Paraguay alcanzó aproximadamente US$ 19.085 millones, lo que equivale al 40,9 % del PIB. 
 De ese total, alrededor del 89,5 % corresponde a la Administración Central, lo que representa unos US$ 17.072 millones (≈ 36,6 % del PIB). 
@@ -122,12 +122,28 @@ La deuda externa llega a US$ 16.708 millones, lo que representa ~ 87,5 % del tot
 La deuda interna es de ~ US$ 2.377 millones, que es ~ 12,5 % del total, equivalente al ~ 5,1 % del PIB. 
 <a href="https://www.abc.com.py/economia/2025/08/05/deuda-publica-asciende-a-us-19085-millones-al-cierre-del-primer-semestre/">Fuente</a>
 
+Y para futuro, el presupuesto para el 2026 en salud es de alrededor de 1.295 (mil doscientos noventa y cinco) millones de dólares. El asignado para educación es de aproximadamente 1.322 (mil trescientos veintidós) millones de dólares.
+
+El pago de los servicios de la deuda para el mismo año será de 4.540 (cuatro mil quinientos cuarenta) millones de dólares. Si sumamos los presupuestos de educación y de salud, llegamos a 2.617 (dos mil seiscientos diecisiete) millones de dólares, un poco más de solo la mitad de lo que alcanzará lo destinado al pago de servicios de deuda. Y si sumamos por separado, la deuda es más de tres veces lo que se invierte en salud y educación.
+
 
 <a href="https://pyenresultados.rindiendocuentas.gov.py/PresupuestoGeneral">Ver mas sobre Presupuesto</a>
 
+El pueblo paraguayo no aprobo hacer prestamos de 500millones al FMI para "Evitar el Cambio Climatico" O almenos yo no recuerdo haberlo votado... Pero gracias a que estamos en un sistema de democracia representativa ellos pueden hacer lo que quieran sin importar lo que diga el pueblo.
+Actualmente ni prohibieron las bolsas plasticas. La unica ley que conozco fue "Fomentar a EMPRESAS PRIVADAS ESPECIFICAS" Que es mas regalo de plata al pedo a sus propias empresas. 
+<a href="https://silpy.congreso.gov.py/web/expediente/146951 ">Fuente</a>
 
+Cuando se supone que El acuerdo SRS incluye 8 reformas: eficiencia energética, fortalecer la matriz renovable (hidro + solar), mejorar regulación ambiental, adaptación agrícola, entre otros.
+Los recursos entran al Presupuesto General de la Nación, pero deben ligarse a proyectos de inversión o refinanciamiento que tengan relación con esas metas.
 
+A quien se le debe cobrar debe ser a los politicos y sus familiares No a todos los ciudadanos...
 
+Pero el gobierno de las patronales seguirá tomando deudas a nuestro nombre. De hecho, el endeudamiento para el 2026 será mayoritariamente para pagar otras deudas. Debemos más del 40% del Producto Interno Bruto (PIB). Y Salud y educación, cada una, llegan a casi 3 o a un poquito más de 3% del PIB, cuando a nivel internacional lo recomendable básico es que un país invierta en salud y educación entre el 6 y 7 % del PIB. Una verdadera vergüenza de sistema.
+
+A esto sumamos, la propuesta del Ministerio de Industria, Comercio, Turismo, Minas y Energía, con una concentración de poder que le resta capacidad de decisión a la ANDE. Su objetivo maquillado, no contado, es avanzar en la privatización del servicio de electricidad, cuyo costo afectará directamente nuestros bolsillos.
+-adelantenoticiaspy
+
+Cuando la mayoría vota por obligación, sin alternativas genuinas, y los políticos gobiernan de espaldas a la gente, lo que hay es un sistema electoral, pero no una democracia efectiva. Es, en la práctica, una oligarquía legitimada por elecciones.
 
 
 
