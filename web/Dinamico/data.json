@@ -27,6 +27,11 @@
           "name": "Educacion"
         },
         {
+          "image": "web/Dinamico/Propuestas/EspaciosVerdes.png",
+          "link": "web/Dinamico/Propuestas/EspaciosVerdes.md",
+          "name": "EspaciosVerdes"
+        },
+        {
           "image": "web/Dinamico/Propuestas/SaludGeneral.png",
           "link": "web/Dinamico/Propuestas/SaludGeneral.md",
           "name": "SaludGeneral"
