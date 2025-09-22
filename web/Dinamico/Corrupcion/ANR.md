@@ -1,7 +1,5 @@
 <!-- participant: weskerty -->
 
-
-        
 ## Fomento de la Corrupcion por parte de la ANR
 
 ### Santi Peña - ANR
@@ -133,7 +131,7 @@ El pago de los servicios de la deuda para el mismo año será de 4.540 (cuatro m
 
 El pueblo paraguayo no aprobo hacer prestamos de 500millones al FMI para "Evitar el Cambio Climatico" O almenos yo no recuerdo haberlo votado... Pero gracias a que estamos en un sistema de democracia representativa ellos pueden hacer lo que quieran sin importar lo que diga el pueblo.
 Actualmente ni prohibieron las bolsas plasticas. La unica ley que conozco fue "Fomentar a EMPRESAS PRIVADAS ESPECIFICAS" Que es mas regalo de plata al pedo a sus propias empresas. 
-<a href="https://silpy.congreso.gov.py/web/expediente/146951 ">Fuente</a>
+<a href="https://silpy.congreso.gov.py/web/expediente/146951">Fuente</a>
 
 Cuando se supone que El acuerdo SRS incluye 8 reformas: eficiencia energética, fortalecer la matriz renovable (hidro + solar), mejorar regulación ambiental, adaptación agrícola, entre otros.
 Los recursos entran al Presupuesto General de la Nación, pero deben ligarse a proyectos de inversión o refinanciamiento que tengan relación con esas metas.
@@ -149,10 +147,29 @@ Cuando la mayoría vota por obligación, sin alternativas genuinas, y los polít
 
 
 
-yaminal robo
+# Estos de la ANR son tan ratas
+## Yamy Nal un Ejemplo
 
+![Yamy](https://www.lanacion.com.py/resizer/v2/TBYNWUCQNNGP5K4BDCCGGNGZZI.jpg?auth=da280b5899a339f8a02ac95568e3f7f5b8347237f946d22087fa9f1ef340bc83&width=547&smart=true)
 
+Había sido electa senadora por Cruzada Nacional en 2023 (Partido Payo, Hoy lo denuncia por Amenazas y Violencia), pero se vendio al cartismo.
+Pero hoy Agosto 2025 fue expulsada por que se hizo polemica de la ciudadania y manifestaciones a consecuencia de audios en los que acusaba a varios colegas de participar en una repartija de una donación de 8 millones de dólares de Taiwán, mencionaba la compra de votos por 20 mil dólares y hablaba de intercambios de favores por cargos en Itaipú Binacional...
+Donacion que debia ser para mejorar el pais, fue coimeado entre ellos...
+<a href="https://www.abc.com.py/politica/2025/09/16/senado-le-muestra-el-dedo-del-medio-a-yamy-nal-y-le-expulsa-del-congreso/">Fuente</a>
 
+Hoy Yamy Nal presentará acción de inconstitucionalidad tras perder investidura en el Senado, cuando le hicieron lo mismo a Kattya González... Echarla Inconstitucionalmente...
+Vaya Hipocresia, si ni la respetaron a ella por que a esta si? La democracia desaparecio...
+
+# Caso Kattya González
+
+![Kattya](https://efsur.org/wp-content/uploads/5RKRUGR7VZEXDFZR4JAYM5AHWM.jpg)
+
+Abogada electa diputada en 2018 y senadora en 2023 por el Partido Encuentro Nacional (PEN), una agrupación opositora al oficialismo del Partido Colorado.
+En febrero de 2024, fue destituida del Senado por una mayoría simple de 23 votos, a pesar de que el reglamento del Senado exige una mayoría de dos tercios para expulsar a un legislador. La acusación formal fue "abuso de influencias", González dijo que fue una represalia por su oposición al cartismo y su denuncia de casos de corrupción. Su destitución ha sido calificada como un acto de "lawfare parlamentario" y una violación a la independencia de poderes.
+González presentó una acción de inconstitucionalidad ante la Corte Suprema de Justicia, que aún no ha emitido un fallo definitivo. Su abogado ha afirmado que el caso es "el más sencillo en la historia de la Corte", ya que se basa en la violación de normas internas del Senado
+<a href="https://www.abc.com.py/politica/2025/06/02/caso-kattya-es-el-mas-sencillo-en-la-historia-de-la-corte-suprema-insiste-abogado/">Fuente</a>
+
+Su situación ha atraído la atención internacional, con diplomáticos de la Unión Europea y Estados Unidos expresando su preocupación por el respeto al Estado de derecho y la democracia en Paraguay
 
 
 
