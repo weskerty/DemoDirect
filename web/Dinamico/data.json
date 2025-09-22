@@ -32,9 +32,24 @@
           "name": "EspaciosVerdes"
         },
         {
+          "image": "web/Dinamico/Propuestas/IntegracionNativa.jpg",
+          "link": "web/Dinamico/Propuestas/IntegracionNativa.md",
+          "name": "IntegracionNativa"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/OptimizacionPublica.jpg",
+          "link": "web/Dinamico/Propuestas/OptimizacionPublica.md",
+          "name": "OptimizacionPublica"
+        },
+        {
           "image": "web/Dinamico/Propuestas/PrivacidadDigital.jpg",
           "link": "web/Dinamico/Propuestas/PrivacidadDigital.md",
           "name": "PrivacidadDigital"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/ReformaPenitenciaria.jpg",
+          "link": "web/Dinamico/Propuestas/ReformaPenitenciaria.md",
+          "name": "ReformaPenitenciaria"
         },
         {
           "image": "web/Dinamico/Propuestas/SaludGeneral.jpg",
@@ -42,9 +57,19 @@
           "name": "SaludGeneral"
         },
         {
-          "image": "web/Dinamico/Propuestas/SaludMental.jpeg",
+          "image": "web/Dinamico/Propuestas/SaludMental.jpg",
           "link": "web/Dinamico/Propuestas/SaludMental.md",
           "name": "SaludMental"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/Trenes.jpg",
+          "link": "web/Dinamico/Propuestas/Trenes.md",
+          "name": "Trenes"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/UniversidadTecnologica.jpg",
+          "link": "web/Dinamico/Propuestas/UniversidadTecnologica.md",
+          "name": "UniversidadTecnologica"
         }
       ]
     }
