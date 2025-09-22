@@ -22,17 +22,22 @@
           "name": "Animal"
         },
         {
-          "image": "web/Dinamico/Propuestas/Educacion.png",
+          "image": "web/Dinamico/Propuestas/Educacion.jpg",
           "link": "web/Dinamico/Propuestas/Educacion.md",
           "name": "Educacion"
         },
         {
-          "image": "web/Dinamico/Propuestas/EspaciosVerdes.png",
+          "image": "web/Dinamico/Propuestas/EspaciosVerdes.jpg",
           "link": "web/Dinamico/Propuestas/EspaciosVerdes.md",
           "name": "EspaciosVerdes"
         },
         {
-          "image": "web/Dinamico/Propuestas/SaludGeneral.png",
+          "image": "web/Dinamico/Propuestas/PrivacidadDigital.jpg",
+          "link": "web/Dinamico/Propuestas/PrivacidadDigital.md",
+          "name": "PrivacidadDigital"
+        },
+        {
+          "image": "web/Dinamico/Propuestas/SaludGeneral.jpg",
           "link": "web/Dinamico/Propuestas/SaludGeneral.md",
           "name": "SaludGeneral"
         },
