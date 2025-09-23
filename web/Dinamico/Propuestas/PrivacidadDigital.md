@@ -32,17 +32,17 @@ De hecho los TAG funcionan conectandose a tu telefono y usando tu Internet para 
 
 ![AirTAG](https://i.ibb.co/Kc061Bwk/image.png)
 
+## Hasta tu 🚗 te espia
+Los coches modernos recopilan información sobre tu estilo de conducción, ubicación y hasta tus hábitos digitales. Esta información se puede usar para fines comerciales o incluso para discriminarte en seguros...
 
 
 Con todos estos datos, pueden predecir qué productos es probable que compres, qué noticias vas a leer o incluso influir en tus decisiones políticas mostrando publicidad personalizada o contenido recomendado.
 las empresas pueden construir un mapa detallado de tu mente y hábitos, que muchas veces ni siquiera vos conocés. Esto permite desde publicidad hiperpersonalizada hasta microsegmentación política: básicamente, saben qué decisiones es más probable que tomes antes de que las tomes.
 
-# 🚗 Tu coche te espia
 
-Los coches modernos recopilan información sobre tu estilo de conducción, ubicación y hasta tus hábitos digitales. Esta información se puede usar para fines comerciales o incluso para discriminarte en seguros...
 
 # 📡 ¿Espionaje israelí en Paraguay?
-
+Y no solo las empresas y aplicaciones te espian, hasta los gobiernos extranjeros...
 En 2020, se descubrió que en América Latina, incluyendonos, existían antenas falsas conocidas como IMSI Catchers. Estas antenas tienen la capacidad de interceptar llamadas telefónicas, mensajes y datos móviles, permitiendo el seguimiento de personas sin su conocimiento.
 Resumen Rapido de como funciona:
 
@@ -71,11 +71,13 @@ Tanto Matrix como Signal tienen un “cifrado libre”, significa que cualquiera
 Aunque WhatsApp tiene cifrado E2EE, no es auditable ni open source. Sus claves se generan en los servidores de Meta (dueña de whatsapp) y quien quiera que tenga la clave, puede ver todo lo que haces. 
 
 ## Utiliza Navegadores Seguros con Plugins
-Utiliza Thorium Browser (un Chrome Centrado en la Privacidad)
-o LibreWolf (un Firefox Centrado en la Privacidad)
+### Thorium Browser 
+(un Chrome Centrado en la Privacidad)
+
+### LibreWolf 
+(un Firefox Centrado en la Privacidad)
 Añadiendo Plugins que Bloquearan Toda publicidad que te rastrea, incluida la de YouTube. Nunca mas veras Publicidad, Felicidad Total.
 Instala uBlock
-
 
 ### Tor Browser
 Si quieres mas anonimato, ocultar IP y demas la solucion es usar Tor Browser
