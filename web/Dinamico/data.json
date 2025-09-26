@@ -1,19 +1,5 @@
 {
   "galleries": {
-    "Corrupcion": {
-      "images": [
-        {
-          "image": "web/Dinamico/Corrupcion/ANR.jpg",
-          "link": "web/Dinamico/Corrupcion/ANR.md",
-          "name": "ANR"
-        },
-        {
-          "image": "web/Dinamico/Corrupcion/PLRA.jpg",
-          "link": "web/Dinamico/Corrupcion/PLRA.md",
-          "name": "PLRA"
-        }
-      ]
-    },
     "Propuestas": {
       "images": [
         {
@@ -75,6 +61,20 @@
           "image": "web/Dinamico/Propuestas/UniversidadTecnologica.jpg",
           "link": "web/Dinamico/Propuestas/UniversidadTecnologica.md",
           "name": "UniversidadTecnologica"
+        }
+      ]
+    },
+    "Corrupcion": {
+      "images": [
+        {
+          "image": "web/Dinamico/Corrupcion/ANR.jpg",
+          "link": "web/Dinamico/Corrupcion/ANR.md",
+          "name": "ANR"
+        },
+        {
+          "image": "web/Dinamico/Corrupcion/PLRA.jpg",
+          "link": "web/Dinamico/Corrupcion/PLRA.md",
+          "name": "PLRA"
         }
       ]
     }
