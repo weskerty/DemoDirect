@@ -1,4 +1,4 @@
-## Explicación Detallada del Sistema v1
+## Explicación Detallada del Sistema v2
 
 ### 🏗️ Estructura del Sistema
 
@@ -10,11 +10,81 @@
 
 - ✅ **Votos altos:** +1% Voto Ciudadanía total Municipal. 0.80% Voto Ciudadanía total Nacional, si no se alcanzan los límites se utilizan los más cercanos
 - 👥 **Grupo completo de presentadores**
-- 🔬 **Teoría y método científico** que muestre beneficios
-- 💰 **Recursos monetarios, ambientales y demás** que serán utilizados especificados claramente
-- ⚖️ **Antítesis obligatoria:** Contraparte que explique el lado negativo (todos pueden presentar contrapartes). Si los proponentes no presentan antítesis propia, se destinan fondos públicos automáticamente para que otros grupos desarrollen la contrapropuesta, similar a la **Dialéctica hegeliana**
-- 📊 **Declaración de fuentes de financiamiento**
-- 📝 **Registro público de asesores**
+- 🔬 **Teoría y método científico** que informe tanto de los beneficios como desventajas
+- 💰 **Informarcion sobre recursos a usar** Datos como ambiente, recursos monetarios y demas 
+- ⚖️ **Antítesis obligatoria propia + Ajenos:** Los proponentes deben incluir al menos 2 antítesis desarrollada que explique el lado negativo. Una propia y otra de la comunidad.
+- 📊 **Declaración de fuentes de financiamiento** Ejemplo: Con que recursos se lograron sus investigaciones
+- 📝 **Registro público de contribuyentes**  Ej: "Esta propuesta de reforma fiscal fue asesorada por: Nombre, Profesion, CedulaIdentidad y demas de los colaboradores
+
+---
+
+### 🔄 Modelo de Colaboración Tipo GitHub
+
+La plataforma funcionará como un repositorio de código abierto aplicado a propuestas legislativas:
+
+#### 📝 **Propuesta Principal (Main Branch)**
+- Autor original presenta la **tesis principal** con todos los requisitos
+- Debe incluir al menos una **antítesis propia** bien fundamentada
+- Código abierto: cualquiera puede ver, analizar y comentar en la plataforma
+
+#### 🐛 **Issues (Antítesis y Críticas)**
+- Cualquier ciudadano puede abrir un "Problema" señalando:
+  - Problemas específicos con la propuesta
+  - Consecuencias no previstas
+  - Errores en los datos o metodología
+  - Antítesis adicionales con argumentos científicos
+  - etc
+- Los proponentes originales deben **responder a todos los issues**
+- Issues se cierran cuando se resuelve la crítica o se acepta como limitación
+
+#### 🔧 **Mejoras Colaborativas**
+- Ciudadanos pueden proponer **mejoras específicas** a propuestas existentes
+- Cambios en redacción, metodología, implementación, presupuesto
+- El equipo original puede **aceptar, rechazar o negociar** los cambios
+- Historial completo de todas las modificaciones
+
+#### 🍴 **Forks (Versiones Alternativas)**
+- Si hay desacuerdo fundamental, cualquiera puede crear una **versión alternativa** de la propuesta
+- Ambas versiones pueden competir en la misma votación
+- Se preserva la relación entre propuesta original y alternativas con todos sus problemas y agregados de la original
+
+#### 👥 **Sistema de Colaboradores**
+- Los proponentes originales mantienen permisos de **"maintainer"**
+- Pueden agregar colaboradores con permisos específicos
+- Historial público de quién contribuyó a cada parte
+
+#### 🏷️ **Tags y Releases**
+- Versiones estables de propuestas marcadas como **"releases"**
+- Solo las versiones "release" van a votación
+- Sistema de versionado claro (v1.0, v1.1, v2.0, etc.)
+
+---
+
+### 🚫 Prohibición Absoluta de Propaganda Masiva
+
+#### ❌ **Está Prohibido:**
+- Publicidad pagada en **TV, radio, periódicos, revistas**
+- Propaganda en **redes sociales patrocinada** (Facebook Ads, Google Ads, etc.)
+- **Vallas publicitarias, carteles, volantes** en espacios públicos
+- **Influencers o personalidades pagadas** para promover propuestas
+- **Eventos masivos financiados** para promocionar propuestas
+- Cualquier forma de **promoción pagada** en medios masivos
+
+#### ✅ **Está Permitido:**
+- **Conversaciones personales** cara a cara (boca a boca)
+- **Acceso libre a la plataforma digital** donde están todas las propuestas
+- **Debates organizados** por la plataforma oficial (sin costo)
+- **Documentación técnica** disponible en la plataforma
+- **Conferencias académicas** sin financiamiento específico para promoción
+- **Redes sociales orgánicas** (posts sin promoción pagada)
+
+
+# 🔍 **Sanciones:**
+Quien rompa las reglas
+- **Multas severas** 
+- **Descalificación de su rol dentro de la propuesta** la propuesta pasara a otro de sus integrantes
+- **Auditoría financiera** todos seran investigados
+
 
 ---
 
@@ -31,8 +101,8 @@
 **Criterio:** Afecta principalmente a residentes locales, si afecta a otras municipalidades y no se llega a un acuerdo pasa a nivel nacional.
 
 **Proceso:**
-1. 💻 Plataforma digital donde todos los ciudadanos pueden presentar propuestas
-2. 💬 Debate digital en la plataforma (foro con tesis y antítesis)
+1. 💻 Plataforma digital estilo GitHub para propuestas municipales
+2. 💬 Debate digital continuo (issues, pull requests, forks)
 3. 🗳️ **Votación presencial cada 6 meses** en locales designados con:
    - Cédula de identidad 
    - Sistemas biométricos
@@ -51,7 +121,7 @@
 **Criterio:** Tiene efectos significativos más allá del municipio (ej: leyes ambientales que afectan múltiples territorios)
 
 **Proceso:**
-1. 💻 Plataforma digital donde cualquier ciudadano puede proponer
+1. 💻 Plataforma digital estilo GitHub para propuestas nacionales
 2. 🔍 **Filtro:** Solo propuestas que superen un umbral mínimo de apoyo nacional
 3. 🏛️ **Debates presenciales nacionales cada 1 año** en juntas designadas
 4. 🗳️ **Votación presencial** con mismo sistema biométrico, cédula con chip etc.
@@ -63,12 +133,12 @@
 ### 🗣️ Reuniones de Debate y Votación
 
 #### 🏘️ Nivel Municipal:
-- 💬 Debate digital continuo en plataformas (foro de tesis y antítesis)
+- 💬 Debate digital continuo en plataforma GitHub-style
 - 🗳️ Votación presencial cada 6 meses en locales municipales con cédula de identidad
 
 #### 🏛️ Nivel Nacional:
 - 🏛️ Debates presenciales cada 1 año en juntas nacionales para temas de alcance país
-- 📋 Presentación de propuestas bien documentadas con pruebas de beneficio comprobables científicamente, tanto la **Tesis** como la **Antítesis**
+- 📋 Presentación de propuestas bien documentadas con pruebas de beneficio comprobables científicamente, tanto la **Tesis** como las **Antítesis**
 - 🗳️ Votación presencial a través de sistemas digitales con seguridad biométrica y cédula de identidad
 
 > Este período anual permite mayor participación ciudadana, mejor desarrollo de propuestas y estabilidad en la implementación de políticas. En casos de **emergencia** se pueden convocar reuniones extraordinarias y se ablandan los requisitos de documentación para permitir respuesta rápida.
@@ -94,7 +164,7 @@ Toda sociedad requiere un núcleo de **derechos fundamentales** que no puedan se
 
 > ⚠️ Esta lista es solo un ejemplo, los ciudadanos deberían elegir cómo sería la nueva constitución al inicio de este sistema.
 
-Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con al menos 80% de aprobación**. El umbral extremadamente alto asegura que solo un consenso casi absoluto pueda alterar los fundamentos de la convivencia.
+Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con al menos 90% de aprobación**. El umbral extremadamente alto asegura que solo un consenso casi absoluto pueda alterar los fundamentos de la convivencia.
 
 ---
 
@@ -172,8 +242,8 @@ Para evitar que colegios profesionales, gremios o instituciones académicas mono
 
 ### 💵 Financiamiento Transparente y Equitativo:
 
-#### Para propuestas nacionales únicamente:
-- 💰 Presupuesto público igual para documentar cada propuesta que alcance un mínimo de firmas del nivel nacional
+#### Para propuestas nacionales:
+- 💰 Presupuesto público para documentar cada propuesta que alcance un mínimo de firmas del nivel nacional
 - 🔬 Financiamiento para investigación y desarrollo de propuestas de nivel nacional
 
 #### Para propuestas municipales:
@@ -181,16 +251,16 @@ Para evitar que colegios profesionales, gremios o instituciones académicas mono
 - 💼 Los proponentes desarrollan sus propuestas con recursos propios o privados
 
 #### Para ambos niveles:
-- 🔍 **Transparencia total obligatoria** en financiamiento privado durante todas las fases
-- 📊 Límites razonables al gasto en "educación ciudadana" pre-votación
+- 🔍 **Transparencia total obligatoria** toda fuente de financiamiento durante todas las fases
 
-### 🔄 Transparencia Radical y Adversarial:
+### 🔄 Transparencia Radical y Colaborativa:
 
-- ⚖️ **Antítesis financiada:** Toda propuesta debe declarar sus fuentes de financiamiento. Si no se presenta antítesis propia, el sistema automáticamente destina fondos públicos para que grupos opositores desarrollen contrapartes
+- ⚖️ **Antítesis obligatoria:** Toda propuesta debe incluir al menos una antítesis propia bien fundamentada
+- 🐛 **Issues abiertos:** Cualquier ciudadano puede señalar problemas o crear antítesis adicionales
 - 📋 **Registro público obligatorio** de quién asesora cada propuesta
 - 👥 **Múltiples equipos** pueden presentar documentación sobre la misma propuesta
-- 🏆 **Competencia estructurada:** Incentivos públicos para que organizaciones civiles contrarresten propuestas corporativas
-- 🔄 **Rotación de poder:** Los especialistas que validen en un área no pueden hacerlo en períodos consecutivos
+- 🔄 **Sistema colaborativo:** Pull requests permiten mejoras ciudadanas a propuestas existentes
+- 🍴 **Versiones alternativas:** Forks crean competencia entre diferentes enfoques
 
 ### 🌐 Accesibilidad:
 
@@ -219,6 +289,8 @@ Para evitar cambios frecuentes a leyes bases:
 5. **⚖️ Equilibrio entre igualdad y mérito:** Todos votan, pero los informados tienen mayor responsabilidad
 6. **🙋‍♂️ Participación voluntaria:** Solo quienes realmente se interesan participan, evitando votos desinformados o forzados
 7. **🏘️ Subsidiaridad inteligente:** Las decisiones se toman en el nivel más apropiado y cercano a los afectados
+8. **🚫 Eliminación de propaganda manipulativa:** Solo el mérito de las ideas compite, no el poder económico
+9. **🔄 Colaboración ciudadana:** Sistema GitHub permite mejoras colectivas a las propuestas
 
 ---
 
@@ -231,6 +303,7 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 - 🔒 **Los derechos fundamentales nunca estén en riesgo de retrocesos**
 - 🚫 **La participación es genuina, no manipulada por recursos económicos**
 - 🎓 **La educación se convierte en una herramienta de empoderamiento real**
+- 🤝 **La colaboración ciudadana mejora continuamente las propuestas**
 
 ---
 
@@ -269,4 +342,4 @@ Estonia logró digitalizar el **100% de sus servicios públicos** y mantiene **v
 
 > El futuro pertenece a aquellos que creen en la belleza de sus sueños.
 
-
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jcdenken/video/7535515266365574406" data-video-id="7535515266365574406" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jcdenken" href="https://www.tiktok.com/@jcdenken?refer=embed">@jcdenken</a> <p>👉 ¿Otra vez con la misma piedra? Dicen que tropezamos dos veces con la misma piedra… ¿Y si alguien la pone ahí a propósito? Este no es un video más: es un llamado a la memoria, la conciencia y la acción. 📌 No se trata solo de resistir. Se trata de recordar. #Despierta #ResilienciaConMemoria #NoTeCalles #PoliticaParaPensar #MemoriaActiva</p> <a target="_blank" title="♬ sonido original - jcdenken - JCDenken" href="https://www.tiktok.com/music/sonido-original-jcdenken-7535515447795043128?refer=embed">♬ sonido original - jcdenken - JCDenken</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>

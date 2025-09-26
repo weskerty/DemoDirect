@@ -11,14 +11,24 @@
 Aqui un contexto del por que es importante pensar ahora en estas leyes.
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/ihq_TLPugZI?si=CchKDJMswyOXUVrU&amp;controls=0" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; " referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
+# Extinciones 
+Estas son varias Extinsiones de Animales en la ultima Decada.
+Para Concientizar.
 
+Esto son solo unos cuantos, Puedes ver la lista completa en esta web:
 
 # En Paraguay
 Actualmente no hay reciclador de reciduos ni separacion por tipo... 
-No hay limites al plastico cuando bien se pueden volver a utilizar recipientes retornables de vidrio como en el pasado
+No hay limites al plastico cuando bien se pueden volver a utilizar recipientes retornables de vidrio como en el pasado.
+Todas las propuestas que se propondran abajo no Afecta el gasto publico, ya que son regulaciones.
+El estado no deberia pagar para limpiar lo que otro ensucia.
 
 
+## Limitacion del Plastico
+El uso del platico estara prohibido.
+Solo las areas medicas o especificas que requieran plastico sera aprobada.
 
+Antes se utilizaban recipientes de vidrio para 
 
 
 

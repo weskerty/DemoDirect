@@ -25,7 +25,7 @@ En un Android con Servicios de Google, el teclado de Google [GBoard](https://pla
 Mas ejemplos:
 YouTube: Cada video que ves le dice a Google cómo pensás, qué te gusta y hasta qué emociones buscas.
 Google Maps: Sabe a dónde vas, con quién, a qué hora, y cuánto tardás. Puede reconstruir tu rutina diaria. De hecho gracias a esto se sabe que rutas tienen mas trafico
-<iframe height="315" width="70%" src="https://www.youtube-nocookie.com/embed/mn40YjCw51I?si=x_RyyJm7mFjwjzSE&amp;start=28" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe height="315" width="100%" src="https://www.youtube-nocookie.com/embed/mn40YjCw51I?si=x_RyyJm7mFjwjzSE&amp;start=28" title="YouTube video player" frameborder="0" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Aplicaciones pueden saber que modelo de telefono tenes, la señal, la bateria actual, la presion del ambiente, cuanta luz hay, a que distancia te moves, cuantos pasos hiciste etc.
 De hecho los TAG funcionan conectandose a tu telefono y usando tu Internet para comunicarse. Basicamente sos el Router del TAG y la gente te usa para ver la ubicacion de sus TAG
@@ -71,19 +71,21 @@ Tanto Matrix como Signal tienen un “cifrado libre”, significa que cualquiera
 Aunque WhatsApp tiene cifrado E2EE, no es auditable ni open source. Sus claves se generan en los servidores de Meta (dueña de whatsapp) y quien quiera que tenga la clave, puede ver todo lo que haces. 
 
 ## Utiliza Navegadores Seguros con Plugins
-### Thorium Browser 
+### Thorium Browser [![Thorium](https://img.shields.io/badge/Thorium-4285F4?sstyle=flat&logo=Google-chrome&logoColor=000000)](https://github.com/Alex313031/Thorium-Win/releases)
 (un Chrome Centrado en la Privacidad)
 
-### LibreWolf 
+### LibreWolf  [![LibreWolf](https://img.shields.io/badge/LibreWolf-00ACFF?style=flat&logo=librewolf&logoColor=000000)](https://librewolf.net/)
 (un Firefox Centrado en la Privacidad)
-Añadiendo Plugins que Bloquearan Toda publicidad que te rastrea, incluida la de YouTube. Nunca mas veras Publicidad, Felicidad Total.
-Instala uBlock
 
-### Tor Browser
+### Tor Browser [![Tor](https://img.shields.io/badge/Tor_Browser-7D4698?style=flat&logo=Tor-Browser&logoColor=white)](https://www.torproject.org/)
 Si quieres mas anonimato, ocultar IP y demas la solucion es usar Tor Browser
 Pero este navegador, aunque seguro, es complejo de utilizar.
 No se recomienda instalar Plugins ya que romperias tu ID clonica y podrias ser identificado en la web, ademas paginas como Google prohiben el uso de Tor relentizando sus servicios o bloqueandote directamente.
 Si priorizas la privacidad y esto no es molestia, Tor es tu Aliado.
+
+## Instala Plugins
+Añadiendo Plugins que Bloquearan Toda publicidad que te rastrea, incluida la de YouTube. Nunca mas veras Publicidad, Felicidad Total.
+[Instala uBlock](https://ublockorigin.com/)
 
 # Y ya estamos asalvo?
 Lamentablemente no. Hoy en dia los nuevos dispositivos tienen el chip "Pluton"
@@ -101,4 +103,4 @@ Al no poder desactivarlo o auditarlo no te queda mas que comprar hardware nuevo.
 Las Mejores soluciones es simplemente utilizar Sistemas operativos libres. Aunque eso no nos libre...
 Hay proyectos comunitarios de Modding Firmware, pero no todos pueden hacer esto.
 
-Es por esto la importancia de tener Leyes que Prioricen nuestro DERECHO DIGITAL.
+# Es por esto la importancia de tener Leyes que Prioricen nuestro DERECHO DIGITAL.
