@@ -8,18 +8,17 @@
 
 <h1>Por un Paraguay Mejor</h1>
         <h3>No mas Politicos Corruptos</h3>
-
-
-
-
 <p>Hoy en día tenemos una supuesta "Democracia" llamada "Democracia Representativa" en donde se vota por alguien que represente tus ideales. Pero este sistema tiene muchas fallas, Ejemplo;</p>
 
 <p>Un político en su campaña política dice que eliminará la corrupción, es afín a tu ideal y lo votas. Pero <strong>¿qué sucede cuando esos representantes por los que votaste, ahora políticos en el poder ignoran lo que prometieron hacer?</strong></p>
 <p><em>Ejemplo:</em> <a href="https://www.ultimahora.com/donacion-de-taiwan-escandalo-sobre-supuestos-audios-salpica-a-senadores">Repartirse la Donacion de Taiwan que se SUPONIA debia ser para mejorar el Pais con mas Escuelas y Demas</a>
+
 <div class="section">
     <h2>Más Ejemplos de Corrupción</h2>
     <div class="gallery-container">
-        <div id="corrupcion-gallery" class="contenedor-imagenes-animado">
+        <div id="corrupcion-gallery" 
+             class="contenedor-imagenes-animado"
+             data-json-path="web/Dinamico/data.json">
            
         </div>
         <a href="web/Dinamico/Corrupcion/es.html" class="view-all-button">Ver Lista Completa</a>
@@ -36,7 +35,9 @@
 
 <div class="section">
     <div class="gallery-container">
-        <div id="propuestas-gallery" class="contenedor-imagenes-animado">
+        <div id="propuestas-gallery" 
+             class="contenedor-imagenes-animado"
+             data-json-path="web/Dinamico/data.json">
            
         </div>
         <a href="web/Dinamico/Propuestas/es.html" class="view-all-button">Ver Lista Completa</a>
@@ -191,13 +192,21 @@ showQuote(0);
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
 
 <script>
-
-async function loadGalleryData() {
+async function loadGalleryData(jsonPath) {
     try {
-        const response = await fetch('web/Dinamico/data.json');
+        console.log(`Intentando cargar: ${jsonPath}`);
+        const response = await fetch(jsonPath);
+        console.log(`Response status: ${response.status}`);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+        }
+        
         const data = await response.json();
+        console.log('Datos cargados:', data);
         return data.galleries;
     } catch (error) {
+        console.error(`Error loading gallery data from ${jsonPath}:`, error);
         return null;
     }
 }
@@ -207,7 +216,7 @@ function createSwiper(container, images) {
         <div class="swiper-wrapper">
             ${images.map(item => `
                 <div class="swiper-slide">
-                    <a href="${item.link}">
+                    <a href="${item.link || '#'}">
                         <img src="${item.image}" alt="${item.name || 'Imagen'}" loading="lazy" />
                     </a>
                 </div>
@@ -227,57 +236,73 @@ function createSwiper(container, images) {
     });
 }
 
-function parseInlineGalleryData(element) {
-    try {
-        const content = element.textContent.trim();
-        if (!content) return null;
-        const jsonStr = `[${content}]`;
-        return { images: JSON.parse(jsonStr) };
-    } catch (error) {
-        return null;
+function filterGalleryData(galleryData, container) {
+    const galleryKey = container.dataset.galleryKey;
+    const galleryFilter = container.dataset.galleryFilter;
+    const containerId = container.id.replace('-gallery', '');
+    
+    if (galleryKey && galleryData[galleryKey]) {
+        return galleryData[galleryKey].images || [];
     }
+    
+    if (galleryFilter) {
+        const matchingEntries = Object.entries(galleryData).filter(([key, value]) => 
+            key.toLowerCase().includes(galleryFilter.toLowerCase())
+        );
+        
+        if (matchingEntries.length > 0) {
+            return matchingEntries.flatMap(([key, value]) => value.images || []);
+        }
+    }
+    
+    const matchingKey = Object.keys(galleryData).find(key => 
+        key.toLowerCase() === containerId.toLowerCase()
+    );
+    
+    if (matchingKey && galleryData[matchingKey]) {
+        return galleryData[matchingKey].images || [];
+    }
+    
+    return [];
 }
 
-async function initializeAllGalleries() {
+async function initializeUniversalSwiper() {
     if (typeof Swiper === 'undefined') {
+        console.log('Swiper no está cargado aún');
         return;
     }
     
-    const allGalleryData = await loadGalleryData();
+    const galleryElements = document.querySelectorAll('.contenedor-imagenes-animado[data-json-path]');
     
-    if (allGalleryData) {
-        const galleryElements = document.querySelectorAll('[id$="-gallery"]');
+    for (const container of galleryElements) {
+        const jsonPath = container.dataset.jsonPath;
         
-        galleryElements.forEach(container => {
-            const galleryId = container.id.replace('-gallery', '');
-            
-            const matchingKey = Object.keys(allGalleryData).find(key => 
-                key.toLowerCase() === galleryId.toLowerCase()
-            );
-            
-            if (matchingKey && allGalleryData[matchingKey].images?.length > 0) {
-                container.classList.add('swiper');
-                createSwiper(container, allGalleryData[matchingKey].images);
-            }
-        });
-    } else {
-        return;
-    }
-
-    const inlineGalleries = document.querySelectorAll('.contenedor-imagenes-animado:not([id])');
-    
-    inlineGalleries.forEach(async (container) => {
-        const inlineData = parseInlineGalleryData(container);
-        if (inlineData) {
-            container.classList.add('swiper');
-            createSwiper(container, inlineData.images);
+        if (!jsonPath) {
+            container.innerHTML = '<p>No se especificó ruta JSON</p>';
+            continue;
         }
-    });
+        
+        const galleryData = await loadGalleryData(jsonPath);
+        
+        if (!galleryData) {
+            container.innerHTML = '<p>Error al cargar datos</p>';
+            continue;
+        }
+        
+        const images = filterGalleryData(galleryData, container);
+        
+        if (images.length > 0) {
+            container.classList.add('swiper');
+            createSwiper(container, images);
+        } else {
+            container.innerHTML = '<p>Sin Elementos</p>';
+        }
+    }
 }
 
 function waitForSwiperAndInit() {
     if (typeof Swiper !== 'undefined') {
-        initializeAllGalleries();
+        initializeUniversalSwiper();
     } else {
         setTimeout(waitForSwiperAndInit, 100);
     }

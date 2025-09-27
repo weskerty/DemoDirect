@@ -41,7 +41,7 @@ las empresas pueden construir un mapa detallado de tu mente y hábitos, que much
 
 
 
-# 📡 ¿Espionaje israelí en Paraguay?
+# 📡 ¿Espionaje Extranjero en Paraguay?
 Y no solo las empresas y aplicaciones te espian, hasta los gobiernos extranjeros...
 En 2020, se descubrió que en América Latina, incluyendonos, existían antenas falsas conocidas como IMSI Catchers. Estas antenas tienen la capacidad de interceptar llamadas telefónicas, mensajes y datos móviles, permitiendo el seguimiento de personas sin su conocimiento.
 Resumen Rapido de como funciona:
