@@ -24,6 +24,17 @@
           "path": "Ambiente/GaleriaVidrios"
         }
       ]
+    },
+    "Ambiente_PYContaminado": {
+      "path": "Ambiente/PYContaminado",
+      "images": [
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py1.jpg",
+          "name": "py1",
+          "path": "Ambiente/PYContaminado",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py1.html"
+        }
+      ]
     }
   }
 }
