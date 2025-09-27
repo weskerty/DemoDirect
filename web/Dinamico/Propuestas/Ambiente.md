@@ -43,6 +43,12 @@ Podriamos volver a ese tiempo, se reduciria enormemente la contaminacion por pla
 
 ## Ambiente
 
+<div class="section">
+    <div class="gallery-container">
+        <div id="Ambiente_PYContaminado-gallery" 
+             class="contenedor-imagenes-animado"
+             data-json-path="web/otros/Archivos/Imagenes/data.json">
+</div>
 
 ## Salud
 
@@ -59,15 +65,18 @@ Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como e
 
 
 
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@luciadcr/video/7547694306513964310" data-video-id="7547694306513964310" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@luciadcr" href="https://www.tiktok.com/@luciadcr?refer=embed">@luciadcr</a> 🌍 Los ricos no van a actuar frente al cambio climático porque tienen un plan: huir de las consecuencias.  <a title="cambioclimatico" target="_blank" href="https://www.tiktok.com/tag/cambioclimatico?refer=embed">#cambioclimatico</a> <a title="millonarios" target="_blank" href="https://www.tiktok.com/tag/millonarios?refer=embed">#millonarios</a> <a title="politica" target="_blank" href="https://www.tiktok.com/tag/politica?refer=embed">#politica</a> <a title="informacion" target="_blank" href="https://www.tiktok.com/tag/informacion?refer=embed">#informacion</a> <a title="analisis" target="_blank" href="https://www.tiktok.com/tag/analisis?refer=embed">#analisis</a> <a target="_blank" title="♬ sonido original - Lucía de Castro" href="https://www.tiktok.com/music/sonido-original-7547694336021613334?refer=embed">♬ sonido original - Lucía de Castro</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 
 
 
 
 
-
-
-
+# ¿Aquieres Ayudar?
+<script async src="https://telegram.org/js/telegram-widget.js?22"
+  data-telegram-post="Ambientalism/144"
+  data-width="100%">
+</script>
 
 
 
