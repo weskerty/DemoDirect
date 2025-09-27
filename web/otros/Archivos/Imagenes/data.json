@@ -1,0 +1,29 @@
+{
+  "galleries": {
+    "Ambiente_GaleriaVidrios": {
+      "path": "Ambiente/GaleriaVidrios",
+      "images": [
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/GaleriaVidrios/palmito-440gramos-1.jpg",
+          "name": "palmito-440gramos-1",
+          "path": "Ambiente/GaleriaVidrios"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/GaleriaVidrios/MayoHell.jpg",
+          "name": "MayoHell",
+          "path": "Ambiente/GaleriaVidrios"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/GaleriaVidrios/atun.jpg",
+          "name": "atun",
+          "path": "Ambiente/GaleriaVidrios"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/GaleriaVidrios/anxova-sal-pot.jpg",
+          "name": "anxova-sal-pot",
+          "path": "Ambiente/GaleriaVidrios"
+        }
+      ]
+    }
+  }
+}
