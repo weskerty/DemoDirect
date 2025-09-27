@@ -42,6 +42,7 @@ Podriamos volver a ese tiempo, se reduciria enormemente la contaminacion por pla
 # Consecuencias de la Contaminacion:
 
 ## Ambiente
+La contaminacion ambiental arruina nuestros espacios verdes y la vida animal.
 
 <div class="section">
     <div class="gallery-container">
@@ -51,6 +52,11 @@ Podriamos volver a ese tiempo, se reduciria enormemente la contaminacion por pla
 </div>
 
 ## Salud
+Y no solo vida animal, sino tambien nuestra salud. El calor excesivo generado por la deforestacion y gases efecto invernaderos afecta al corazon, al cerebro, a los pulmones, al riñon etc.
+Tenemos que cuidar el ambiente para que este cuide de nosotros.
+
+[Mas de 200 Personas diarias hospitalizadas por golpe de Calor](https://www.lanacion.com.py/pais_edicion_impresa/2024/03/16/por-golpes-de-calor-unas-150-personas-consultan-en-hospital/)
+[Contaminación ambiental por humo podría causar depresión, ansiedad y hasta Alzheimer](https://www.paraguay.com/nacionales/contaminacion-ambiental-por-humo-podria-causar-depresion-ansiedad-y-hasta-alzheimer)
 
 ## Extinciones 
 Estas son varias Extinsiones de Animales en la ultima Decada.
@@ -73,10 +79,7 @@ Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como e
 
 
 # ¿Aquieres Ayudar?
-<script async src="https://telegram.org/js/telegram-widget.js?22"
-  data-telegram-post="Ambientalism/144"
-  data-width="100%">
-</script>
+<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="Ambientalism/144" data-width="100%" data-userpic="false" data-color="738633" data-dark="1"></script>
 
 
 
