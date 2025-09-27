@@ -29,6 +29,12 @@
       "path": "Ambiente/PYContaminado",
       "images": [
         {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py10.jpg",
+          "name": "py10",
+          "path": "Ambiente/PYContaminado",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py10.html"
+        },
+        {
           "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py6.jpg",
           "name": "py6",
           "path": "Ambiente/PYContaminado",
@@ -39,6 +45,18 @@
           "name": "py7",
           "path": "Ambiente/PYContaminado",
           "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py7.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py9.jpg",
+          "name": "py9",
+          "path": "Ambiente/PYContaminado",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py9.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py11.jpg",
+          "name": "py11",
+          "path": "Ambiente/PYContaminado",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py11.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py4.jpg",
@@ -57,6 +75,12 @@
           "name": "py3",
           "path": "Ambiente/PYContaminado",
           "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py3.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py8.jpg",
+          "name": "py8",
+          "path": "Ambiente/PYContaminado",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py8.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/py5.jpg",
