@@ -1,5 +1,5 @@
 <div style="text-align:center;">
-    <h1>✨Lista de Propuestas✨</h1>
+    <h1>Lista Corrupcion</h1>
     <div class="grid-gallery" 
          id="Corrupcion-grid"
          data-json-path="web/Dinamico/data.json">
@@ -74,7 +74,7 @@ async function initializeUniversalGallery() {
         const galleryData = await loadGalleryData(jsonPath);
         
         if (!galleryData) {
-            container.innerHTML = '<p>Error al cargar datos</p>';
+            container.innerHTML = '<p>Sin Corrupcion</p>';
             continue;
         }
         
@@ -83,7 +83,7 @@ async function initializeUniversalGallery() {
         if (images.length > 0) {
             createGridGallery(container, images);
         } else {
-            container.innerHTML = '<p>Sin Elementos</p>';
+            container.innerHTML = '<p>Sin Corrupcion</p>';
         }
     }
 }

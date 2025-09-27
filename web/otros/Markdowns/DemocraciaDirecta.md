@@ -307,9 +307,9 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 
 ---
 
-## 🌍 Casos de Éxito Mundiales
+# 🌍 Casos de Éxito Mundiales
 
-Este modelo **no es utópico**: se inspira en prácticas exitosas de democracia directa y digital implementadas mundialmente en diversos países como:
+Este modelo **no es utópico**: se inspira en prácticas exitosas de democracia directa y digital implementadas mundialmente en diversos países de la Actualidad como:
 
 ### 🇨🇭 Suiza: El modelo de democracia directa más desarrollado
 
@@ -322,6 +322,24 @@ Taiwan ha abrazado la democracia digital como puente entre gobierno y ciudadanos
 ### 🇪🇪 Estonia: Digitalización completa exitosa
 
 Estonia logró digitalizar el **100% de sus servicios públicos** y mantiene **voto electrónico seguro** desde hace décadas, demostrando que la tecnología puede hacer la democracia más eficiente sin sacrificar seguridad.
+
+# Existos de la Antiguedad
+## ⚖️ Atenas: 
+
+La primera democracia directa conocida
+
+En el siglo V a.C., Atenas estableció un sistema de democracia directa en el que los ciudadanos decidían las leyes, la guerra y la justicia en asamblea. Era un modelo funcional en su escala, pues permitía la participación activa y el control ciudadano sobre el poder.
+Aunque tenia limitaciones como excluir mujeres y esclavos. Cosa que no se repetira en este Sistema ya que todos podremos proponer y votar.
+
+## ⚖️ Siracusa: 
+
+Democracia en el occidente griego
+
+Siracusa, en Sicilia, tuvo períodos de democracia directa tras la caída de tiranías. Los ciudadanos se reunían en asambleas para decidir sobre guerras, magistrados y juicios públicos.
+Aunque estas experiencias fueron intermitentes, interrumpidas por gobiernos autoritarios, y solo incluían a los ciudadanos varones libres.
+Hoy en dia, Sin un gobierno Dictatorial como el que tenemos, el sistema de Democracia Directa Tendra Estabilidad.
+
+
 
 > Estos casos demuestran que combinar participación ciudadana, tecnología moderna y principios de subsidiaridad federal no solo es posible, sino que puede funcionar eficientemente a diferentes escalas poblacionales.
 

@@ -56,22 +56,26 @@ Y no solo vida animal, sino tambien nuestra salud. El calor excesivo generado po
 Tenemos que cuidar el ambiente para que este cuide de nosotros.
 
 [Mas de 200 Personas diarias hospitalizadas por golpe de Calor](https://www.lanacion.com.py/pais_edicion_impresa/2024/03/16/por-golpes-de-calor-unas-150-personas-consultan-en-hospital/)
-[Contaminación ambiental por humo podría causar depresión, ansiedad y hasta Alzheimer](https://www.paraguay.com/nacionales/contaminacion-ambiental-por-humo-podria-causar-depresion-ansiedad-y-hasta-alzheimer)
+[Contaminación por humo causa Daño Neurologico](https://www.paraguay.com/nacionales/contaminacion-ambiental-por-humo-podria-causar-depresion-ansiedad-y-hasta-alzheimer)
 
 ## Extinciones 
+
 Estas son varias Extinsiones de Animales en la ultima Decada.
 Para Concientizar.
 
-galeriaimagenes
+galeriaimagenes <
 
-Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como esta:
+Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como esta: 
+[Wiki: Lista Extintos en Periodo Humano EN](https://en.wikipedia.org/wiki/Timeline_of_extinctions_in_the_Holocene)
+[Wiki: Mamiferos Extintos EN](https://en.wikipedia.org/wiki/List_of_recently_extinct_mammals)
+[Wiki: Plantas Extintas EN](https://en.wikipedia.org/wiki/List_of_recently_extinct_plants)
 
 
 
 
 
 
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@luciadcr/video/7547694306513964310" data-video-id="7547694306513964310" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@luciadcr" href="https://www.tiktok.com/@luciadcr?refer=embed">@luciadcr</a> 🌍 Los ricos no van a actuar frente al cambio climático porque tienen un plan: huir de las consecuencias.  <a title="cambioclimatico" target="_blank" href="https://www.tiktok.com/tag/cambioclimatico?refer=embed">#cambioclimatico</a> <a title="millonarios" target="_blank" href="https://www.tiktok.com/tag/millonarios?refer=embed">#millonarios</a> <a title="politica" target="_blank" href="https://www.tiktok.com/tag/politica?refer=embed">#politica</a> <a title="informacion" target="_blank" href="https://www.tiktok.com/tag/informacion?refer=embed">#informacion</a> <a title="analisis" target="_blank" href="https://www.tiktok.com/tag/analisis?refer=embed">#analisis</a> <a target="_blank" title="♬ sonido original - Lucía de Castro" href="https://www.tiktok.com/music/sonido-original-7547694336021613334?refer=embed">♬ sonido original - Lucía de Castro</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+<!-- <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@luciadcr/video/7547694306513964310" data-video-id="7547694306513964310" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@luciadcr" href="https://www.tiktok.com/@luciadcr?refer=embed">@luciadcr</a> 🌍 Los ricos no van a actuar frente al cambio climático porque tienen un plan: huir de las consecuencias.  <a title="cambioclimatico" target="_blank" href="https://www.tiktok.com/tag/cambioclimatico?refer=embed">#cambioclimatico</a> <a title="millonarios" target="_blank" href="https://www.tiktok.com/tag/millonarios?refer=embed">#millonarios</a> <a title="politica" target="_blank" href="https://www.tiktok.com/tag/politica?refer=embed">#politica</a> <a title="informacion" target="_blank" href="https://www.tiktok.com/tag/informacion?refer=embed">#informacion</a> <a title="analisis" target="_blank" href="https://www.tiktok.com/tag/analisis?refer=embed">#analisis</a> <a target="_blank" title="♬ sonido original - Lucía de Castro" href="https://www.tiktok.com/music/sonido-original-7547694336021613334?refer=embed">♬ sonido original - Lucía de Castro</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script> -->
 
 
 
@@ -79,9 +83,11 @@ Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como e
 
 
 # ¿Aquieres Ayudar?
+Puedes hacerlo, No compres productos que no necesitas, no uses Jabones no Biodegradables como OMO, usa alternativas limpias como Cavallaro sin (nombre quimicos contaminantes), no compres Tecnologia con obsolecencia programada como iPhones o Dispositivos con Bootliader Cerrado. Informarnos hoy para la salud del mañana. 
+Tambien puedes unirte a grupos de Limpieza y Concientizacion como BasuraChallengeParaguay:
 <script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="Ambientalism/144" data-width="100%" data-userpic="false" data-color="738633" data-dark="1"></script>
 
-
+# La Necesidad de Leyes Ambientales que nos proteja A TODOS es Necesaria para mantener la vida saludable en el Futuro.
 
 
 
