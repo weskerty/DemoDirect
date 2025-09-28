@@ -1,9 +1,14 @@
+<!-- participant: weskerty -->
+
 # Propuestas
 ## Pena Permanente
 ![PenaPermanente](https://i.ibb.co/Qvy8mcxn/image.png)
-Uno pensaria que es buena medida. Pero en Paraguay 68 % de la población carcelaria SIN CONDENA firme, Osea; Ya tienen una pena ya que nunca se Juzgo si son inocentes o no pero ya se les mete preso como manera "preventiva" [Fuente](https://revistaplus.com.py/2023/01/02/un-6802-de-la-poblacion-carcelaria-paraguaya-esta-bajo-prision-preventiva/) [Fuente2](https://www.infobae.com/america/agencias/2024/12/17/un-57-de-la-poblacion-carcelaria-en-paraguay-esta-bajo-prision-preventiva-segun-informe/)
-En Paraguay se abusa de esa medida. La Constitución y el Código Procesal Penal dicen que debe ser excepcional y temporal, pero la realidad es que no se respeta y terminan estando encarcelados mucho mas tiempo, luego se les da la condena y estan aun mas tiempo en prision ya que no se cuenta los años de prision preventiva
-Si se aprueba la pena permanente, con lo corrupto que es PY cualquier politico podria meter preso a quien quiera y este nunca mas salir...
+Uno pensaría que es una buena medida. Sin embargo, en Paraguay la realidad demuestra lo contrario: **el 68 % de la población carcelaria no tiene condena firme** y se encuentra bajo prisión preventiva [Fuente](https://revistaplus.com.py/2023/01/02/un-6802-de-la-poblacion-carcelaria-paraguaya-esta-bajo-prision-preventiva/) [Fuente2](https://www.infobae.com/america/agencias/2024/12/17/un-57-de-la-poblacion-carcelaria-en-paraguay-esta-bajo-prision-preventiva-segun-informe/).
+Esto significa que **ya cumplen una pena sin haber sido juzgados** ni declarados culpables: se los encarcela de manera “preventiva”, cuando la Constitución y el Código Procesal Penal establecen que esa medida debería ser **excepcional y temporal**.
+
+En la práctica, no se respeta. Muchas personas pasan **años privadas de libertad sin juicio**, y cuando finalmente reciben condena, **el tiempo de prisión preventiva no siempre se descuenta**, prolongando aún más su encarcelamiento.
+
+Si en este contexto se llegara a aprobar una **pena permanente**, con el nivel de corrupción que existe en Paraguay, **cualquier político tendría la herramienta para encarcelar de por vida a quien considere incómodo**, sin que esa persona pueda salir jamás.
 
 ## Ruben dice querer ir a la guerra contra paises vecinos
 Que un politico quiera comprar armas de guerra antes que mejorar la educacion de un pais es cuestionable...
