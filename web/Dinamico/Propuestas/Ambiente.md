@@ -89,7 +89,12 @@ Tambien puedes unirte a grupos de Limpieza y Concientizacion como BasuraChalleng
 
 # La Necesidad de Leyes Ambientales que nos proteja A TODOS es Necesaria para mantener la vida saludable en el Futuro.
 
+# Especies Invasoras
 
+Especie dominante por mano humana ya que jamas estuvo en un entorno tan favorecedor.
+Y lo que generara sera un entorno esteril.
+La poca  diversidad dañara aun mas el ambiente y su propio sustento.
+Inevitablemente el mas apto tambien morira por haber sido el mas apto.
 
 
 

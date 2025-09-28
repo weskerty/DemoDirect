@@ -28,13 +28,21 @@ Empleada encuentra los sobres, se la despide y le dejan una deuda de 11 millones
 <a href="https://www.abc.com.py/politica/2025/09/16/despidos-destapan-escandalo-de-sobres-con-miles-de-us-en-mburuvicha-roga/">Fuente</a>
 
 
+# Santi Acepta Delincuentes de USA
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FAM1080%2Fvideos%2F735101959290300%2F&show_text=false&width=560&t=0" width="100%" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+Quien esta de acuerdo con esto?
+La democracia Representativa es una Dictadura disfrazada de democracia. Los politicos hacen a su antojo sin importar el pueblo.
+Por eso la Importancia de una [Democracia Directa](web\otros\Markdowns\DemocraciaDirecta.md). 
+
+
 # Peña aumenta el sueldo a el y politicos.
 No nego la propuesta de aumentarse mas de G. 15.000 millones extra
 Ademas tienen beneficios fuera del sueldo que son: pasaje aéreo en primera clase, seguro médico vip de G. 1.200.000 mensuales, vales de combustibles de G. 5.000.000 mensuales entre otras mas.
 > Imagina se te caiga el techo del hospital mientras te operan... 
 > Por que los politicos usan hospitales privados con la plata del pueblo pero el pueblo debe ir bajo la lluvia a esperar desde la madrugada un turno en un hospital que se cae a pedazos?
 
-Los politicos se jubilan a los 10 años con sueldo gigante que es pagado con nuestro trabajo...
+
 
 <div class="gallery-container">
     <div class="contenedor-imagenes-animado" >
@@ -80,6 +88,15 @@ y eso sin hablar de sus familiares nepotistas
 Y para mas cara dura dijo que No hay plata para educacion... Pero desde Epoca de Cartes van reduciendo el presupuesto a educacion constantemente...
 ![alt text](https://www.rdn.com.py/wp-content/uploads/2021/10/maestros.jpg)
 <a href="https://www.ip.gov.py/ip/2025/08/18/pena-afirma-que-no-se-tienen-recursos-para-incrementar-salario-a-docentes/">Fuente</a>
+
+
+## No hay Plata Pero Los politicos se jubilan a los 10 años con sueldo gigante que es pagado con nuestro trabajo...
+Casi 20 Salarios minimos de Jubilacion cada 10 años. Mientras los trabajadores deben llegar a los 60 Años para jubilarse POR MENOS DEL MINIMO...
+NOSOTROS ESTAMOS PAGANDO SU VIDA DE LUJOS. Y lo mas Triste es que muchos mueren antes de llegar a la jubilacion 😢
+> Imagina tu abuela, tu madre o padre que haya trabajado toda su vida y cuando llegue a la jubilacion su salud este tan deteriorada que tenga que usar toda su jubilacion en medicamentos... Esta es la realidad de muchos...
+
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FTelefuturo%2Fvideos%2F1185561553374344%2F&show_text=false&width=560&t=0" width="100%" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
 
 Encima parece sobrefacturaron con los pupitres escolares
 Pidieron sillas a precio de oro a una empresa que hacia frazadas... 
@@ -144,6 +161,8 @@ A esto sumamos, la propuesta del Ministerio de Industria, Comercio, Turismo, Min
 -adelantenoticiaspy
 
 Cuando la mayoría vota por obligación, sin alternativas genuinas, y los políticos gobiernan de espaldas a la gente, lo que hay es un sistema electoral, pero no una democracia efectiva. Es, en la práctica, una oligarquía legitimada por elecciones.
+
+
 
 
 

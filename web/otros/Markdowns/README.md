@@ -42,7 +42,8 @@ Ejemplo:
 
 # 📝Requisitos
 ## Caratula
-La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien.
+La Primera imagen sera usada como caratula, debe ser de 250px de ancho x 300px de Alto para que quede bien. Equivalente: 5 : 6 
+500 × 600 750 × 900 1000 × 1200 1250 × 1500 1500 × 1800 2000 × 2400
 Herramientas que se pueden usar gratuitamente: [PhotopeaWeb](https://www.photopea.com/) o [PicsArtApp](https://picsart.com/es/) o cualquiera que tengas a disposicion 
 
 ### Fuente Obligatoria
