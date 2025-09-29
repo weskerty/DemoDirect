@@ -11,8 +11,7 @@ Unete a los Grupos de Debate:
 
 ## 📄 Clonando el Repositorio Mantienes la Protesta Digital [![Fork](https://img.shields.io/github/forks/Weskerty/DemoDirect)](https://github.com/weskerty/DemoDirect/fork)
 
-# 🌐 La Web
-Clic Aqui para Acceder; [![Web](https://img.shields.io/badge/website-000000?style=flat&logo=About.me&logoColor=white)](https://weskerty.github.io/DemoDirect/)
+# 🌐 La Web [![Web](https://img.shields.io/badge/website-000000?style=flat&logo=About.me&logoColor=white)](https://weskerty.github.io/DemoDirect/)
 
 
 # ➕ Como Añadir nuevas entradas a lista de Corrupcion;

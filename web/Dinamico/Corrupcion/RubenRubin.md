@@ -11,7 +11,9 @@ En la práctica, no se respeta. Muchas personas pasan **años privadas de libert
 Si en este contexto se llegara a aprobar una **pena permanente**, con el nivel de corrupción que existe en Paraguay, **cualquier político tendría la herramienta para encarcelar de por vida a quien considere incómodo**, sin que esa persona pueda salir jamás.
 
 Primero debemos mejorar el Sistema Judicial antes de pensar en penas que podrian afectar a gente inocente. 
-[Relacionado: Ley Reforma Penitenciaria](web\Dinamico\Propuestas\ReformaPenitenciaria.md)
+Relacionado: 
+[Ley Reforma Penitenciaria](web/Dinamico/Propuestas/ReformaPenitenciaria.md)
+
 
 ## Ruben dice querer ir a la guerra contra paises vecinos
 Que un politico quiera comprar armas de guerra antes que mejorar la educacion de un pais es cuestionable...

@@ -12,6 +12,7 @@
     <meta property="og:image:height" content="630">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it-anchor@8.6.7/dist/markdownItAnchor.umd.min.js"></script>
 </head>
 <body>
     <div class="loading-screen" id="loading-screen">
@@ -51,6 +52,8 @@
             breaks: true,     
             linkify: true,     
             typographer: true  
+        }).use(window.markdownItAnchor, {
+            permalink: window.markdownItAnchor.permalink.headerLink()
         });
 
         function isMobile() {
@@ -159,6 +162,17 @@
             }
             
             const targetPath = hash.substring(1);
+            
+            if (!targetPath.includes('web/')) {
+                setTimeout(() => {
+                    const targetElement = document.getElementById(targetPath);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 100);
+                return;
+            }
+            
             loadContent(targetPath, false);
         }
 
@@ -181,29 +195,34 @@
             const anchor = event.target.closest('a');
             if (!anchor) return;
             if (anchor.target === "_blank") return;
+            
+            const href = anchor.getAttribute('href');
+            
+            if (href && href.startsWith('#') && !href.includes('web/')) {
+                event.preventDefault();
+                const targetId = href.substring(1);
+                const targetElement = document.getElementById(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    window.location.hash = href;
+                }
+                return;
+            }
+            
             if (!anchor.href.includes('web/')) return;
 
             event.preventDefault();
             
-            const href = anchor.href;
-            const webIndex = href.indexOf('web/');
-            const targetUrl = href.substring(webIndex);
+            const fullHref = anchor.href;
+            const webIndex = fullHref.indexOf('web/');
+            const targetUrl = fullHref.substring(webIndex);
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
             loadContent(targetUrl);
         });
     </script>
 
-    <!-- Widget de Discord 
-    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
-        new Crate({
-            server: '1295581997967868005',
-            channel: '1295847194771066971'
-        })
-    </script>
-	-->
-	
-	
     <noscript>JavaScript OFF. Se requiere JS activado</noscript>
 </body>
 </html>
