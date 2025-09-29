@@ -102,7 +102,8 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ApuleiaLeiocarpa.jpg",
           "name": "ApuleiaLeiocarpa",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ApuleiaLeiocarpa.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/SteviaRebaudiana.jpg",
@@ -113,7 +114,8 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ButiaCampicola.jpg",
           "name": "ButiaCampicola",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ButiaCampicola.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/GasteranthusExtinctus.jpg",
@@ -160,7 +162,8 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/CedrelaFissilis.jpg",
           "name": "CedrelaFissilis",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/CedrelaFissilis.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/dodo.jpg",
@@ -176,12 +179,14 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/HandroanthusHeptaphyllus.jpg",
           "name": "HandroanthusHeptaphyllus",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/HandroanthusHeptaphyllus.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/AnnonaCacans.jpg",
           "name": "AnnonaCacans",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/AnnonaCacans.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/BradypusPygmaeus.jpg",
@@ -198,12 +203,14 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ButiaMarmorii.jpg",
           "name": "ButiaMarmorii",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ButiaMarmorii.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/EuterpeEdulis.jpg",
           "name": "EuterpeEdulis",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/EuterpeEdulis.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/RinoceronteNegro.jpg",
@@ -225,7 +232,8 @@
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ApteriaAphylla.jpg",
           "name": "ApteriaAphylla",
-          "path": "Ambiente/Extintos"
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/ApteriaAphylla.html"
         },
         {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/mejillones.jpg",
