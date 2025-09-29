@@ -164,12 +164,10 @@
             const targetPath = hash.substring(1);
             
             if (!targetPath.includes('web/')) {
-                setTimeout(() => {
-                    const targetElement = document.getElementById(targetPath);
-                    if (targetElement) {
-                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    }
-                }, 100);
+                const targetElement = document.getElementById(targetPath);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
                 return;
             }
             
