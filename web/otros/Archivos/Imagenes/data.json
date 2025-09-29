@@ -136,6 +136,11 @@
           "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/AbutilonPitcairnense.html"
         },
         {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PhocoenaSinus.jpg",
+          "name": "PhocoenaSinus",
+          "path": "Ambiente/Extintos"
+        },
+        {
           "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/dodo.jpg",
           "name": "dodo",
           "path": "Ambiente/Extintos",
