@@ -63,6 +63,8 @@ Morir por esperar un Turno...
     </div>
 </div>
 
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="es" dir="ltr">Dionisio Armoa, asegurado de 80 años lleva esperando más de dos años para operarse de la próstata en el IPS Ingavi. Según la hija, desde el hospital le indicaron que no hay lugar.<br><br>&quot;Ajoperasema, ipukuma, hetama aha´arõ&quot;.<br><br>Esta es la realidad del asegurado común, mientras en IPS… <a href="https://t.co/CCtuONTFSW">pic.twitter.com/CCtuONTFSW</a></p>&mdash; Fergo🌎 (@jfergo86) <a href="https://twitter.com/jfergo86/status/1972040872780050476?ref_src=twsrc%5Etfw">September 27, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Mientras que a ellos los llevan en HELICOPTERO por un golpe en LA MANO... Y si, con plata de la Ciudadania...
 ![alt text](https://i.ibb.co/Kx7Xv2s3/image.png)
 <a href="https://www.abc.com.py/nacionales/2025/09/03/video-hijo-de-alliana-sufre-accidente-y-lo-trasladaron-en-helicoptero-hasta-asuncion//">Fuente</a>
