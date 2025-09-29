@@ -60,12 +60,12 @@ Tenemos que cuidar el ambiente para que este cuide de nosotros.
 
 ## Extinciones 
 
-Estas son varias Extinsiones o Cerca de estarlo de la ultima Decada.
+Estas son varias Extinciones o Cerca de estarlo de la ultima Decada.
 Para Concientizar.
 
 <div class="section">
     <div class="gallery-container">
-        <div id="Ambiente_Extinciones-gallery" 
+        <div id="Ambiente_Extintos-gallery" 
              class="contenedor-imagenes-animado"
              data-json-path="web/otros/Archivos/Imagenes/data.json">
 </div>
