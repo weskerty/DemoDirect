@@ -59,18 +59,20 @@ Tenemos que cuidar el ambiente para que este cuide de nosotros.
 [Contaminación por humo causa Daño Neurologico](https://www.paraguay.com/nacionales/contaminacion-ambiental-por-humo-podria-causar-depresion-ansiedad-y-hasta-alzheimer)
 
 ## Extinciones 
-
-Estas son varias Extinciones o Cerca de estarlo de la ultima Decada.
-Para Concientizar.
-
+Aqui una pequeña lista de los que estan en peligro y ya Extintos 😢
+<div style="text-align:center;">
 <div class="section">
     <div class="gallery-container">
         <div id="Ambiente_Extintos-gallery" 
              class="contenedor-imagenes-animado"
              data-json-path="web/otros/Archivos/Imagenes/data.json">
+        </div>
+        <a href="web/otros/Archivos/Imagenes/Ambiente/Extintos/GCompleto.html" class="view-all-button">Ver Lista Completa</a>
+    </div>
+</div>
 </div>
 
-Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como esta: 
+Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs que se dedican a esto como esta: 
 [Wiki: Lista Extintos en Periodo Humano EN](https://en.wikipedia.org/wiki/Timeline_of_extinctions_in_the_Holocene)
 [Wiki: Mamiferos Extintos EN](https://en.wikipedia.org/wiki/List_of_recently_extinct_mammals)
 [Wiki: Plantas Extintas EN](https://en.wikipedia.org/wiki/List_of_recently_extinct_plants)
