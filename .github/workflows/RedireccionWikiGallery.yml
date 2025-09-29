@@ -139,5 +139,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add web/otros/Archivos/Imagenes/Ambiente/Extintos/*.html
-          git diff --staged --quiet || git commit -m "Redireccion a Wikipedia de Galerias Incompletas"
+          git diff --staged --quiet || git commit -m "Redireccion a Wikipedia"
           git push
