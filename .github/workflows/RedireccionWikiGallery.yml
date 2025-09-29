@@ -1,4 +1,4 @@
-name: BOT Generador HTML Wikipedia
+name: BOT Reddireccionador a Wikipedia en Galeria Incompletas
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install requests
           
-      - name: BOT Generador HTML Wikipedia
+      - name: BOT Reddireccionador a Wikipedia en Galeria Incompletas
         run: |
           python3 << 'EOF'
           import os
@@ -142,5 +142,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add web/otros/Archivos/Imagenes/Ambiente/Extintos/*.html
-          git diff --staged --quiet || git commit -m "Generated Wikipedia HTML redirects"
+          git diff --staged --quiet || git commit -m "Redireccion a Wikipedia por falta de .md/html"
           git push
