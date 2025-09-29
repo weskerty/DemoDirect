@@ -95,6 +95,89 @@
           "link": "web/otros/Archivos/Imagenes/Ambiente/PYContaminado/PY2.html"
         }
       ]
+    },
+    "Ambiente_Extintos": {
+      "path": "Ambiente/Extintos",
+      "images": [
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/GasteranthusExtinctus.jpg",
+          "name": "GasteranthusExtinctus",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/GasteranthusExtinctus.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PsoraleaCataracta.jpg",
+          "name": "PsoraleaCataracta",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PsoraleaCataracta.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/FocaMonjeCaribe.jpg",
+          "name": "FocaMonjeCaribe",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/FocaMonjeCaribe.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/CyaneaEleeleensis.jpg",
+          "name": "CyaneaEleeleensis",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/CyaneaEleeleensis.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PiliocolobusKirkii.jpg",
+          "name": "PiliocolobusKirkii",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PiliocolobusKirkii.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/AbutilonPitcairnense.jpg",
+          "name": "AbutilonPitcairnense",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/AbutilonPitcairnense.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/dodo.jpg",
+          "name": "dodo",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/dodo.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/BradypusPygmaeus.jpg",
+          "name": "BradypusPygmaeus",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/BradypusPygmaeus.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/BelugaHusoHuso.jpg",
+          "name": "BelugaHusoHuso",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/BelugaHusoHuso.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/RinoceronteNegro.jpg",
+          "name": "RinoceronteNegro",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/RinoceronteNegro.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PolhilliaIgnota.jpg",
+          "name": "PolhilliaIgnota",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/PolhilliaIgnota.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/mejillones.jpg",
+          "name": "mejillones",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/mejillones.html"
+        },
+        {
+          "image": "web/otros/Archivos/Imagenes/Ambiente/Extintos/DelfinBaji.jpg",
+          "name": "DelfinBaji",
+          "path": "Ambiente/Extintos",
+          "link": "web/otros/Archivos/Imagenes/Ambiente/Extintos/DelfinBaji.html"
+        }
+      ]
     }
   }
 }
