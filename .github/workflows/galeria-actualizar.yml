@@ -1,4 +1,4 @@
-name: Update Gallery JSON
+name: BOT Actualizador de Galeria Dinamica
 
 on:
   push:
@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.x'
           
-      - name: Update gallery JSON
+      - name: BOT Actualizador de Galeria Dinamica
         run: |
           python3 << 'EOF'
           import os
@@ -149,5 +149,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add web/Dinamico/data.json web/otros/Archivos/Imagenes/data.json
-          git diff --staged --quiet || git commit -m "Update gallery data"
+          git diff --staged --quiet || git commit -m "BOT Actualizador de Galeria Dinamica"
           git push

@@ -60,10 +60,15 @@ Tenemos que cuidar el ambiente para que este cuide de nosotros.
 
 ## Extinciones 
 
-Estas son varias Extinsiones de Animales en la ultima Decada.
+Estas son varias Extinsiones o Cerca de estarlo de la ultima Decada.
 Para Concientizar.
 
-galeriaimagenes <
+<div class="section">
+    <div class="gallery-container">
+        <div id="Ambiente_Extinciones-gallery" 
+             class="contenedor-imagenes-animado"
+             data-json-path="web/otros/Archivos/Imagenes/data.json">
+</div>
 
 Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs como esta: 
 [Wiki: Lista Extintos en Periodo Humano EN](https://en.wikipedia.org/wiki/Timeline_of_extinctions_in_the_Holocene)

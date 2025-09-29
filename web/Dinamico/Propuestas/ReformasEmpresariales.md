@@ -1,3 +1,9 @@
+<div style="text-align:center;">
+<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Factory.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
+</div>
+
+
+
 # Tercerizadas
 La empresa que subcontrate a una tercerizada será igualmente responsable por las ilegalidades que esta cometa
 
