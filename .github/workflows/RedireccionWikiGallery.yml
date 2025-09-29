@@ -1,4 +1,4 @@
-name: BOT Reddireccionador a Wikipedia en Galeria Incompletas
+name: BOT Generador HTML Wikipedia
 
 on:
   push:
@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install requests
           
-      - name: BOT Reddireccionador a Wikipedia en Galeria Incompletas
+      - name: BOT Generador HTML Wikipedia
         run: |
           python3 << 'EOF'
           import os
@@ -51,7 +51,10 @@ jobs:
                       'limit': 1,
                       'format': 'json'
                   }
-                  response = requests.get(url, params=params, timeout=10)
+                  headers = {
+                      'User-Agent': 'GitHub-Action-Bot/1.0 (https://github.com)'
+                  }
+                  response = requests.get(url, params=params, headers=headers, timeout=10)
                   response.raise_for_status()
                   data = response.json()
                   
@@ -139,5 +142,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add web/otros/Archivos/Imagenes/Ambiente/Extintos/*.html
-          git diff --staged --quiet || git commit -m "Redireccion a Wikipedia"
+          git diff --staged --quiet || git commit -m "Generated Wikipedia HTML redirects"
           git push
