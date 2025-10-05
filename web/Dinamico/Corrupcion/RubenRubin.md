@@ -48,7 +48,7 @@ Relacionado:
 
 
 
-
+[Ruben R Propuestas](https://silpy.congreso.gov.py/web/legislador/101431)
 
 
 
