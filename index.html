@@ -210,13 +210,22 @@
                 return;
             }
             
-            if (!anchor.href.includes('web/')) return;
+            const isExternalLink = anchor.href.startsWith('http://') || anchor.href.startsWith('https://');
+            const isSameOrigin = anchor.href.startsWith(window.location.origin);
+
+            if (isExternalLink && !isSameOrigin) return;
 
             event.preventDefault();
             
             const fullHref = anchor.href;
-            const webIndex = fullHref.indexOf('web/');
-            const targetUrl = fullHref.substring(webIndex);
+            let targetUrl;
+
+            if (fullHref.includes('web/')) {
+                const webIndex = fullHref.indexOf('web/');
+                targetUrl = fullHref.substring(webIndex);
+            } else {
+                targetUrl = href;
+            }
 
             window.scrollTo({ top: 0, behavior: 'smooth' });
             loadContent(targetUrl);
