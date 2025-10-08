@@ -42,13 +42,19 @@ Podriamos volver a ese tiempo, se reduciria enormemente la contaminacion por pla
 # Consecuencias de la Contaminacion:
 
 ## Ambiente
-La contaminacion ambiental arruina nuestros espacios verdes y la vida animal.
+La contaminacion ambiental arruina nuestros espacios verdes y la vida.
 
+
+<div style="text-align:center;">
 <div class="section">
     <div class="gallery-container">
         <div id="Ambiente_PYContaminado-gallery" 
              class="contenedor-imagenes-animado"
              data-json-path="web/otros/Archivos/Imagenes/data.json">
+        </div>
+        <a href="web/otros/Archivos/Imagenes/Ambiente/PYContaminado/GCompleto.html" class="view-all-button">Ver Lista Completa</a>
+    </div>
+</div>
 </div>
 
 ## Salud

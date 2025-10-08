@@ -17,6 +17,8 @@ Las empresas no solo quieren venderte cosas: quieren saberlo todo de vos, y lo h
 
 # 🧠 ¿Cómo hacen?
 Tanto Google, como Apple, Amazon y cualquier empresa te escucha, aunque no digas nada
+Mas Info Detallada Aqui
+https://share.google/STRVZasOpmYjJ8Ywj
 
 Tu micrófono: Si tenés un Android o un Google Home/Alexa cerca, estos registran palabras clave. Google ha admitido que algunos grabaciones eran revisadas por humanos para mejorar el reconocimiento de voz. De hecho si no fuiste a ajustes de privacidad de tu telefono el consentimiento de usar tus Audios estara Activo...
 Y no es solo el microfono, tambien el teclado...
