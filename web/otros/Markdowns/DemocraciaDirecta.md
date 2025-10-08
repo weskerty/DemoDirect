@@ -1,4 +1,4 @@
-## Explicación Detallada del Sistema v2
+## Explicación Detallada del Sistema v2.2 
 
 ### 🏗️ Estructura del Sistema
 
@@ -172,6 +172,7 @@ Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con
 ## ⏰ 2. Mecanismo de Estabilidad: Tiempos de Enfriamiento
 
 Para evitar la inestabilidad que produciría votar repetidamente sobre el mismo asunto, toda decisión tomada colectivamente tendrá un **período de enfriamiento** antes de poder ser reabierta.
+Tambien se hara un control estadistico de los cambios relacionados en este periodo.
 
 - ⏳ La duración de este período dependerá del tema, oscilando entre **meses y años**
 - 🏛️ Temas estructurales (constitución, derechos fundamentales) tendrán períodos de enfriamiento **más largos** que temas administrativos o locales
