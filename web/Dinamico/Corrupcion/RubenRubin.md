@@ -31,6 +31,9 @@ Encima que proponga una ley para comprar mas armamento?
     <span id="typed"></span>
 </div>
 
+# Eliminacion del Ministerio del Interior 
+![RubenEliminacionMinisterioInteriorTwitt](https://i.redd.it/jpetisegi6uf1.png)
+
 # Sus Propuestas
 ## Pena Permanente
 ![PenaPermanente](https://i.ibb.co/Qvy8mcxn/image.png)
@@ -43,6 +46,11 @@ Si en este contexto se llegara a aprobar una **pena permanente**, con el nivel d
 
 Primero debemos mejorar el Sistema Judicial antes de pensar en penas que podrian afectar a gente inocente. 
 Relacionado: 
+
+
+
+
+
 [Ley Reforma Penitenciaria](web/Dinamico/Propuestas/ReformaPenitenciaria.md)
 
 
