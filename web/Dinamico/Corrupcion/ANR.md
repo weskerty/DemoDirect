@@ -253,9 +253,12 @@ function createSwiper(container, images) {
 
 function parseInlineGalleryData(element) {
     try {
-        const content = element.textContent.trim();
+        let content = element.textContent.trim();
         if (!content) return null;
-        const jsonStr = `[${content}]`;
+        
+        content = content.replace(/[\n\r\t]/g, '').replace(/\s+/g, ' ').trim();
+        let jsonStr = `[${content}]`.replace(/,\s*]/g, ']');
+        
         return { images: JSON.parse(jsonStr) };
     } catch (error) {
         return null;
@@ -263,9 +266,7 @@ function parseInlineGalleryData(element) {
 }
 
 async function initializeAllGalleries() {
-    if (typeof Swiper === 'undefined') {
-        return;
-    }
+    if (typeof Swiper === 'undefined') return;
     
     const allGalleryData = await loadGalleryData();
     
@@ -274,7 +275,6 @@ async function initializeAllGalleries() {
         
         galleryElements.forEach(container => {
             const galleryId = container.id.replace('-gallery', '');
-            
             const matchingKey = Object.keys(allGalleryData).find(key => 
                 key.toLowerCase() === galleryId.toLowerCase()
             );
@@ -284,15 +284,14 @@ async function initializeAllGalleries() {
                 createSwiper(container, allGalleryData[matchingKey].images);
             }
         });
-    } else {
-        return;
     }
 
     const inlineGalleries = document.querySelectorAll('.contenedor-imagenes-animado:not([id])');
     
-    inlineGalleries.forEach(async (container) => {
+    inlineGalleries.forEach((container) => {
         const inlineData = parseInlineGalleryData(container);
-        if (inlineData) {
+        
+        if (inlineData && inlineData.images && inlineData.images.length > 0) {
             container.classList.add('swiper');
             createSwiper(container, inlineData.images);
         }
@@ -307,5 +306,7 @@ function waitForSwiperAndInit() {
     }
 }
 
-waitForSwiperAndInit();
+setTimeout(() => {
+    waitForSwiperAndInit();
+}, 500);
 </script>
