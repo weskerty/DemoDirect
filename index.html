@@ -46,8 +46,6 @@
         };
 
         const DEFAULT_PAGE = 'web/es.html';
-        let navigationHistory = [];
-        let isInitialLoad = true;
 
         const md = window.markdownit({
             html: true,        
@@ -187,25 +185,25 @@
             const startPage = initialHash && initialHash !== '#' ? initialHash.substring(1) : DEFAULT_PAGE;
             
             if (startPage !== DEFAULT_PAGE) {
-                history.replaceState(null, '', `#${DEFAULT_PAGE}`);
-                history.pushState(null, '', `#${startPage}`);
+                window.location.replace(`${window.location.pathname}#${DEFAULT_PAGE}`);
+                setTimeout(() => {
+                    window.location.hash = startPage;
+                }, 0);
             } else if (!initialHash) {
                 window.location.hash = DEFAULT_PAGE;
             } else {
                 handleHashChange();
             }
 
-            history.pushState(null, '', window.location.href);
-
             loadDisqus();
 
             window.addEventListener('hashchange', handleHashChange);
 
-            window.addEventListener('popstate', (e) => {
+            window.addEventListener('popstate', () => {
                 const currentHash = window.location.hash;
-                const currentPage = currentHash ? currentHash.substring(1) : DEFAULT_PAGE;
+                const currentPage = currentHash ? currentHash.substring(1) : '';
                 
-                if (currentPage === DEFAULT_PAGE || !currentHash) {
+                if (!currentPage || currentPage === DEFAULT_PAGE) {
                     history.pushState(null, '', `#${DEFAULT_PAGE}`);
                 }
             });
