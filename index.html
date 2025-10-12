@@ -46,6 +46,7 @@
         };
 
         const DEFAULT_PAGE = 'web/es.html';
+        let currentPage = '';
 
         const md = window.markdownit({
             html: true,        
@@ -131,7 +132,7 @@
             document.body.appendChild(s);
         }
 
-        async function loadContent(url, updateHash = true) {
+        async function loadContent(url, updateHash = true, anchor = '') {
             try {
                 const response = await fetch(url);
                 if (!response.ok) throw new Error(`Error fetching ${url}: ${response.statusText}`);
@@ -146,28 +147,56 @@
                 contentDiv.innerHTML = content;
                 executeScripts(contentDiv);
 
+                currentPage = url;
+
                 if (updateHash) {
-                    window.location.hash = url;
+                    const newHash = anchor ? `${url}#${anchor}` : url;
+                    window.history.pushState({ page: url, anchor: anchor }, '', `#${newHash}`);
+                }
+
+                if (anchor) {
+                    setTimeout(() => {
+                        const targetElement = document.getElementById(anchor);
+                        if (targetElement) {
+                            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }, 100);
                 }
             } catch (error) {
                 document.getElementById('content').innerHTML = `<p>Error Cargando: ${error.message}</p>`;
             }
         }
 
-        function handleHashChange() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+        function parseHash(hash) {
+            if (!hash || hash === '#') return { page: '', anchor: '' };
             
+            hash = hash.substring(1);
+            
+            const parts = hash.split('#');
+            if (parts.length > 1) {
+                return { page: parts[0], anchor: parts[1] };
+            }
+            
+            if (hash.includes('web/')) {
+                return { page: hash, anchor: '' };
+            }
+            
+            return { page: '', anchor: hash };
+        }
+
+        function handleHashChange() {
             const hash = window.location.hash;
+            
             if (!hash || hash === '#') {
                 window.location.hash = DEFAULT_PAGE;
                 return;
             }
             
-            const targetPath = hash.substring(1);
+            const { page, anchor } = parseHash(hash);
             
-            if (!targetPath.includes('web/')) {
+            if (!page && anchor) {
                 setTimeout(() => {
-                    const targetElement = document.getElementById(targetPath);
+                    const targetElement = document.getElementById(anchor);
                     if (targetElement) {
                         targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
                     }
@@ -175,36 +204,55 @@
                 return;
             }
             
-            loadContent(targetPath, false);
+            if (page !== currentPage) {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+                loadContent(page, false, anchor);
+            } else if (anchor) {
+                setTimeout(() => {
+                    const targetElement = document.getElementById(anchor);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }, 100);
+            }
         }
 
         document.addEventListener("DOMContentLoaded", () => {
             initializeVideo();
             
             const initialHash = window.location.hash;
-            const startPage = initialHash && initialHash !== '#' ? initialHash.substring(1) : DEFAULT_PAGE;
+            const { page: startPage, anchor: startAnchor } = parseHash(initialHash);
+            const finalPage = startPage || DEFAULT_PAGE;
             
-            if (startPage !== DEFAULT_PAGE) {
-                window.location.replace(`${window.location.pathname}#${DEFAULT_PAGE}`);
-                setTimeout(() => {
-                    window.location.hash = startPage;
-                }, 0);
-            } else if (!initialHash) {
-                window.location.hash = DEFAULT_PAGE;
+            if (!window.history.state) {
+                window.history.replaceState({ page: DEFAULT_PAGE }, '', `#${DEFAULT_PAGE}`);
+            }
+            
+            window.history.pushState({ page: DEFAULT_PAGE }, '', `#${DEFAULT_PAGE}`);
+            
+            if (finalPage !== DEFAULT_PAGE || startAnchor) {
+                loadContent(finalPage, true, startAnchor);
             } else {
-                handleHashChange();
+                loadContent(DEFAULT_PAGE, false);
             }
 
             loadDisqus();
 
             window.addEventListener('hashchange', handleHashChange);
 
-            window.addEventListener('popstate', () => {
-                const currentHash = window.location.hash;
-                const currentPage = currentHash ? currentHash.substring(1) : '';
-                
-                if (!currentPage || currentPage === DEFAULT_PAGE) {
-                    history.pushState(null, '', `#${DEFAULT_PAGE}`);
+            window.addEventListener('popstate', (event) => {
+                if (event.state && event.state.page) {
+                    const anchor = event.state.anchor || '';
+                    if (event.state.page !== currentPage) {
+                        loadContent(event.state.page, false, anchor);
+                    } else if (anchor) {
+                        const targetElement = document.getElementById(anchor);
+                        if (targetElement) {
+                            targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                } else {
+                    window.history.pushState({ page: DEFAULT_PAGE }, '', `#${DEFAULT_PAGE}`);
                 }
             });
         });
@@ -222,8 +270,9 @@
                 const targetElement = document.getElementById(targetId);
                 
                 if (targetElement) {
+                    const newHash = currentPage ? `${currentPage}#${targetId}` : `${DEFAULT_PAGE}#${targetId}`;
+                    window.history.pushState({ page: currentPage || DEFAULT_PAGE, anchor: targetId }, '', `#${newHash}`);
                     targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                    window.location.hash = href;
                 }
                 return;
             }
