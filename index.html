@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +46,8 @@
         };
 
         const DEFAULT_PAGE = 'web/es.html';
+        let navigationHistory = [];
+        let isInitialLoad = true;
 
         const md = window.markdownit({
             html: true,        
@@ -155,6 +157,8 @@
         }
 
         function handleHashChange() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            
             const hash = window.location.hash;
             if (!hash || hash === '#') {
                 window.location.hash = DEFAULT_PAGE;
@@ -180,15 +184,31 @@
             initializeVideo();
             
             const initialHash = window.location.hash;
-            if (!initialHash) {
+            const startPage = initialHash && initialHash !== '#' ? initialHash.substring(1) : DEFAULT_PAGE;
+            
+            if (startPage !== DEFAULT_PAGE) {
+                history.replaceState(null, '', `#${DEFAULT_PAGE}`);
+                history.pushState(null, '', `#${startPage}`);
+            } else if (!initialHash) {
                 window.location.hash = DEFAULT_PAGE;
             } else {
                 handleHashChange();
             }
 
+            history.pushState(null, '', window.location.href);
+
             loadDisqus();
 
             window.addEventListener('hashchange', handleHashChange);
+
+            window.addEventListener('popstate', (e) => {
+                const currentHash = window.location.hash;
+                const currentPage = currentHash ? currentHash.substring(1) : DEFAULT_PAGE;
+                
+                if (currentPage === DEFAULT_PAGE || !currentHash) {
+                    history.pushState(null, '', `#${DEFAULT_PAGE}`);
+                }
+            });
         });
 
         document.addEventListener('click', (event) => {
