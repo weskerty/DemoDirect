@@ -155,8 +155,6 @@
         }
 
         function handleHashChange() {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            
             const hash = window.location.hash;
             if (!hash || hash === '#') {
                 window.location.hash = DEFAULT_PAGE;
@@ -182,14 +180,7 @@
             initializeVideo();
             
             const initialHash = window.location.hash;
-            const startPage = initialHash && initialHash !== '#' ? initialHash.substring(1) : DEFAULT_PAGE;
-            
-            if (startPage !== DEFAULT_PAGE) {
-                window.location.replace(`${window.location.pathname}#${DEFAULT_PAGE}`);
-                setTimeout(() => {
-                    window.location.hash = startPage;
-                }, 0);
-            } else if (!initialHash) {
+            if (!initialHash) {
                 window.location.hash = DEFAULT_PAGE;
             } else {
                 handleHashChange();
@@ -198,15 +189,6 @@
             loadDisqus();
 
             window.addEventListener('hashchange', handleHashChange);
-
-            window.addEventListener('popstate', () => {
-                const currentHash = window.location.hash;
-                const currentPage = currentHash ? currentHash.substring(1) : '';
-                
-                if (!currentPage || currentPage === DEFAULT_PAGE) {
-                    history.pushState(null, '', `#${DEFAULT_PAGE}`);
-                }
-            });
         });
 
         document.addEventListener('click', (event) => {
