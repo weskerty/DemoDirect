@@ -36,8 +36,11 @@ Antes se utilizaban recipientes de vidrio para todo
 Podriamos volver a ese tiempo, se reduciria enormemente la contaminacion por plasticos. Se fomentaria la devolucion de los envases de vidrio similar a las gaseosas coca de vidrio retornables
 
 
-
-
+# Criterios
+Durabilidad
+Reparabilidad
+contaminante
+Precio 
 
 # Consecuencias de la Contaminacion:
 

@@ -8,17 +8,6 @@ Esta es una entrada aun no terminada por falta de datos o tiempo. Puedes complet
  <a href="README.md" class="back-button">+ Añade Nuevos Casos</a>
 </div>
 
-
-<div style="text-align:center;">
-<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hospital.png" alt="Man Technologist Medium-Dark Skin Tone" width="180px" />
-</div>
-
- <!-- <div class="vocaroo-container">
-        <iframe width="300" height="60" src="https://vocaroo.com/embed/1bfn2LKLm9JE?autoplay=1" frameborder="0" allow="autoplay"></iframe>
-    </div> -->
-
-
-# Leyes de Mejoras y Autosustentabilidad Hospitalaria
-
-# Citas y Plataformas Web
-actualmente la gente va a esperar a la madrugada por un turno, pero esto se podria resolver con un sistema de citas unificado digital.
+# El estado compra dispositivos y software privativo con obsolesencia programada, ejemplo licencias Windows por cada pc usada.
+Esto ademas de un gasto extremo e innecesario, es peligrosisimo ya que ni la entidad que compra ni el estado puede auditar como funciona este, haciendo que wl dueño de estas plataformas como empresas u otros paises tengan acceso a informacion intima y/o se filtre por vulnerabilidades no conocidas
+Ejemplos; [Caso Tigo](), [Caso Brasil]()
