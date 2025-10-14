@@ -10,6 +10,9 @@
 ## Interiorizar
 Como seres vivientes nos enfermamos de estrés sin darnos cuenta: la falta de verde nos aísla, nos pone irritables y nos quita conexión con la naturaleza. Los parques y árboles no son lujo: regulan la temperatura, refrescan el aire y nos ayudan a mantener la cabeza clara. Por eso hacen falta leyes que obliguen a tenerlos, no solo para embellecer, sino para que nuestra salud mental y física sobreviva al calor y al concreto.
 
+Lamentablemente hoy en dia la gente sale a supermercados para intentar divertirse, lugares cerrados, limitados y altamente comerciales... 
+Es necesario tener lugares publicos para volver a ser Humanos.
+
 # 🌳 Por mas Espacios Verdes
 
 <div class="gallery-container">

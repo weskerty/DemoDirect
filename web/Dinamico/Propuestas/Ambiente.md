@@ -110,7 +110,7 @@ La poca  diversidad dañara aun mas el ambiente y su propio sustento.
 Inevitablemente el mas apto tambien morira por haber sido el mas apto.
 
 
-
+el arte no vale nada en un planeta muerto. La gente deambula admirando el arte mientras la casa se incendia. Es como los pasajeros de primera clase que dan un paseo nocturno después de que el Titanic chocara con el iceberg, ignorando las alarmas porque no comprenden lo que está a punto de suceder.
 
 <!-- Galeria -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.css">
