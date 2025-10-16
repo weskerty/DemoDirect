@@ -309,21 +309,34 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 
 ---
 
-# 🌍 Casos de Éxito Mundiales
+# 🌍 Casos de Éxito:
 
 Este modelo **no es utópico**: se inspira en prácticas exitosas de democracia directa y digital implementadas mundialmente en diversos países de la Actualidad como:
 
-### 🇨🇭 Suiza: El modelo de democracia directa más desarrollado
+## 🇨🇭 Suiza
 
 La democracia directa suiza permite a cualquier ciudadano desafiar cualquier ley aprobada por el parlamento o proponer modificaciones a la constitución federal en cualquier momento. Para realizar un referéndum se requieren **50,000 firmas válidas** recolectadas en **100 días**, y las leyes solo necesitan mayoría nacional para ser aprobadas. Desde **1874** se han realizado alrededor de **200 referendums opcionales**, demostrando la viabilidad práctica del sistema.
 
-### 🇹🇼 Taiwan: Pionero en democracia digital
+## 🇹🇼 Taiwan:
 
-Taiwan ha abrazado la democracia digital como puente entre gobierno y ciudadanos, siendo **líder mundial desde 2015** con **vTaiwan**, una plataforma de participación online. Con más de **20 millones de habitantes**, Taiwan ha demostrado cómo la **'democracia digital'** y el **'hacktivismo'** pueden gestionar eficientemente crisis complejas como la pandemia.
+Taiwan es **líder mundial desde 2015** con **vTaiwan**, una plataforma de participación online. Con más de **20 millones de habitantes**, Taiwan ha demostrado cómo la **'democracia digital'** y el **'hacktivismo'** pueden gestionar eficientemente crisis complejas como la pandemia.
 
-### 🇪🇪 Estonia: Digitalización completa exitosa
+## 🇪🇪 Estonia
 
 Estonia logró digitalizar el **100% de sus servicios públicos** y mantiene **voto electrónico seguro** desde hace décadas, demostrando que la tecnología puede hacer la democracia más eficiente sin sacrificar seguridad.
+
+
+## Similares:
+## Comunidades Menonitas
+
+Tienen Asambleas locales Cada miembro adulto participa directamente en decisiones de la congregación o la comunidad.
+Se vota sobre reglas, asignación de tierras, trabajo comunitario, disciplina, etc.
+Sin intermediarios:
+Los líderes son elegidos o aceptados por consenso de los miembros, y pueden ser revocados si la comunidad lo decide.
+
+## Cooperativas 
+Algunas de las cooperativas son la democracia directa aplicada a economía y gestión de organizaciones.
+Cada socio tiene igual poder de voto sin importar cuánto haya invertido.
 
 # Existos de la Antiguedad
 ## ⚖️ Atenas: 
