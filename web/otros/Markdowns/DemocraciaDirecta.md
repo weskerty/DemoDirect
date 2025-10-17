@@ -1,8 +1,17 @@
-## Explicación Detallada del Sistema v2.2 
+# Explicación Detallada del Sistema v2.2 
 
-### 🏗️ Estructura del Sistema
+<!-- 
+<details>
+<summary>👉INDICE⏬ </summary>
+		   
+[Creacion de Leyes](#creacion-y-modificacion-de-leyes)
+[Casos de Exitos](#casos-de-exito)
 
-#### Creación y Modificación de Leyes
+</details> -->
+
+
+
+## Creación y Modificación de Leyes
 
 **Sistema Digital:** Habrá una plataforma digital unificada con dos secciones (municipal y nacional) donde todos los ciudadanos pueden presentar propuestas en ambos niveles, Similar al [PND2050](https://www.paraguay2050.gov.py/processes/pnd2050/f/1/proposals) 
 Pero en este nuevo sistema se requerira documentacion exaustiva, y no solo agregar comentarios, ademas se clasificara automáticamente por competencias evitando repetidos mediante tecnologías como **Inteligencias Artificiales**. Las propuestas más votadas de cada nivel se presentarán en sus respectivos procesos de debate y votación.
