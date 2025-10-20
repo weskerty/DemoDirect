@@ -101,7 +101,7 @@ Esto son solo unos cuantos, Puedes ver la lista completa en diversas webs que se
 # ¿Aquieres Ayudar?
 Puedes hacerlo, No compres productos que no necesitas, no uses Jabones no Biodegradables como OMO, usa alternativas limpias como Cavallaro sin (nombre quimicos contaminantes), no compres Tecnologia con obsolecencia programada como iPhones o Dispositivos con Bootliader Cerrado. Informarnos hoy para la salud del mañana. 
 Tambien puedes unirte a grupos de Limpieza y Concientizacion como BasuraChallengeParaguay:
-<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="Ambientalism/144" data-width="100%" data-userpic="false" data-color="738633" data-dark="1"></script>
+<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="ParaguayLibreDeCorrupcion/144" data-width="100%" data-userpic="false" data-color="738633" data-dark="1"></script>
 
 # La Necesidad de Leyes Ambientales que nos proteja A TODOS es Necesaria para mantener la vida saludable en el Futuro.
 
