@@ -1,5 +1,4 @@
-# Sistema de Democracia Directa Científica [v4.1
-](https://github.com/weskerty/DemoDirect/commits/main/web/otros/Markdowns/DemocraciaDirecta.md)
+# Sistema de Democracia Directa Científica [v4.1](https://github.com/weskerty/DemoDirect/commits/main/web/otros/Markdowns/DemocraciaDirecta.md)
 
 <details>
 <summary>👉 ÍNDICE ⏬</summary>
@@ -605,8 +604,8 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 ---
 
 ## 🎯 Todos Cuentan
-Puedes aportar mejorando esta pagina web, este documento y demas secciones desde aqui.
-Empecemos con la Democracia REA
+Puedes aportar mejorando esta pagina web, este documento y demas secciones [Desde Aqui](README.md)
+Empecemos con la Democracia REAL HOY.
 
 ---
 
