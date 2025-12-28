@@ -1,4 +1,5 @@
-# Sistema de Democracia Directa Científica v4.0
+# Sistema de Democracia Directa Científica [v4.1
+](https://github.com/weskerty/DemoDirect/commits/main/web/otros/Markdowns/DemocraciaDirecta.md)
 
 <details>
 <summary>👉 ÍNDICE ⏬</summary>
@@ -16,6 +17,7 @@
 [✨ Beneficios del Sistema](#-beneficios-del-sistema)  
 [🌍 Casos de Éxito](#-casos-de-éxito)  
 [🎯 Conclusión](#-conclusión)
+[Tu Puedes Aportar Tambien](#-todos-cuentan)
 
 </details>
 
@@ -38,18 +40,20 @@ En este nuevo sistema se requerirá documentación exhaustiva, y no solo agregar
 ## Requisitos de cada Propuesta
 
 - **Votos altos:** +1% Voto Ciudadanía total Municipal. 0.80% Voto Ciudadanía total Nacional, si no se alcanzan los límites se utilizan los más cercanos
-- **Info Completa de Colaboradores**
+- **Info Detallada de todos los Colaboradores**
+Ej: "Esta propuesta fue asesorada por: Nombre, Profesión, CedulaIdentidad etc"
 - **Teoría y método científico** que informe tanto de los beneficios como desventajas
 - **Información sobre recursos a usar:** Datos como ambiente, recursos monetarios y demás
 - **Antítesis obligatoria propia + Ajenos:** Los proponentes deben incluir al menos 2 antítesis desarrollada que explique el lado negativo. Una propia y otra de la comunidad
 - **Declaración de fuentes de financiamiento:** Ejemplo: Con qué recursos se lograron sus investigaciones
-- **Registro público de contribuyentes:** Ej: "Esta propuesta de reforma fiscal fue asesorada por: Nombre, Profesión, CedulaIdentidad y demás de los colaboradores"
+
 
 ## Límites de Propuestas
 
 - **1 propuesta por año por persona** tanto nacional como municipal
 - **Especialistas de Peso 3 no tienen límite** de propuestas
-- Quien propone debe **subir a explicar presencialmente** y debe ser fluido. Si se sospecha que no sabe de su propio tema se considera un acto de corrupción
+- Si su propuesta salio votada deberan **subir a explicar presencialmente**. Si se sospecha que no sabe de su propio tema se considera un acto de corrupción.
+- Votantes Presenciale tambien deben Explicar el por que de su Votacion.
 
 ## Modelo de Colaboración
 
@@ -58,8 +62,8 @@ La plataforma funcionará como un repositorio de código abierto aplicado a prop
 ### Propuesta Principal
 
 - Autor original presenta la **tesis principal** con todos los requisitos
-- Debe incluir al menos una **antítesis propia** bien fundamentada
-- Código abierto: cualquiera puede ver, analizar y comentar en la plataforma
+- Debe incluir al menos una **antítesis propia** equiparable.
+- Abierto: cualquiera puede analizar todas las partes de la propuesta y comentar en la plataforma
 
 ### Problemas (Antítesis y Críticas)
 
@@ -69,22 +73,22 @@ La plataforma funcionará como un repositorio de código abierto aplicado a prop
   - Errores en los datos o metodología
   - Antítesis adicionales con argumentos científicos
   - etc
-- Los proponentes originales deben **responder a todos los problemas en debate presencial obligatoriamente**
+- Los proponentes originales pueden ir mejorando la Propuesta de acuerdo a estas criticas.
+- Si su Propuesta llega a Presenciales los Proponentes debetan **responder a todas las criticas surgidas en debate presencial obligatoriamente**
 - **Nivel municipal:** Pueden ignorar problemas en la plataforma, pero deben responder en debate presencial
-- **Nivel nacional:** Deben responder todos los problemas en debate presencial
-- La antítesis comunitaria seleccionada es **la más votada en plataforma**
-- Los problemas se cierran cuando se resuelve la crítica o se acepta como limitación
+- La antítesis comunitaria sera **la más votada en plataforma**
+- Los problemas se cierran cuando se resuelve la crítica similar a la plataformas de codigo.
 
 ### Mejoras Colaborativas
 
-- Ciudadanos pueden proponer **mejoras específicas** a propuestas existentes
+- Ciudadanos pueden proponer **mejoras** a propuestas existentes en la seccion "Problemas"
 - Cambios en redacción, metodología, implementación, presupuesto
-- El equipo original puede **aceptar, rechazar o negociar** los cambios
-- Historial completo de todas las modificaciones
+
+Habra un Historial completo de todas las modificaciones
 
 ### Ramas (Versiones Alternativas)
 
-- Si hay desacuerdo fundamental, cualquiera puede crear una **versión alternativa** de la propuesta
+- Si hay desacuerdo, cualquiera puede crear una **versión alternativa** de la propuesta original.
 - **Límite:** 1 fork por ciudadano por propuesta (mismo límite que propuestas nuevas)
 - **Sistema de selección:** Solo las **3 versiones más votadas** en plataforma van a votación presencial final
 - En votación presencial se decide cuál versión se aplica
@@ -92,34 +96,30 @@ La plataforma funcionará como un repositorio de código abierto aplicado a prop
 
 ### Sistema de Colaboradores
 
-- Los proponentes tienen permisos de **"mantenedor"**
-- Pueden agregar colaboradores con permisos específicos
+- Los proponentes tienen permisos de **"mantenedor"** que son quenes pueden hacer cambios totales a las propuestas
+- Pueden agregar colaboradores con permisos específicos como otros mantenedores, editores de ciertas secciones etc.
 - Historial público de quién contribuyó a cada parte
 
-### Tags y Releases
+### Versionados - Versiones de Propuestas 
 
 - Versiones de propuestas marcadas como **"Lanzamiento"**
 - Solo las versiones "Lanzamiento" van a votación
 - Sistema de versionado claro (v1.0, v1.1, v2.0, etc.)
 
-## Clasificación Automática por IA
+## Categorias de Propuestas - Clasificación de Propuestas por IA 
 
-- Las **4 IAs del sistema** clasifican propuestas por competencias y nivel (municipal/nacional)
-- **Apelación de clasificación:** Si el proponente considera que la IA clasificó mal:
-  - Puede cuestionar la decisión públicamente
-  - La IA debe justificar su clasificación
-  - Si la IA mantiene su postura, se respeta
-  - Se activa **investigación del entrenamiento de la IA** para detectar posible corrupción
-- La IA también sugiere **escalamiento municipal → nacional** cuando detecta impacto multi-municipal
+- Personas Categorizan sus propuestas, la IA asegura si esa clasificacion es correcta e informa mejor categoria o propuestas similares que ya se crearon anteriormente
 
 ## Escalamiento Municipal → Nacional
 
-- **Quién decide:** Otros municipios pueden apelar mediante Issues en la plataforma
+
 - **Proceso:**
   - Si una propuesta municipal afecta a otros municipios, estos pueden señalarlo
   - Los municipios afectados deben **votar conjuntamente** (voto unido entre municipios)
   - Si 2 municipios están de acuerdo pero un 3ro se opone: **no se aplica al municipio que se opone**
-  - La IA sugiere automáticamente escalamiento cuando detecta impacto multi-municipal
+  - La IA sugiere escalamiento cuando detecta impacto multi-municipal
+
+> Recordar que Todos, Incluidos Otros municipios pueden apelar, informar problemas o mejorar mediante la [Funcion Problemas](#) en la plataforma
 
 ---
 
@@ -151,8 +151,8 @@ Quien rompa las reglas:
 
 - **Multas Monetarias**
 - **Descalificación de su rol dentro de la propuesta**
-- **Descalificación de Voto por 4 años** - Ya no le será posible debatir ni votar
-- **Auditoría** - Serán investigados financieramente, socialmente y demás para esclarecer la corrupción
+- **Descalificación de Voto por 4 años** - Ya no le será posible debatir ni votar en ese periodo.
+- **Auditoría** - Serán investigados para esclarecer la corrupción.
 
 ## Recursos de Propuestas
 
@@ -162,13 +162,13 @@ Quien rompa las reglas:
 
 - Presupuesto público para documentar cada propuesta que alcance un mínimo de firmas del nivel nacional
 - Financiamiento para investigación y desarrollo de propuestas de nivel nacional
-- **Límite de financiamiento:** No debe superar un porcentaje mínimo del presupuesto
-- **Se niega financiamiento público** si la propuesta tiene sospechas de beneficio a entes privados
+- **Límite de financiamiento:** No debe superar un porcentaje establecido.
+- **Se niega financiamiento público** si la propuesta tiene sospechas de beneficio a ciertos entes de manera no igualitaria que afecte el libre mercado o el beneficio general de la poblacion.
 
 **Para propuestas municipales:**
 
 - No hay recursos públicos de investigación asignados
-- Los proponentes desarrollan sus propuestas con recursos propios, privados o generar propuesta del mismo modo para su futura financiación
+- Los proponentes desarrollan sus propuestas con recursos propios, privados o generar propuestas para su financiación.
 
 **Para ambos niveles:**
 
@@ -176,11 +176,11 @@ Quien rompa las reglas:
 
 ### Transparencia Colaborativa
 
-- **Antítesis obligatoria:** Toda propuesta debe incluir al menos una antítesis propia bien fundamentada
+- **Antítesis obligatoria:** Toda propuesta debe incluir al menos una antítesis bien fundamentada
 - **Problemas abiertos:** Cualquier ciudadano puede señalar problemas o crear antítesis adicionales
 - **Registro público obligatorio** de quién asesora cada propuesta
 - **Múltiples equipos** pueden presentar documentación sobre la misma propuesta
-- **Sistema colaborativo:** Pull requests permiten mejoras ciudadanas a propuestas existentes (los proponentes aceptan incluir o no)
+- **Sistema colaborativo:** [Sistema de Problema](#) permiten mejoras ciudadanas a propuestas existentes (los proponentes aceptan o no)
 - **Versiones alternativas:** Forks - Ciudadanos crean competencia entre diferentes enfoques
 
 ### Accesibilidad
@@ -208,12 +208,10 @@ Quien rompa las reglas:
 1. Plataforma digital estilo GitHub para propuestas tanto nacionales como municipales
 2. Debate digital continuo (problemas, solicitudesPR, ramas)
 3. **Votación presencial cada 6 meses** en locales designados con:
-   - Cédula de identidad
+   - Cédula de identidad 
+   Se usara para Verificar por parte de policias y para votacion en la maquina
    - Sistemas biométricos
-   - Máquina de votación que requiera cédula (con chip) conectada mientras se vote
-   - Huella biométrica
-   - Reconocimiento facial por IA en tiempo real (no se almacena video, la IA lo gestiona en vivo)
-   - Policías controlarían si cédula coincide con la persona
+   Estas maquinas tendran Sistemas Biometricos como sensor de huellas, Reconocimiento facial y Lector de SIM de Cedula para Validad la Integridad.
 
 ## Nivel Nacional
 
@@ -232,7 +230,6 @@ Quien rompa las reglas:
 3. **Debates presenciales nacionales cada 1 año** en juntas designadas
 4. **Votación presencial** con mismo sistema biométrico, cédula con chip etc.
 
-> **Principio clave:** Cada nivel solo decide lo que no puede resolverse en el nivel inferior. En casos ambiguos, la IA del sistema sugiere el nivel apropiado según el alcance de impacto.
 
 ## Periodicidad de Reuniones
 
@@ -259,12 +256,12 @@ Este período anual permite mayor participación ciudadana, mejor desarrollo de 
 - **Límite:** Un especialista puede usar etiqueta emergencia solo **1 vez cada 4 años**
 - **No accesible para ciudadanos sin certificación**
 - La propuesta etiquetada como emergencia debe superar cierta cantidad de votos para ser iniciada
+- La plataforma Movil Notificara de la Propuesta de Emergencia mas Votada constantemente antes de su Reunion Presencial de Emergencia.
+
 
 ### Verificación de Emergencia
 
-- La IA debe evaluar si es prioritario realmente en el contexto actual con datos actuales del país
-- La IA **no niega**, solo informa si es genuinamente prioritario
-- **Sanción por abuso:** Quien intente abusar del sistema pierde su derecho a voto por tiempo determinado
+- **Sanción por abuso:** Quien intente abusar del sistema pierde su derecho a voto por tiempo determinado de acuerdo a la normativa (ley) aprobada.
 
 ### Proceso de Emergencia
 
@@ -273,25 +270,23 @@ Este período anual permite mayor participación ciudadana, mejor desarrollo de 
 - **Mismo procedimiento** que propuestas normales
 - **Única diferencia:** La propuesta se destaca en primera página de plataforma para llamar la atención y aumentar participación
 - Se pueden convocar **reuniones extraordinarias** para acelerar proceso
-- Período de enfriamiento aplica igual que otras leyes
+- Período de enfriamiento aplica igual que otras leyes.
 
-### Quórum de Emergencias
+Ejemplo:
+Hace un mes se hizo la votacion presencial, faltan 11 meses para la Siguiente... Si se hace una propuesta de emergencia las votaciones en la plataforma inician, en 1 semana si tiene cierto umbral de votaciones entonces se llama a la Reunion Presencial para Debatir ahi y aprobar. Basicamente las propuestas de emergencia omiten el tiempo de espera para el debate nacional presencial.
 
-- **Mismo quórum que votaciones normales**
-- No hay reducción de requisitos de participación
 - El sistema de votación presencial se mantiene idéntico
 
 ---
 
 # 🔒 Principios Constitucionales
 
-Toda sociedad requiere un núcleo de **derechos fundamentales** que no puedan ser objeto de manipulación ni de mayorías circunstanciales. Estos principios serán leyes que **no puedan ser cambiadas sin 70% de Aprobación total de toda la ciudadanía**.
+Toda sociedad requiere un núcleo de **derechos fundamentales** que no puedan ser objeto de manipulación ni de mayorías circunstanciales. Estos principios serán leyes que **no puedan ser cambiadas sin 60% de Aprobación total de toda la ciudadanía mayor de edad**.
 
 ## Derechos Fundamentales
 
-- **Derecho a la educación** de calidad desde la básica hasta la universitaria profesional
-- **Derecho a Recursos Educacionales Digitales** como Cybers, Bibliotecas y demás
-- Garantía de igualdad ante las leyes, igualdad de acceso a la justicia, acceso a funciones públicas
+- **Derecho a la educación** de calidad desde la básica hasta la universitaria profesional, Recursos Educacionales Digitales como Cybers, Bibliotecas y demás.
+- Igualdad para todos ante las leyes, igualdad de acceso a la justicia, acceso a funciones públicas, etc.
 - **Derecho a la salud** de calidad
 - **Derecho a la alimentación** balanceada según la OMS
 - **Derechos y Protección a la Vida** de todos, Igualdad de derechos civiles, políticos, sociales, económicos y culturales entre hombres, mujeres y todo tipo de vida. Derecho a la integridad física y psíquica; prohibición de tortura o tratos crueles, a no ser sometido a servidumbre, esclavitud ni trabajo forzoso. Derecho a un ambiente saludable y al uso racional de los recursos naturales
@@ -304,7 +299,7 @@ Toda sociedad requiere un núcleo de **derechos fundamentales** que no puedan se
 
 > Esta lista es solo un ejemplo, los ciudadanos deberían elegir cómo sería la nueva constitución al inicio de este sistema.
 
-Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con al menos 70% de aprobación**. El umbral extremadamente alto asegura que solo un consenso casi absoluto pueda alterar los fundamentos de la convivencia.
+Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con al menos 60% de aprobación**. El umbral extremadamente alto asegura que solo un consenso casi absoluto pueda alterar los fundamentos de la convivencia.
 
 ---
 
@@ -312,14 +307,15 @@ Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con
 
 ## Mecanismo de Tiempos de Enfriamiento
 
-Para evitar la inestabilidad que produciría votar repetidamente sobre el mismo asunto, toda decisión tomada colectivamente tendrá un **período de enfriamiento de 2 años** antes de poder ser reabierta. También se hará un control estadístico de los cambios relacionados en este periodo.
+Para evitar la inestabilidad que produciría votar repetidamente sobre el mismo asunto, toda decisión tomada tendrá un **período de enfriamiento de 2 años** antes de poder ser reabierta. También se hará un control estadístico de los cambios relacionados en este periodo.
 
 ### Funcionamiento
 
 - Una ley aprobada en 2025 no puede ser revotada hasta 2027
 - El proceso de nueva propuesta se inicia días alrededor de cumplirse los 2 años
 - Este período aplica tanto a leyes municipales como nacionales
-- **Leyes de emergencia también tienen período de enfriamiento de 2 años**
+- **Las Leyes hechas con el metodo de emergencia no se aplica el período de enfriamiento de 2 años**. Es posible revocarlo en la siguiente Asamblea.
+- **El metodo de emergencia puede ignorar el tiempo de enfriamiento de Leyes Normales**
 
 Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
 
@@ -329,9 +325,9 @@ Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
 
 ## Estructura de Votación
 
-1. **Voto General (peso 1):** Todo ciudadano participa, garantizando inclusión
-2. **Voto Especializado (peso 3):** Profesionales acreditados en ciencias duras y médicas reciben mayor peso en las decisiones relacionadas con su campo
-3. **Voto Especializado (peso 2):** Profesionales en ciencias sociales y áreas de menor consenso científico
+1. **Voto General (peso 1):** Todo ciudadano participa, garantiza inclusión. Nadie sera excluido, todos pueden votar.
+2. **Voto Especializado (peso 2):** Profesionales en ciencias sociales y áreas de menor consenso científico
+3. **Voto Especializado (peso 3):** Profesionales acreditados en ciencias duras y médicas reciben mayor peso en las decisiones relacionadas con su campo
 
 ## Especialización Refinada
 
@@ -339,31 +335,26 @@ Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
 - **Peso por consenso científico:**
   - **Peso 3:** Ciencias relevantes para supervivencia de la vida (médicos, biólogos, veterinarios, físicos, matemáticos, químicos, ingenieros en áreas técnicas)
   - **Peso 2:** Ciencias sociales (economistas, sociólogos, politólogos, psicólogos)
-  - **Peso 1:** Resto de titulaciones que no son ciencia en temas no relacionados (abogados, profesores, etc.)
+  - **Peso 1:** Resto de titulaciones en temas no relacionados (abogados, artistas, etc.)
 - **Sub-ciencias:** Mantienen el peso de su ciencia base (Ej: Físico cuántico = física = peso 3)
 - **Nuevas ciencias:** No cuentan hasta que sean globalmente consideradas y reconocidas
 - **Múltiples especialidades:** Si un participante tiene varias especialidades solo se toma el de mayor valor o el que prefiera. **No se suman, máximo peso 3**
 
-## Aplicación de Especialidades por IA
+## Quien Determina esto?
+[Instituciones](#) con sus IA y Especialistas
 
-- La IA decide qué especialidades aplican a cada propuesta
-- Si la IA incluye especialistas aparentemente irrelevantes (ej: astrónomos en ley de transporte):
-  - Se puede **cuestionar públicamente** la decisión
-  - La IA debe **justificar su inclusión**
-  - Si mantiene su postura, **se respeta**
-  - Se activa **investigación del entrenamiento de la IA** para detectar corrupción
 
 ## Ejemplos de Aplicación
 
-### Una decisión sobre contaminación alimentaria:
+### Una decisión sobre contaminación alimentaria de una empresa o producto que abarco todo o gran parte del Pais (Nivel Nacional)
 
 - Voto general de toda la población
 - Votos especializados de médicos, nutricionistas, ingenieros ambientales, toxicólogos, con **peso triplicado (3)**
 
-### Una decisión sobre presupuesto militar vs. hospitalario:
+### Una Propuesta que quiere cambiar el presupuesto militar u hospitalario:
 
 - Voto general de toda la población
-- Votos especializados de economistas públicos, matemáticos, médicos de salud pública y estrategas de defensa
+- Votos especializados: economistas públicos, matemáticos, médicos de salud pública y estrategas de defensa.
 - Economistas: **peso 2**
 - Médicos y matemáticos: **peso 3**
 
@@ -386,10 +377,10 @@ Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
 
 - Si una propuesta es altamente técnica (ej: reforma fiscal de 50 páginas), **quien no entiende no debe votar**
 - Se espera que ciudadanos sin conocimiento técnico:
-  - Confíen en el voto ponderado de especialistas
   - Se abstengan de votar en temas que no comprenden
-  - O se eduquen antes de participar
-- **No hay resúmenes obligatorios simplificados** - Se respeta la complejidad técnica
+  - Se eduquen antes de participar
+		- **No hay resúmenes obligatorios** - Se respeta la complejidad técnica
+  - Los votantes en las Maquinas Presenciales deben Explicar el por que de su voto en una entrada de texto del sistema, de esta manera saber si su votacion fue influenciada por sobornos etc.
 
 ---
 
@@ -402,8 +393,9 @@ Para evitar que gremios o instituciones monopolicen el acceso a la certificació
 **Múltiples sistemas de IA independientes:** Cuatro sistemas separados deben validar especialistas:
 
 1. **IA entrenada por universidades y academias públicas**
-2. **IA entrenada por organizaciones profesionales/industria**
+2. **IA entrenada por organizaciones privadas/industria** 
 3. **IA entrenada por organizaciones civiles y ONGs**
+una por cada Punto, ejemplo todas las universidades comparten una IA, todas las empresas privadas comparten una IA, deben ponerse de acuerdo.
 4. **Validación entre Candidatos de Universidades Admitidas** (mayoría de especialistas aprueban nuevos especialistas)
 
 Estos deberán validar títulos, historial de exámenes, historial de promedio, trayectoria, número de títulos relevantes asociados a la especialidad a aplicar, los exámenes que los validarán, etc. Y de esto filtrar los candidatos más aptos.
@@ -412,25 +404,26 @@ Estos deberán validar títulos, historial de exámenes, historial de promedio, 
 
 **Open Source:** Todas estas IA deben ser de **código abierto** y su entrenamiento debe ser de público conocimiento de manera a ser auditables fácilmente.
 
-## Governance de las IAs
 
 - **Código abierto NO significa modificable por cualquiera**
-- Cada institución mantiene su propia IA:
+- Cada punto en conjunto debera mantener su propia IA:
   - Universidades tienen su IA
   - Organizaciones privadas tienen su IA
   - ONGs tienen su IA
-  - Academia tiene su IA
-- Solo la institución responsable puede aprobar cambios a su IA
+- Solo las organizaciones conjuntas responsables de la IA puede aprobar cambios a su IA
 - Todas las modificaciones son **públicas y auditables**
-- **Auditorías constantes** por parte de especialistas y ciudadanía
+- Pudiendo acceder a estos datos en todo momento por parte de especialistas y ciudadanía
+- **Rotación de validadores:** Las IAs serán entrenadas **cada 4 años** antes de nuevos procesos de certificación por especialistas de sus respectivas instituciones mencionadas anteriormente: universidades, academias públicas, organizaciones profesionales o industriales, organizaciones civiles y ONGs
 
 ## Proceso de Certificación
 
-- Los especialistas serán validados por **exámenes públicos, abiertos para ser auditados** por los mencionados anteriormente y públicos para todo ciudadano que quiera verlo, **archivado por hasta 10 años**
+- Los especialistas serán validados por **exámenes públicos, abiertos para ser auditados** por los mencionados anteriormente y públicos para todo ciudadano que quiera verlo, **almacenado digitalmente de manera permanente**
 - Las pruebas serán **aleatorias y transparentes**, garantizando igualdad de oportunidades
-- **Rotación de validadores:** Las IAs serán entrenadas **cada 4 años** antes de nuevos procesos de certificación por especialistas de sus respectivas instituciones mencionadas anteriormente: universidades, academias públicas, organizaciones profesionales o industriales, organizaciones civiles y ONGs
 - **Cada 4 años** se deberá recertificar los especialistas para calibrar el peso de su voto
-- **Recertificación entre periodos:** Si un especialista comete actos graves (ej: mala praxis médica grave), mantiene su peso 3 hasta la próxima certificación en 4 años. No hay revocación anticipada
+- **Recertificación entre periodos:** Si un especialista comete actos graves (ej: mala praxis médica grave), mantiene su peso 3 hasta la próxima certificación en 4 años. No hay revocación anticipada.
+(Pero se podria hacer una propuesta de ley para removerlo.) 
+
+<!-- CAMBIAR. Esto puede generar corrupcion entre instituciones para expulsar a quien no conviene a ciertas propuestas -->
 
 ## Restricción de Universidades
 
@@ -464,7 +457,7 @@ Todos los votantes, tanto ciudadanos generales como especialistas, deben jurar a
 
 - El juramento **no es verificable** directamente (es como jurar ante la biblia en un juzgado)
 - Tiene valor moral y legal
-- Establece base para investigaciones posteriores si hay denuncias
+- Establece base para investigaciones posteriores si hay denuncias (junto con el texto explicativo del por que voto de esa manera)
 
 ## Investigación de Irregularidades
 
@@ -475,7 +468,7 @@ En caso de sospechas de corrupción, manipulación o violación del juramento:
 - **Investigación por denuncia:** Se investiga cuando hay señalamientos específicos
 - **Auditoría financiera** de posibles pagos o incentivos
 - **Análisis de patrones de votación** mediante IA para detectar anomalías
-- **Sanciones severas** para quienes violen el juramento, incluyendo multas y pérdida temporal o permanente del derecho a voto especializado
+- [Sanciones](#) para quienes violen el juramento, incluyendo multas y pérdida temporal o permanente del derecho a voto especializado
 
 ---
 
@@ -523,11 +516,16 @@ En caso de necesitar representantes externos para eventos internacionales, confe
 
 ---
 
+--- 
+Demas Instituciones siguen funcionando, esto se maneja de acuerdo a leyes y demas
+---
+
+
 # 🛡️ Frenos Democráticos
 
 Para evitar cambios frecuentes a leyes bases:
 
-- **Leyes inamovibles** (derechos fundamentales) solo modificables con **70% de aprobación**
+- **Leyes inamovibles** (derechos fundamentales) solo modificables con **65% de aprobación**
 - **Períodos de enfriamiento de 2 años** para estabilizar decisiones
 - **Auditoría ciudadana abierta**, con acceso a todos los datos y procesos
 - **Revisión periódica** del sistema para corregir sesgos o fallas detectadas
@@ -542,10 +540,9 @@ Para evitar cambios frecuentes a leyes bases:
 4. **Transparencia garantizada:** Con IA de código abierto y auditorías ciudadanas permanentes
 5. **Equilibrio entre igualdad y mérito:** Todos votan, pero los informados tienen mayor responsabilidad
 6. **Participación voluntaria:** Solo quienes realmente se interesan participan, evitando votos desinformados o forzados
-7. **Subsidiaridad inteligente:** Las decisiones se toman en el nivel más apropiado y cercano a los afectados
 8. **Eliminación de propaganda manipulativa:** Solo el mérito de las ideas compite, no el poder económico
-9. **Colaboración ciudadana:** Sistema GitHub permite mejoras colectivas a las propuestas
-10. **Representación temporal:** Evita formación de clases políticas permanentes en asuntos externos
+9. **Colaboración ciudadana:** La [Plataforma Web]() permite mejoras colectivas a las propuestas
+10. **Representación temporal:** Evita formación de clases políticas permanentes.
 
 ---
 
@@ -583,13 +580,9 @@ La primera democracia conocida, la creación de la democracia... Y sí, se empez
 
 En el siglo V a.C., Atenas estableció un sistema de democracia directa en el que los ciudadanos decidían las leyes, la guerra y la justicia en asamblea. Era un modelo funcional en su escala, pues permitía la participación activa y el control ciudadano sobre el poder. Aunque tenía limitaciones como excluir mujeres y esclavos. Cosa que no se repetirá en este Sistema ya que todos podremos proponer y votar.
 
-### Siracusa
+> Entre Otros...
 
-Democracia en el occidente griego.
-
-Siracusa, en Sicilia, tuvo períodos de democracia directa tras la caída de tiranías. Los ciudadanos se reunían en asambleas para decidir sobre guerras, magistrados y juicios públicos. Aunque estas experiencias fueron intermitentes, interrumpidas por gobiernos autoritarios, y solo incluían a los ciudadanos varones libres. Hoy en día, sin un gobierno dictatorial como el que tenemos, el sistema de Democracia Directa tendrá estabilidad.
-
-> Estos casos demuestran que combinar participación ciudadana, tecnología moderna y principios de subsidiaridad federal no solo es posible, sino que puede funcionar eficientemente a diferentes escalas poblacionales.
+ Estos casos demuestran que combinar participación ciudadana, tecnología moderna y principios de subsidiaridad federal no solo es posible, sino que puede funcionar eficientemente a diferentes escalas poblacionales.
 
 ---
 
@@ -611,6 +604,12 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 
 ---
 
+## 🎯 Todos Cuentan
+Puedes aportar mejorando esta pagina web, este documento y demas secciones desde aqui.
+Empecemos con la Democracia REA
+
+---
+
 > ### "La soberanía pertenece a todos, pero el conocimiento debe guiar el rumbo."
 
 > Cuando los políticos se creen dueños del país, es porque el pueblo ha olvidado que son sus empleados, no sus amos.
@@ -622,370 +621,4 @@ El objetivo de esta **democracia directa científica** no es reemplazar la parti
 > El futuro pertenece a aquellos que creen en la belleza de sus sueños.
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jcdenken/video/7535515266365574406" data-video-id="7535515266365574406" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jcdenken" href="https://www.tiktok.com/@jcdenken?refer=embed">@jcdenken</a> <p>👉 ¿Otra vez con la misma piedra? Dicen que tropezamos dos veces con la misma piedra… ¿Y si alguien la pone ahí a propósito? Este no es un video más: es un llamado a la memoria, la conciencia y la acción. 📌 No se trata solo de resistir. Se trata de recordar. #Despierta #ResilienciaConMemoria #NoTeCalles #PoliticaParaPensar #MemoriaActiva</p> <a target="_blank" title="♬ sonido original - jcdenken - JCDenken" href="https://www.tiktok.com/music/sonido-original-jcdenken-7535515447795043128?refer=embed">♬ sonido original - jcdenken - JCDenken</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
-- ✅ **Votos altos:** +1% Voto Ciudadanía total Municipal. 0.80% Voto Ciudadanía total Nacional, si no se alcanzan los límites se utilizan los más cercanos
-- 👥 **Grupo completo de presentadores**
-- 🔬 **Teoría y método científico** que informe tanto de los beneficios como desventajas
-- 💰 **Informarcion sobre recursos a usar** Datos como ambiente, recursos monetarios y demas 
-- ⚖️ **Antítesis obligatoria propia + Ajenos:** Los proponentes deben incluir al menos 2 antítesis desarrollada que explique el lado negativo. Una propia y otra de la comunidad.
-- 📊 **Declaración de fuentes de financiamiento** Ejemplo: Con que recursos se lograron sus investigaciones
-- 📝 **Registro público de contribuyentes**  Ej: "Esta propuesta de reforma fiscal fue asesorada por: Nombre, Profesion, CedulaIdentidad y demas de los colaboradores
 
----
-
-### 🔄 Modelo de Colaboración Tipo GitHub
-
-La plataforma funcionará como un repositorio de código abierto aplicado a propuestas legislativas:
-
-#### 📝 **Propuesta Principal (Main Branch)**
-- Autor original presenta la **tesis principal** con todos los requisitos
-- Debe incluir al menos una **antítesis propia** bien fundamentada
-- Código abierto: cualquiera puede ver, analizar y comentar en la plataforma
-
-#### 🐛 **Issues (Antítesis y Críticas)**
-- Cualquier ciudadano puede abrir un "Problema" señalando:
-  - Problemas específicos con la propuesta
-  - Consecuencias no previstas
-  - Errores en los datos o metodología
-  - Antítesis adicionales con argumentos científicos
-  - etc
-- Los proponentes originales deben **responder a todos los issues**
-- Issues se cierran cuando se resuelve la crítica o se acepta como limitación
-
-#### 🔧 **Mejoras Colaborativas**
-- Ciudadanos pueden proponer **mejoras específicas** a propuestas existentes
-- Cambios en redacción, metodología, implementación, presupuesto
-- El equipo original puede **aceptar, rechazar o negociar** los cambios
-- Historial completo de todas las modificaciones
-
-#### 🍴 **Forks (Versiones Alternativas)**
-- Si hay desacuerdo fundamental, cualquiera puede crear una **versión alternativa** de la propuesta
-- Ambas versiones pueden competir en la misma votación
-- Se preserva la relación entre propuesta original y alternativas con todos sus problemas y agregados de la original
-
-#### 👥 **Sistema de Colaboradores**
-- Los proponentes originales mantienen permisos de **"maintainer"**
-- Pueden agregar colaboradores con permisos específicos
-- Historial público de quién contribuyó a cada parte
-
-#### 🏷️ **Tags y Releases**
-- Versiones estables de propuestas marcadas como **"releases"**
-- Solo las versiones "release" van a votación
-- Sistema de versionado claro (v1.0, v1.1, v2.0, etc.)
-
----
-
-### 🚫 Prohibición Absoluta de Propaganda Masiva
-
-#### ❌ **Está Prohibido:**
-- Publicidad pagada en **TV, radio, periódicos, revistas**
-- Propaganda en **redes sociales patrocinada** (Facebook Ads, Google Ads, etc.)
-- **Vallas publicitarias, carteles, volantes** en espacios públicos
-- **Influencers o personalidades pagadas** para promover propuestas
-- **Eventos masivos financiados** para promocionar propuestas
-- Cualquier forma de **promoción pagada** en medios masivos
-
-#### ✅ **Está Permitido:**
-- **Conversaciones personales** cara a cara (boca a boca)
-- **Acceso libre a la plataforma digital** donde están todas las propuestas
-- **Debates organizados** por la plataforma oficial (sin costo)
-- **Documentación técnica** disponible en la plataforma
-- **Conferencias académicas** sin financiamiento específico para promoción
-- **Redes sociales orgánicas** (posts sin promoción pagada)
-
-
-# 🔍 **Sanciones:**
-Quien rompa las reglas
-- **Multas severas** 
-- **Descalificación de su rol dentro de la propuesta** la propuesta pasara a otro de sus integrantes
-- **Auditoría financiera** todos seran investigados
-
-
----
-
-### 🌍 Sistema de Niveles Territoriales
-
-#### 🏘️ Nivel Municipal (incluye barrios):
-
-**Competencias:** 
-- Parques, seguridad local, servicios básicos
-- Transporte público, planificación urbana
-- Hospitales regionales, licencias comerciales locales
-- Todo lo relacionado que no afecte a otros municipios
-
-**Criterio:** Afecta principalmente a residentes locales, si afecta a otras municipalidades y no se llega a un acuerdo pasa a nivel nacional.
-
-**Proceso:**
-1. 💻 Plataforma digital estilo GitHub para propuestas municipales
-2. 💬 Debate digital continuo (issues, pull requests, forks)
-3. 🗳️ **Votación presencial cada 6 meses** en locales designados con:
-   - Cédula de identidad 
-   - Sistemas biométricos
-   - Máquina de votación que requiera cédula (con chip) conectada mientras se vote
-   - Huella biométrica
-   - Grabación de video cuando se vota
-   - Policías controlarían si cédula coincide con la persona
-
-#### 🏛️ Nivel Nacional:
-
-**Competencias:**
-- Política exterior, moneda, derechos fundamentales
-- Leyes generales, presupuesto nacional, marco fiscal
-- Municipios en conflicto y demás leyes de grado mayor
-
-**Criterio:** Tiene efectos significativos más allá del municipio (ej: leyes ambientales que afectan múltiples territorios)
-
-**Proceso:**
-1. 💻 Plataforma digital estilo GitHub para propuestas nacionales
-2. 🔍 **Filtro:** Solo propuestas que superen un umbral mínimo de apoyo nacional
-3. 🏛️ **Debates presenciales nacionales cada 1 año** en juntas designadas
-4. 🗳️ **Votación presencial** con mismo sistema biométrico, cédula con chip etc.
-
-> **Principio clave:** Cada nivel solo decide lo que no puede resolverse en el nivel inferior. En casos ambiguos, la IA del sistema sugiere el nivel apropiado según el alcance de impacto.
-
----
-
-### 🗣️ Reuniones de Debate y Votación
-
-#### 🏘️ Nivel Municipal:
-- 💬 Debate digital continuo en plataforma GitHub-style
-- 🗳️ Votación presencial cada 6 meses en locales municipales con cédula de identidad
-
-#### 🏛️ Nivel Nacional:
-- 🏛️ Debates presenciales cada 1 año en juntas nacionales para temas de alcance país
-- 📋 Presentación de propuestas bien documentadas con pruebas de beneficio comprobables científicamente, tanto la **Tesis** como las **Antítesis**
-- 🗳️ Votación presencial a través de sistemas digitales con seguridad biométrica y cédula de identidad
-
-> Este período anual permite mayor participación ciudadana, mejor desarrollo de propuestas y estabilidad en la implementación de políticas. En casos de **emergencia** se pueden convocar reuniones extraordinarias y se ablandan los requisitos de documentación para permitir respuesta rápida.
-
-⚠️ **Importante:** La votación **NO es obligatoria**. Se espera que el interés genuino motive la participación política.
-
----
-
-## 📜 1. Principios Universales Inamovibles: La Constitución
-
-Toda sociedad requiere un núcleo de **derechos fundamentales** que no puedan ser objeto de manipulación ni de mayorías circunstanciales. Estos principios serán leyes que **no puedan ser cambiadas sin 90% de Aprobación**.
-
-### 🔒 Derechos Fundamentales:
-
-- 🎓 **Derecho a la educación** de calidad desde la básica hasta la universitaria profesional
-- 🍎 **Derecho a la alimentación** balanceada según la OMS
-- 🏥 **Derecho a la salud** de calidad
-- ❤️ **Derechos y Protección a la Vida** de todos
-- 💻 **Derecho a Recursos Educacionales Digitales** como Cybers, Bibliotecas y demás
-- 🗣️ **Libertad de expresión, asociación y conciencia**
-- 💰 **Marco fiscal constitucional:** Los impuestos municipales totales deben mantenerse entre el **20% y 35%** del PIB local para evitar guerra fiscal destructiva entre territorios
-- etc...
-
-> ⚠️ Esta lista es solo un ejemplo, los ciudadanos deberían elegir cómo sería la nueva constitución al inicio de este sistema.
-
-Estas leyes solo podrían ser modificadas mediante un **referéndum nacional con al menos 90% de aprobación**. El umbral extremadamente alto asegura que solo un consenso casi absoluto pueda alterar los fundamentos de la convivencia.
-
----
-
-## ⏰ 2. Mecanismo de Estabilidad: Tiempos de Enfriamiento
-
-Para evitar la inestabilidad que produciría votar repetidamente sobre el mismo asunto, toda decisión tomada colectivamente tendrá un **período de enfriamiento** antes de poder ser reabierta.
-Tambien se hara un control estadistico de los cambios relacionados en este periodo.
-
-- ⏳ La duración de este período dependerá del tema, oscilando entre **meses y años**
-- 🏛️ Temas estructurales (constitución, derechos fundamentales) tendrán períodos de enfriamiento **más largos** que temas administrativos o locales
-
-Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
-
----
-
-## ⚖️ 3. Voto Especializado y Ponderado
-
-El sistema actual (representativa) otorga el mismo valor a todos los votos sin importar el grado de conocimiento sobre la materia. Esto tiene consecuencia en donde **decisiones complejas sean tomadas bajo criterios emocionales, ideológicos o manipulados mediáticamente**.
-
-### 🗳️ Estructura de Votación:
-
-1. **🗳️ Voto General (peso 1):** Todo ciudadano participa, garantizando inclusión
-2. **🎓 Voto Especializado (peso 3):** Profesionales acreditados en áreas específicas reciben mayor peso en las decisiones relacionadas con su campo
-
-### 🔬 Especialización Refinada:
-
-- **📚 Especialización por sub-área:** En lugar de "economista" general, categorías específicas como "economista del desarrollo", "economista ambiental", "economista de políticas públicas", etc.
-- **⭐ Peso por consenso científico:** Los especialistas que apoyen posiciones con mayor consenso académico reciben peso adicional, entre **1, 2 y 3 Puntos**
-- **🎯 Voto especializado limitado:** Solo en aspectos técnicos específicos, no decisiones sociales
-
-### 📊 Ejemplos de aplicación:
-
-#### Una decisión sobre contaminación alimentaria:
-- 🗳️ Voto general de toda la población
-- 🎓 Votos especializados de médicos, nutricionistas, ingenieros ambientales, toxicólogos, con **peso triplicado**
-
-#### Una decisión sobre presupuesto militar vs. hospitalario:
-- 🗳️ Voto general de toda la población
-- 🎓 Votos especializados de economistas públicos, matemáticos, médicos de salud pública y estrategas de defensa, con **peso triplicado**
-
-> Este sistema fomenta la educación sin crear exclusión. El máximo sigue siendo **3 puntos por persona**, independientemente de cuántos títulos tenga.
-
----
-
-## ✅ 4. Validación de Especialistas
-
-Para evitar que colegios profesionales, gremios o instituciones académicas monopolicen el acceso a la certificación:
-
-### 🤖 Sistema Múltiple de Validación:
-
-**Múltiples sistemas de IA independientes:** Tres sistemas separados deben validar especialistas:
-
-1. 🎓 **IA entrenada por universidades y academia**
-2. 🏭 **IA entrenada por organizaciones profesionales/industria**
-3. 🏛️ **IA entrenada por organizaciones civiles y ONGs**
-
-**Consenso requerido:** Para certificación válida, **al menos 2 de los 3 sistemas** deben coincidir
-
-**🔍 Investigación automática:** Si hay discrepancia entre sistemas, se activa investigación ciudadana transparente
-
-**📖 Open Source:** Todas estas IA deben ser de **código abierto** y su entrenamiento debe ser público.
-
-### 📝 Proceso de Certificación:
-
-- 📋 Los especialistas serán validados por **exámenes públicos, abiertos y gratuitos**
-- 🎲 Las pruebas serán **aleatorias y transparentes**, garantizando igualdad de oportunidades
-- 🔄 **Rotación de validadores:** Las IAs serán entrenadas periódicamente por paneles rotatorios de especialistas de diferentes escuelas de pensamiento
-- 📖 **Código abierto:** Todas las IAs son de código abierto, auditables y modificables por la ciudadanía
-- ✅ **Verificación cruzada** de títulos y legitimidad académica por universidades y sistemas independientes
-- ⏰ **Cada 4 años** se deberá recertificar los especialistas para calibrar el peso de su voto
-- ⚖️ **Los especialistas no pueden superar el 40%** de la contraparte, en ese caso se pierde el peso del voto y todos tienen 1 voto. De esta manera se evita control excesivo de especialistas
-
----
-
-## 💰 5. Recursos de Propuestas
-
-### 💵 Financiamiento Transparente y Equitativo:
-
-#### Para propuestas nacionales:
-- 💰 Presupuesto público para documentar cada propuesta que alcance un mínimo de firmas del nivel nacional
-- 🔬 Financiamiento para investigación y desarrollo de propuestas de nivel nacional
-
-#### Para propuestas municipales:
-- ❌ No hay recursos públicos de investigación asignados
-- 💼 Los proponentes desarrollan sus propuestas con recursos propios o privados
-
-#### Para ambos niveles:
-- 🔍 **Transparencia total obligatoria** toda fuente de financiamiento durante todas las fases
-
-### 🔄 Transparencia Radical y Colaborativa:
-
-- ⚖️ **Antítesis obligatoria:** Toda propuesta debe incluir al menos una antítesis propia bien fundamentada
-- 🐛 **Issues abiertos:** Cualquier ciudadano puede señalar problemas o crear antítesis adicionales
-- 📋 **Registro público obligatorio** de quién asesora cada propuesta
-- 👥 **Múltiples equipos** pueden presentar documentación sobre la misma propuesta
-- 🔄 **Sistema colaborativo:** Pull requests permiten mejoras ciudadanas a propuestas existentes
-- 🍴 **Versiones alternativas:** Forks crean competencia entre diferentes enfoques
-
-### 🌐 Accesibilidad:
-
-- 💻 Acceso garantizado a plataformas digitales través de **centros públicos gratuitos** (cybers, bibliotecas, centros cívicos)
-- 🎓 **Capacitación digital gratuita** para todos los ciudadanos
-
----
-
-## 🛡️ 6. Frenos Democráticos Universales
-
-Para evitar cambios frecuentes a leyes bases:
-
-- 🔒 **Leyes inamovibles** (derechos fundamentales) solo modificables con **90% de aprobación**
-- ⏰ **Períodos de enfriamiento** para estabilizar decisiones
-- 🔍 **Auditoría ciudadana abierta**, con acceso a todos los datos y procesos
-- 🔄 **Revisión periódica** del sistema para corregir sesgos o fallas detectadas
-
----
-
-## ✨ 7. Beneficios del Modelo
-
-1. **🎭 Superación del populismo:** Al no depender solo de la emotividad de mayorías, se reduce la manipulación política
-2. **🧠 Reconocimiento del conocimiento:** Se otorga mayor peso a quienes demuestran competencia técnica específica
-3. **📚 Incentivo al estudio:** La ciudadanía tendrá motivación real para educarse, ya que el aprendizaje aumenta el valor del voto, disminuyendo la corrupción
-4. **🔍 Transparencia garantizada:** Con IA de código abierto y auditorías ciudadanas permanentes
-5. **⚖️ Equilibrio entre igualdad y mérito:** Todos votan, pero los informados tienen mayor responsabilidad
-6. **🙋‍♂️ Participación voluntaria:** Solo quienes realmente se interesan participan, evitando votos desinformados o forzados
-7. **🏘️ Subsidiaridad inteligente:** Las decisiones se toman en el nivel más apropiado y cercano a los afectados
-8. **🚫 Eliminación de propaganda manipulativa:** Solo el mérito de las ideas compite, no el poder económico
-9. **🔄 Colaboración ciudadana:** Sistema GitHub permite mejoras colectivas a las propuestas
-
----
-
-## 🔮 8. Visión de Futuro
-
-El objetivo de esta **democracia directa científica** no es reemplazar la participación masiva por un elitismo tecnocrático, ni mantener el actual sistema de partidos obsoleto. Es construir un **sistema híbrido** en el que:
-
-- 👑 **El pueblo conserva el poder soberano**
-- 🔬 **El conocimiento científico guía las decisiones críticas**
-- 🔒 **Los derechos fundamentales nunca estén en riesgo de retrocesos**
-- 🚫 **La participación es genuina, no manipulada por recursos económicos**
-- 🎓 **La educación se convierte en una herramienta de empoderamiento real**
-- 🤝 **La colaboración ciudadana mejora continuamente las propuestas**
-
----
-
-# 🌍 Casos de Éxito:
-
-Este modelo **no es utópico**: se inspira en prácticas exitosas de democracia directa y digital implementadas mundialmente en diversos países de la Actualidad como:
-
-## 🇨🇭 Suiza
-
-La democracia directa suiza permite a cualquier ciudadano desafiar cualquier ley aprobada por el parlamento o proponer modificaciones a la constitución federal en cualquier momento. Para realizar un referéndum se requieren **50,000 firmas válidas** recolectadas en **100 días**, y las leyes solo necesitan mayoría nacional para ser aprobadas. Desde **1874** se han realizado alrededor de **200 referendums opcionales**, demostrando la viabilidad práctica del sistema.
-
-## 🇹🇼 Taiwan:
-
-Taiwan es **líder mundial desde 2015** con **vTaiwan**, una plataforma de participación online. Con más de **20 millones de habitantes**, Taiwan ha demostrado cómo la **'democracia digital'** y el **'hacktivismo'** pueden gestionar eficientemente crisis complejas como la pandemia.
-
-## 🇪🇪 Estonia
-
-Estonia logró digitalizar el **100% de sus servicios públicos** y mantiene **voto electrónico seguro** desde hace décadas, demostrando que la tecnología puede hacer la democracia más eficiente sin sacrificar seguridad.
-
-
-## Similares:
-## Comunidades Menonitas
-
-Tienen Asambleas locales Cada miembro adulto participa directamente en decisiones de la congregación o la comunidad.
-Se vota sobre reglas, asignación de tierras, trabajo comunitario, disciplina, etc.
-Sin intermediarios:
-Los líderes son elegidos o aceptados por consenso de los miembros, y pueden ser revocados si la comunidad lo decide.
-
-## Cooperativas 
-Algunas de las cooperativas son la democracia directa aplicada a economía y gestión de organizaciones.
-Cada socio tiene igual poder de voto sin importar cuánto haya invertido.
-
-# Existos de la Antiguedad
-## ⚖️ Atenas: 
-
-La primera democracia directa conocida
-
-En el siglo V a.C., Atenas estableció un sistema de democracia directa en el que los ciudadanos decidían las leyes, la guerra y la justicia en asamblea. Era un modelo funcional en su escala, pues permitía la participación activa y el control ciudadano sobre el poder.
-Aunque tenia limitaciones como excluir mujeres y esclavos. Cosa que no se repetira en este Sistema ya que todos podremos proponer y votar.
-
-## ⚖️ Siracusa: 
-
-Democracia en el occidente griego
-
-Siracusa, en Sicilia, tuvo períodos de democracia directa tras la caída de tiranías. Los ciudadanos se reunían en asambleas para decidir sobre guerras, magistrados y juicios públicos.
-Aunque estas experiencias fueron intermitentes, interrumpidas por gobiernos autoritarios, y solo incluían a los ciudadanos varones libres.
-Hoy en dia, Sin un gobierno Dictatorial como el que tenemos, el sistema de Democracia Directa Tendra Estabilidad.
-
-
-
-> Estos casos demuestran que combinar participación ciudadana, tecnología moderna y principios de subsidiaridad federal no solo es posible, sino que puede funcionar eficientemente a diferentes escalas poblacionales.
-
----
-
-## 🎯 Conclusión
-
-**No buscamos un nuevo partido político; buscamos un nuevo contrato social, basado en la razón, la justicia y la participación real de todos.**
-
-> ### "La soberanía pertenece a todos, pero el conocimiento debe guiar el rumbo."
-
-
->  Cuando los políticos se creen dueños del país, es porque el pueblo ha olvidado que son sus empleados, no sus amos
-
-> Los ciudadanos no deben temer a su gobierno; el gobierno debe temer no cumplir con su pueblo.
-
->  La democracia desaparece cuando los políticos dejan de rendir cuentas y el pueblo deja de exigirlas.
-
-> El futuro pertenece a aquellos que creen en la belleza de sus sueños.
-
-<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@jcdenken/video/7535515266365574406" data-video-id="7535515266365574406" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@jcdenken" href="https://www.tiktok.com/@jcdenken?refer=embed">@jcdenken</a> <p>👉 ¿Otra vez con la misma piedra? Dicen que tropezamos dos veces con la misma piedra… ¿Y si alguien la pone ahí a propósito? Este no es un video más: es un llamado a la memoria, la conciencia y la acción. 📌 No se trata solo de resistir. Se trata de recordar. #Despierta #ResilienciaConMemoria #NoTeCalles #PoliticaParaPensar #MemoriaActiva</p> <a target="_blank" title="♬ sonido original - jcdenken - JCDenken" href="https://www.tiktok.com/music/sonido-original-jcdenken-7535515447795043128?refer=embed">♬ sonido original - jcdenken - JCDenken</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
