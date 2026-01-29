@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Paraguay Libre</title>
   <link rel="icon" type="image/x-icon" href="web/favicon.ico">
-  <link rel="stylesheet" href="web/estilo.css">
+  <link id="main-css" rel="stylesheet" href="">
   <meta name="description" content="Por un Paraguay Mejor, Libre de Corrupción.">
   <meta property="og:image" content="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20with%20Face.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <script src="https://cdn.jsdelivr.net/npm/markdown-it@14/dist/markdown-it.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/markdown-it-anchor@9/dist/markdownItAnchor.umd.min.js"></script>
+  <script>
+    const css = window.matchMedia('(prefers-reduced-motion: reduce)').matches 
+      ? 'web/estiloLite.css' 
+      : 'web/estilo.css';
+    document.getElementById('main-css').href = css;
+  </script>
 </head>
 <body>
   <div class="loading-screen" id="loading-screen">
@@ -65,7 +71,8 @@
     }
 
     function iV() {
-      if (iM()) {
+      const rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (iM() || rm) {
         document.getElementById('bg-video').remove();
         hL();
         return
