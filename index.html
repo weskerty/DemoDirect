@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,26 +10,20 @@
   <meta property="og:image" content="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20with%20Face.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/13.0.1/markdown-it.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markdown-it-anchor@8.6.7/dist/markdownItAnchor.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14/dist/markdown-it.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it-anchor@9/dist/markdownItAnchor.umd.min.js"></script>
 </head>
-
 <body>
   <div class="loading-screen" id="loading-screen">
     <p>⌛Cargando⏳</p>
   </div>
-
   <video autoplay muted loop id="bg-video" preload="auto">
     <source src="" type="video/mp4">
   </video>
-
   <div class="content" id="content">
     <p>⌛Cargando⏳</p>
   </div>
-
   <div id="disqus-container"></div>
-
   <script>
     const m = {
       0: 'https://videos.pexels.com/video-files/5834608/5834608-hd_1280_720_25fps.mp4',
@@ -53,8 +46,8 @@
       breaks: !0,
       linkify: !0,
       typographer: !0
-    }).use(window.markdownItAnchor, {
-      permalink: window.markdownItAnchor.permalink.headerLink(),
+    }).use(window.markdownItAnchor.default, {
+      permalink: window.markdownItAnchor.default.permalink.headerLink(),
       slugify: s => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')
     });
 
@@ -299,8 +292,6 @@
       lC(u)
     });
   </script>
-
   <noscript>JavaScript OFF. Se requiere JS activado</noscript>
 </body>
-
 </html>
