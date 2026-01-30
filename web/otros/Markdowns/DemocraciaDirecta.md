@@ -1,4 +1,4 @@
-# Sistema de Democracia Directa Científica [v4.1](https://github.com/weskerty/DemoDirect/commits/main/web/otros/Markdowns/DemocraciaDirecta.md)
+# Sistema de Democracia Directa Científica [v4.2](https://github.com/weskerty/DemoDirect/commits/main/web/otros/Markdowns/DemocraciaDirecta.md)
 
 <details>
 <summary>👉 ÍNDICE ⏬</summary>
@@ -32,9 +32,11 @@ El sistema actual (representativo) otorga el mismo valor a todos los votos sin i
 
 ## Plataforma Digital Unificada
 
-Habrá una plataforma digital unificada con dos secciones (municipal y nacional) donde todos los ciudadanos pueden presentar propuestas en ambos niveles, similar al [PND2050](https://www.paraguay2050.gov.py/processes/pnd2050/f/1/proposals).
+Habrá una plataforma digital unificada con dos secciones (municipal y nacional) donde todos los ciudadanos pueden presentar propuestas en ambos niveles, como el viejo [PND2050](https://www.paraguay2050.gov.py/processes/pnd2050/f/1/proposals).
 
 En este nuevo sistema se requerirá documentación exhaustiva, y no solo agregar comentarios. Además se clasificará automáticamente por competencias evitando repetidos mediante tecnologías como Inteligencias Artificiales. Las propuestas más votadas de cada nivel se presentarán en sus respectivos procesos de debate y votación.
+
+Se puede pasar ar uun Prototipo [![SisDemoDire](https://img.shields.io/badge/Aqui↗️-red.svg)](https://weskerty.github.io/SistemaPropuestaDemocratica/)
 
 ## Requisitos de cada Propuesta
 
@@ -53,6 +55,7 @@ Ej: "Esta propuesta fue asesorada por: Nombre, Profesión, CedulaIdentidad etc"
 - **Especialistas de Peso 3 no tienen límite** de propuestas
 - Si su propuesta salio votada deberan **subir a explicar presencialmente**. Si se sospecha que no sabe de su propio tema se considera un acto de corrupción.
 - Votantes Presenciale tambien deben Explicar el por que de su Votacion.
+
 
 ## Modelo de Colaboración
 
@@ -338,6 +341,9 @@ Esto genera **estabilidad** sin sacrificar la capacidad de corrección futura.
 - **Sub-ciencias:** Mantienen el peso de su ciencia base (Ej: Físico cuántico = física = peso 3)
 - **Nuevas ciencias:** No cuentan hasta que sean globalmente consideradas y reconocidas
 - **Múltiples especialidades:** Si un participante tiene varias especialidades solo se toma el de mayor valor o el que prefiera. **No se suman, máximo peso 3**
+- No se puede exceder el maximo de la minoria.
+ Ejemplo hay 5 Economistas 3 fisicos y 2 medicos; Entonces se limita al de menor cantidad quedando asi; 2 economistas 2 fisicos 2 medicos.
+
 
 ## Quien Determina esto?
 [Instituciones](#) con sus IA y Especialistas
